@@ -51,30 +51,53 @@
 
 // @include foundation-prototype-classes;
 
-@include motion-ui-transitions;
-@include motion-ui-animations;
+// @include motion-ui-transitions;
+// @include motion-ui-animations;
 
 body {
   background: #d6d6d6;
   background: -webkit-linear-gradient(to left, #ECE9E6, #d6d6d6);
   background: linear-gradient(to left, #ECE9E6, #d6d6d6);
-  font-size: 12px;
+  font-size: rem-calc(12);
 }
 
-body, h2, h3 { color: #666; font-family: 'Lato', sans-serif; font-weight: 300; }
+body, h2, h3 { 
+color: #666; 
+font-family: 'Lato', sans-serif; 
+font-weight: 300; 
+}
 
-img { width: 100%; height: auto; }
+img { 
+  width: 100%; 
+  height: auto; 
+}
 
-h1 { font-size: 1200%; font-family: 'Roboto', sans-serif; font-weight: 900; color: #fff; margin: 0 0 -0.45em; padding: 0; }
+h1 { 
+  font-size: rem-calc(145); 
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 900; 
+  color: #fff; 
+  margin: rem-calc(0 0 -66); 
+  padding: 0; 
+}
 
 .container { width: 100%; text-align: center; }
 .polaroid { background-color: #fff; padding: 1em;box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.2); }
 .caption { font-family: 'Indie Flower', cursive; font-size: 1.8em; text-align: center; margin-top: 0.7em; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
 .item { display: inline-block; margin-top: 1.5em; -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
-.text-block { background-color: #fff; padding-top: 0.6em; padding-bottom: 0.6em; font-size: 2em; margin-top: 1.5em; }
+.text-block { 
+  background-color: #fff; 
+  padding-top: 0.6em; 
+  padding-bottom: 0.6em; 
+  font-size: rem-calc(24); 
+  margin-top: 1.5em; 
+}
 
-.summary { font-size: 2.5rem; margin-top: 0; }
+.summary { 
+  font-size: rem-calc(40); 
+  margin-top: 0; 
+}
 
 .text-block strong { font-weight: 900; }
 
@@ -84,7 +107,7 @@ h1 { font-size: 1200%; font-family: 'Roboto', sans-serif; font-weight: 900; colo
 
 .second-callout h2 { color: #fff; }
 
-.bio { font-size: 1.6em; }
+.bio { font-size: rem-calc(19); }
 
 .item:hover {
   -webkit-transform: scale(1.5, 1.5) rotate(4deg);

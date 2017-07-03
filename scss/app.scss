@@ -180,6 +180,7 @@ figure {
     padding: 0.75rem;
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
     filter: grayscale(100%);
+    position: relative;
 
     img {
       width: 100%;
@@ -202,6 +203,7 @@ figure {
       transform: scale(1.5, 1.5) rotate(4deg);
       filter: none;
       transition: all 0.3s;
+      z-index: 50;
     }
   }
 }
@@ -229,6 +231,7 @@ main {
           }
         }
       }
+
 
       h3 {
         line-height: 1;

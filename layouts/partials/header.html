@@ -1,0 +1,26 @@
+<header>
+  <div class="column row">
+    <h1>6overlanders</h1>
+  </div>
+  <div class="column row summary">
+    Uma família de<mark> 6 pessoas </mark>viajando pelo mundo em um<mark> carro + trailer</mark>. Procuramos viver uma<mark> vida intencional</mark>, praticamos<mark> worldschooling </mark> e fazemos muito uso de<mark> tecnologia </mark>e life hacks. Até onde vamos?
+  </div>
+  <nav>
+    <div class="row">
+      <div class="column small-9">
+        <ul class="menu">
+          <li><a href="/" class="{{ if .Page.IsHome }}active{{ end }}">Home</a></li>
+          <li><a href="/blog/" class="{{ if eq .Page.Section "blog" }}active{{ end }}">Blog</a></li>
+          <li><a href="/apoiadores/" class="{{ if and (eq .Page.Section "page") (eq .Page.URL "/apoiadores/") }}active{{ end }}">Apoiadores</a></li>
+        </ul>
+      </div>
+      <div class="column small-3">
+        <ul class="menu social align-right social-icons icon-flat list-unstyled list-inline">
+          <li><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

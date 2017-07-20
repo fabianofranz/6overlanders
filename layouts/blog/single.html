@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  {{ partial "header/metadata.html" . }}
+  {{ partial "header/styles.html" . }}
+  <title>Uma família de 6 pessoas viajando pelo mundo em um carro + trailer.</title>
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  <main>
+    <article class="column row post">
+      <h2 class="separator-left">{{ .Title }}</h2>
+      {{ .Content }}
+      <div class="row">
+        <div class="column small-6">
+          {{ range $.Param "tags" }}
+            <small><a href="#">#{{ . }}</a></small>
+          {{ end }}
+        </div>
+        <div class="column small-6 text-right">
+          <small>
+            {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em
+            <a href="#">{{ $.Param "local" }}</a>
+          </small>
+        </div>
+      </div>
+    </article>
+    <aside>
+      <div class="row">
+        {{ if eq ($.Param "author") "pricila" }}
+        <div class="column small-8 medium-10 text-right bio">
+          <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
+          {{ (.Site.GetPage "page" "_homepage" "tradutora.md").Content }}
+        </div>
+        <div class="column small-4 medium-2">
+          <figure class="polaroid">
+            <img src="/images/pricila.jpg" alt="">
+            <figcaption>Pricila</figcaption>
+          </figure>
+        </div>
+        {{ end }}
+        {{ if eq ($.Param "author") "fabiano" }}
+        <div class="column small-8 medium-10 text-right bio">
+          <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
+          {{ (.Site.GetPage "page" "_homepage" "programador.md").Content }}
+        </div>
+        <div class="column small-4 medium-2">
+          <figure class="polaroid">
+            <img src="/images/fabiano.jpg" alt="">
+            <figcaption>Fabiano</figcaption>
+          </figure>
+        </div>
+        {{ end }}
+      </div>
+    </aside>
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "footer/scripts.html" . }}
+</body>
+</html>

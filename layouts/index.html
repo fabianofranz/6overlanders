@@ -1,0 +1,205 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  {{ partial "header/metadata.html" . }}
+  {{ partial "header/styles.html" . }}
+  <title>Uma família de 6 pessoas viajando pelo mundo em um carro + trailer.</title>
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  <main>
+    <aside>
+      <div class="row">
+        <div class="column small-4 medium-2">
+          <figure class="polaroid">
+            <img src="images/fabiano.jpg" alt="">
+            <figcaption>Fabiano</figcaption>
+          </figure>
+        </div>
+        <div class="column small-8 medium-4 bio">
+          <h3 class="separator-left"><strong>{{ (.Site.GetPage "page" "_homepage" "programador.md").Title }}</strong></h3>
+          {{ (.Site.GetPage "page" "_homepage" "programador.md").Content }}
+        </div>
+
+        <div class="column small-8 medium-4 text-right bio">
+          <h3 class="separator-right"><strong>{{ (.Site.GetPage "page" "_homepage" "tradutora.md").Title }}</strong></h3>
+          {{ (.Site.GetPage "page" "_homepage" "tradutora.md").Content }}
+        </div>
+        <div class="column small-4 medium-2">
+          <figure class="polaroid">
+            <img src="images/pricila.jpg" alt="">
+            <figcaption>Pricila</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row kids">
+        <div class="column small-12 medium-4 bio">
+          <h3 class="separator-left"><strong>{{ (.Site.GetPage "page" "_homepage" "criancas.md").Title }}</strong></h3>
+          {{ (.Site.GetPage "page" "_homepage" "criancas.md").Content }}
+        </div>
+        <div class="column small-3 medium-2">
+          <figure class="polaroid">
+            <img src="images/lander6.jpg" alt="">
+            <figcaption>Elise</figcaption>
+          </figure>
+        </div>
+        <div class="column small-3 medium-2">
+          <figure class="polaroid">
+            <img src="images/lander5.jpg" alt="">
+            <figcaption>Clara</figcaption>
+          </figure>
+        </div>
+        <div class="column small-3 medium-2">
+          <figure class="polaroid">
+            <img src="images/lander4.jpg" alt="">
+            <figcaption>Michel</figcaption>
+          </figure>
+        </div>
+        <div class="column small-3 medium-2">
+          <figure class="polaroid">
+            <img src="images/lander3.jpg" alt="">
+            <figcaption>Isabela</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row home">
+        <div class="column small-4 medium-2">
+          <figure class="polaroid">
+            <img src="images/micro-minnie.jpg" alt="">
+            <figcaption>Micro Minnie</figcaption>
+          </figure>
+        </div>
+        <div class="column small-8 medium-10 bio">
+          <h3 class="separator-left"><strong>{{ (.Site.GetPage "page" "_homepage" "casa.md").Title }}</strong></h3>
+          {{ (.Site.GetPage "page" "_homepage" "casa.md").Content }}
+        </div>
+      </div>
+    </aside>
+
+    <article class="column row">
+      <h2 class="separator-left">{{ (.Site.GetPage "page" "_homepage" "pq.md").Title }}</h2>
+      {{ (.Site.GetPage "page" "_homepage" "pq.md").Content }}
+    </article>
+
+    <article class="column row">
+      <h2 class="separator-left">{{ (.Site.GetPage "page" "_homepage" "onde.md").Title }}</h2>
+      <div class="row">
+        <div class="column small-4 show-for-medium">
+          <div id="map"></div>
+        </div>
+        <div class="column small-12 medium-8">
+          {{ (.Site.GetPage "page" "_homepage" "onde.md").Content }}
+        </div>
+      </div>
+    </article>
+  </main>
+  {{ partial "footer.html" . }}
+  <script>
+    function initMap() {
+      var markers = [
+        ['Canela', -29.35649, -50.81242],
+        ['Ushuaia', -54.80191, -68.30295],
+        ['Cartagena', 10.39104, -75.47942]
+      ];
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 3,
+        center: {
+          lat: -24.006,
+          lng: -59.022
+        },
+        disableDefaultUI: true,
+        gestureHandling: "cooperative",
+        scrollwheel: false,
+        styles: [{
+            "featureType": "administrative",
+            "elementType": "all",
+            "stylers": [{
+              "visibility": "on"
+            }, {
+              "lightness": 33
+            }]
+          },
+          {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [{
+              "color": "#f2e5d4"
+            }]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "geometry",
+            "stylers": [{
+              "color": "#c5dac6"
+            }]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels",
+            "stylers": [{
+              "visibility": "on"
+            }, {
+              "lightness": 20
+            }]
+          },
+          {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [{
+              "lightness": 20
+            }]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [{
+              "color": "#c5c6c6"
+            }]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [{
+              "color": "#e4d7c6"
+            }]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "geometry",
+            "stylers": [{
+              "color": "#fbfaf7"
+            }]
+          },
+          {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [{
+              "visibility": "on"
+            }, {
+              "color": "#acbcc9"
+            }]
+          }
+        ]
+      });
+      for (var i = 0; i < markers.length; i++) {
+        var marker = markers[i];
+        new google.maps.Marker({
+          map: map,
+          position: {
+            lat: marker[1],
+            lng: marker[2]
+          },
+          label: marker[0]
+        });
+      }
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxKss9LGv22KDJWJKd7aiXy4JuyDkvwNs&callback=initMap"></script>
+  {{ partial "footer/scripts.html" . }}
+</body>
+</html>

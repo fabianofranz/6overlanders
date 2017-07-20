@@ -34,7 +34,7 @@
 
 //@include foundation-close-button;
 
-//@include foundation-menu;
+@include foundation-menu;
 
 //@include foundation-menu-icon;
 
@@ -73,7 +73,7 @@
 
 //@include foundation-tabs;
 
-//@include foundation-thumbnail;
+@include foundation-thumbnail;
 
 //@include foundation-title-bar;
 
@@ -83,7 +83,8 @@
 
 @include foundation-visibility-classes;
 
-// @include foundation-float-classes;
+@include foundation-float-classes;
+
 // @include foundation-flex-classes;
 
 // @include foundation-prototype-classes;
@@ -96,10 +97,14 @@ body {
   background: linear-gradient(to left, #ECE9E6, #d6d6d6);
 }
 
-body, h2, h3 {
+body, h1, h2, h3, h4 {
   color: #666;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+}
+
+strong, b {
+  font-weight: 400;
 }
 
 .separator-left, .separator-right {
@@ -110,7 +115,7 @@ body, h2, h3 {
     clear: both;
     display: table;
     content: ' ';
-    margin-top: .9rem;
+    margin-top: .8rem;
     margin-bottom: 0;
   }
 }
@@ -129,6 +134,60 @@ body, h2, h3 {
   }
 }
 
+ul {
+  &.social-media {
+    margin: 0 0 .5rem 0;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      padding-right: .2rem;
+      height: 2rem;
+      line-height: 2rem;
+
+      .fa {
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        color: #fff;
+        border-radius: 0;
+
+        &.fa-2x {
+          width: 4rem;
+          height: 4rem;
+          line-height: 4rem;
+        }
+
+        &.fa-facebook {
+          background: #3b5998;
+        }
+
+        &.fa-linkedin {
+          background: #007bb6;
+        }
+
+        &.fa-twitter {
+          background: #00aced;
+        }
+
+        &.fa-instagram {
+          background-color: #A1755C;
+        }
+
+        &.fa-youtube {
+          background-color: #C52F30;
+        }
+      }
+    }
+
+    .social-media-id {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+}
+
 header {
   background-image: url(../images/landscape.jpg);
   background-position: center fixed;
@@ -138,7 +197,6 @@ header {
 
   @include breakpoint(large) {
     padding-top: 18rem;
-    padding-bottom: 1.5rem;
     background-position: center center;
   }
 
@@ -164,6 +222,39 @@ header {
 
     @include breakpoint(large) {
       font-size: 2.5rem;
+    }
+  }
+
+  nav {
+    background-color: rgba(68, 68, 68, 0.4);
+    margin-top: 1rem;
+    padding-top: .3rem;
+
+    .menu, .menu-text {
+      font-weight: 400 !important;
+    }
+
+    .menu {
+      font-size: 1.5rem;
+
+      .menu-text, .active {
+        border-bottom: .3rem solid #cc4b37;
+      }
+
+      a {
+        color: #fff;
+      }
+
+      &.social {
+        a {
+          color: #fff;
+          padding-right: 0;
+
+          .fa {
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }
@@ -240,10 +331,12 @@ main {
       }
 
       .bio {
-        font-size: 1rem;
+        p {
+          font-size: 1rem;
 
-        @include breakpoint(large) {
-          font-size: 1.2rem;
+          @include breakpoint(large) {
+            font-size: 1.2rem;
+          }
         }
       }
     }
@@ -261,12 +354,51 @@ main {
     }
 
 
-    strong {
-      font-weight: 900;
-    }
-
     h2 {
       line-height: 1;
+    }
+
+    p {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    &.post {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+
+      figure {
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+
+        &.float-left {
+          margin-right: 1rem;
+        }
+
+        &.float-right {
+          margin-left: 1rem;
+          text-align: right;
+        }
+
+        &.float-center {
+          text-align: center;
+        }
+
+        figcaption {
+          text-align: center;
+
+          h4 {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      .separator-left, .separator-right {
+        &::after {
+          margin-bottom: 1.5rem;
+        }
+      }
     }
   }
 }
@@ -288,17 +420,6 @@ footer {
     h2 {
       color: #fff;
       line-height: 1;
-    }
-
-    .social-media {
-      img {
-        width: 4rem;
-      }
-
-      .social-media-id {
-        display: inline-block;
-        font-weight: 900;
-      }
     }
   }
 

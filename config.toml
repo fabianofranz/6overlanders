@@ -2,4 +2,6 @@ baseURL = "http://6overlanders.com/"
 title = "6overlanders.com"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
-hrefTargetBlank = true
+
+[blackfriday]
+  hrefTargetBlank = true

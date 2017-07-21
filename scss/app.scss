@@ -134,57 +134,50 @@ strong, b {
   }
 }
 
-ul {
-  &.social-media {
-    margin: 0 0 .5rem 0;
+.social-media {
+  .fa {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    margin-right: .5rem;
 
-    li {
-      list-style-type: none;
-      display: inline-block;
-      padding-right: .2rem;
-      height: 2rem;
-      line-height: 2rem;
-
-      .fa {
-        width: 2rem;
-        height: 2rem;
-        line-height: 2rem;
-        text-align: center;
-        color: #fff;
-        border-radius: 0;
-
-        &.fa-2x {
-          width: 4rem;
-          height: 4rem;
-          line-height: 4rem;
-        }
-
-        &.fa-facebook {
-          background: #3b5998;
-        }
-
-        &.fa-linkedin {
-          background: #007bb6;
-        }
-
-        &.fa-twitter {
-          background: #00aced;
-        }
-
-        &.fa-instagram {
-          background-color: #A1755C;
-        }
-
-        &.fa-youtube {
-          background-color: #C52F30;
-        }
-      }
+    &.fa-lg {
+      width: 3rem;
+      height: 3rem;
+      line-height: 3rem;
     }
 
-    .social-media-id {
-      font-size: 2rem;
-      font-weight: 400;
+    &.fa-facebook {
+      background: #3b5998;
     }
+
+    &.fa-linkedin {
+      background: #007bb6;
+    }
+
+    &.fa-twitter {
+      background: #00aced;
+    }
+
+    &.fa-instagram {
+      background-color: #A1755C;
+    }
+
+    &.fa-youtube-play {
+      background-color: #C52F30;
+    }
+  }
+
+  .social-media-id {
+    font-size: 2rem;
+    font-weight: 400;
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    vertical-align: bottom;
   }
 }
 
@@ -193,24 +186,27 @@ header {
   background-position: center fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 10rem;
+  padding-bottom: 2rem;
 
   @include breakpoint(large) {
-    padding-top: 18rem;
     background-position: center center;
   }
 
 
-  h1 {
-    font-size: 3.2rem;
-    margin: 0 0 -1.4rem 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: #fff;
+  .title {
+    margin-top: 16rem;
 
-    @include breakpoint(large) {
-      font-size: 9rem;
-      margin-bottom: -4.1rem;
+    h1 {
+      font-size: 3.2rem;
+      margin: 0 0 -1.4rem 0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      color: #fff;
+
+      @include breakpoint(large) {
+        font-size: 9rem;
+        margin-bottom: -4.1rem;
+      }
     }
   }
 
@@ -227,7 +223,6 @@ header {
 
   nav {
     background-color: rgba(68, 68, 68, 0.4);
-    margin-top: 1rem;
     padding-top: .3rem;
 
     .menu, .menu-text {

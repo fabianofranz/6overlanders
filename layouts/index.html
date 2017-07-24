@@ -20,13 +20,17 @@
           </figure>
         </div>
         <div class="column small-8 medium-4 bio">
-          <h3 class="separator-left"><strong>{{ (.Site.GetPage "page" "_homepage" "programador.md").Title }}</strong></h3>
-          {{ (.Site.GetPage "page" "_homepage" "programador.md").Content }}
+          <h3 class="separator-left"><strong>O programador</strong></h3>
+          <p>
+            {{ readFile "/content/homepage/programador.md" | markdownify }}
+          </p>
         </div>
 
         <div class="column small-8 medium-4 text-right bio">
-          <h3 class="separator-right"><strong>{{ (.Site.GetPage "page" "_homepage" "tradutora.md").Title }}</strong></h3>
-          {{ (.Site.GetPage "page" "_homepage" "tradutora.md").Content }}
+          <h3 class="separator-right"><strong>A tradutora</strong></h3>
+          <p>
+            {{ readFile "/content/homepage/tradutora.md" | markdownify }}
+          </p>
         </div>
         <div class="column small-4 medium-2">
           <figure class="polaroid">
@@ -38,8 +42,10 @@
 
       <div class="row kids">
         <div class="column small-12 medium-4 bio">
-          <h3 class="separator-left"><strong>{{ (.Site.GetPage "page" "_homepage" "criancas.md").Title }}</strong></h3>
-          {{ (.Site.GetPage "page" "_homepage" "criancas.md").Content }}
+          <h3 class="separator-left"><strong>As crianças</strong></h3>
+          <p>
+            {{ readFile "/content/homepage/criancas.md" | markdownify }}
+          </p>
         </div>
         <div class="column small-3 medium-2">
           <figure class="polaroid">
@@ -75,25 +81,31 @@
           </figure>
         </div>
         <div class="column small-8 medium-10 bio">
-          <h3 class="separator-left"><strong>{{ (.Site.GetPage "page" "_homepage" "casa.md").Title }}</strong></h3>
-          {{ (.Site.GetPage "page" "_homepage" "casa.md").Content }}
+          <h3 class="separator-left"><strong>A casa rodante</strong></h3>
+          <p>
+            {{ readFile "/content/homepage/casa.md" | markdownify }}
+          </p>
         </div>
       </div>
     </aside>
 
     <article class="column row">
-      <h2 class="separator-left">{{ (.Site.GetPage "page" "_homepage" "pq.md").Title }}</h2>
-      {{ (.Site.GetPage "page" "_homepage" "pq.md").Content }}
+      <h2 class="separator-left">Por quê?</h2>
+      <p>
+        {{ readFile "/content/homepage/pq.md" | markdownify }}
+      </p>
     </article>
 
     <article class="column row">
-      <h2 class="separator-left">{{ (.Site.GetPage "page" "_homepage" "onde.md").Title }}</h2>
+      <h2 class="separator-left">Onde?</h2>
       <div class="row">
         <div class="column small-4 show-for-medium">
           <div id="map"></div>
         </div>
         <div class="column small-12 medium-8">
-          {{ (.Site.GetPage "page" "_homepage" "onde.md").Content }}
+          <p>
+            {{ readFile "/content/homepage/onde.md" | markdownify }}
+          </p>
         </div>
       </div>
     </article>

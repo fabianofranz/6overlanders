@@ -33,7 +33,9 @@
         {{ if eq ($.Param "author") "pricila" }}
         <div class="column small-8 medium-10 text-right bio">
           <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
-          {{ (.Site.GetPage "page" "_homepage" "tradutora.md").Content }}
+          <p>
+            {{ readFile "/content/homepage/tradutora.md" | markdownify }}
+          </p>
         </div>
         <div class="column small-4 medium-2">
           <figure class="polaroid">
@@ -45,7 +47,9 @@
         {{ if eq ($.Param "author") "fabiano" }}
         <div class="column small-8 medium-10 text-right bio">
           <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
-          {{ (.Site.GetPage "page" "_homepage" "programador.md").Content }}
+          <p>
+            {{ readFile "/content/homepage/programador.md" | markdownify }}
+          </p>
         </div>
         <div class="column small-4 medium-2">
           <figure class="polaroid">

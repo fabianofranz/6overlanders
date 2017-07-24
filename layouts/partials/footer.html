@@ -1,7 +1,9 @@
 <footer>
   <div class="column row second-callout">
-    <h2 class="separator-left">{{ (.Site.GetPage "page" "_homepage" "avisamos.md").Title }}</h2>
-    {{ (.Site.GetPage "page" "_homepage" "avisamos.md").Content }}
+    <h2 class="separator-left">Quando? Nós te avisamos!</h2>
+    <p>
+      {{ readFile "/content/homepage/avisamos.md" | markdownify }}
+    </p>
     <div class="column row social-media">
       <a href="https://www.facebook.com/6overlanders/" target="_blank"><i class="fa fa-facebook"></i></a>
       <a href="https://www.instagram.com/6overlanders/" target="_blank"><i class="fa fa-instagram"></i></a>

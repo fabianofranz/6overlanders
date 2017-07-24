@@ -3,5 +3,8 @@ title = "6overlanders.com"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
 
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+ignoreFiles = [ "homepage\\/.*\\.md$" ]
+
 [blackfriday]
   hrefTargetBlank = true

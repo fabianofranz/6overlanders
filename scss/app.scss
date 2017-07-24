@@ -139,16 +139,19 @@ strong, b {
     width: 2rem;
     height: 2rem;
     line-height: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
     border-radius: 0;
     margin-right: .5rem;
 
-    &.fa-lg {
+    @include breakpoint(large) {
       width: 3rem;
       height: 3rem;
       line-height: 3rem;
+      font-size: 2rem;
     }
+
 
     &.fa-facebook {
       background: #3b5998;
@@ -172,12 +175,18 @@ strong, b {
   }
 
   .social-media-id {
-    font-size: 2rem;
     font-weight: 400;
-    height: 3rem;
-    line-height: 3rem;
     display: inline-block;
     vertical-align: bottom;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+    @include breakpoint(large) {
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 2rem;
+    }
   }
 }
 
@@ -186,15 +195,20 @@ header {
   background-position: center fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 2rem;
 
   @include breakpoint(large) {
+    padding-bottom: 2rem;
     background-position: center center;
   }
 
 
   .title {
-    margin-top: 16rem;
+    margin-top: 9rem;
+
+    @include breakpoint(large) {
+      margin-top: 16rem;
+    }
+
 
     h1 {
       font-size: 3.2rem;
@@ -213,10 +227,12 @@ header {
   .summary {
     font-size: 1.4rem;
     background-color: #fff;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     @include breakpoint(large) {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
       font-size: 2.5rem;
     }
   }
@@ -230,7 +246,10 @@ header {
     }
 
     .menu {
-      font-size: 1.5rem;
+      @include breakpoint(large) {
+        font-size: 1.5rem;
+      }
+
 
       .menu-text, .active {
         border-bottom: .3rem solid #cc4b37;
@@ -265,10 +284,15 @@ figure {
     width: 100%;
     text-align: center;
     background-color: #fff;
-    padding: 0.75rem;
+    padding: .5rem;
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
     filter: grayscale(100%);
     position: relative;
+
+    @include breakpoint(large) {
+      padding: .75rem;
+    }
+
 
     img {
       width: 100%;
@@ -279,10 +303,11 @@ figure {
       font-family: 'Indie Flower', cursive;
       font-size: 1rem;
       text-align: center;
-      margin-top: 0.75rem;
+      margin-top: .5rem;
       transition: all 0.3s;
 
       @include breakpoint(large) {
+        margin-top: .75rem;
         font-size: 1.4rem;
       }
     }
@@ -298,7 +323,12 @@ figure {
 
 main {
   aside {
-    margin-top: 2rem;
+    margin-top: 1rem;
+
+    @include breakpoint(large) {
+      margin-top: 2rem;
+    }
+
 
     .row {
       margin-bottom: 1.5rem;
@@ -338,13 +368,14 @@ main {
   }
 
   article {
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 1rem;
 
     @include breakpoint(large) {
+      margin-top: 2rem;
       font-size: 1.5rem;
     }
 
@@ -360,9 +391,13 @@ main {
     }
 
     &.post {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+    @include breakpoint(large) {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
-
+    }
       figure {
         margin-top: .5rem;
         margin-bottom: 1rem;
@@ -384,7 +419,11 @@ main {
           text-align: center;
 
           h4 {
-            font-size: 1.2rem;
+            font-size: .8rem;
+
+            @include breakpoint(large) {
+              font-size: 1.2rem;
+            }
           }
         }
       }
@@ -404,10 +443,11 @@ footer {
     background-color: #444;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1rem;
 
     @include breakpoint(large) {
+      margin-top: 2rem;
       font-size: 1.5rem;
     }
 

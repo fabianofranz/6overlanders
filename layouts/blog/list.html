@@ -15,10 +15,10 @@
       <h2 class="separator-left">Blog</h2>
       {{ range .Pages }}
         <div class="row">
-          <div class="column small-2">
+          <div class="column small-4 medium-2">
             <span class="small">{{ .Date.Format "02/01/2006" }}</span>
           </div>
-          <div class="column small-2">
+          <div class="column medium-2 show-for-medium">
             {{ .Param "local" }}
           </div>
           <div class="column small-8">

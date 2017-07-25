@@ -1,0 +1,16 @@
+baseURL: "https://6overlanders.com/"
+title: "6overlanders.com"
+languageCode: "pt-br"
+defaultContentLanguage: "pt-br"
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+
+ignoreFiles:
+  - "homepage\\/.*\\.md$"
+
+SectionPagesMenu: "main"
+
+blackfriday:
+  hrefTargetBlank: true

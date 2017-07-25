@@ -6,5 +6,7 @@ defaultContentLanguage = "pt-br"
 disableKinds = [ "taxonomy", "taxonomyTerm" ]
 ignoreFiles = [ "homepage\\/.*\\.md$" ]
 
+SectionPagesMenu = "main"
+
 [blackfriday]
   hrefTargetBlank = true

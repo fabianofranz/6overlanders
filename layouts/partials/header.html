@@ -3,9 +3,9 @@
     <div class="row">
       <div class="column small-12 medium-9">
         <ul class="menu">
-          <li><a href="/" class="{{ if .Page.IsHome }}active{{ end }}">Home</a></li>
-          <li><a href="/blog/" class="{{ if eq .Page.Section "blog" }}active{{ end }}">Blog</a></li>
-          <li><a href="/apoiadores/" class="{{ if eq .Page.URL "/apoiadores/" }}active{{ end }}">Apoiadores</a></li>
+          {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}">{{ .Name }}</a></li>
+          {{ end }}
         </ul>
       </div>
       <div class="column medium-3 show-for-medium">

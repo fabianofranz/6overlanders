@@ -6,11 +6,26 @@ defaultContentLanguage: "pt-br"
 disableKinds:
   - taxonomy
   - taxonomyTerm
+  - RSS
 
 ignoreFiles:
   - "homepage\\/.*\\.md$"
 
 SectionPagesMenu: "main"
+
+mediaTypes:
+  application/atom:
+    suffix: xml
+
+outputFormats:
+  Atom:
+    mediaType: application/atom
+    baseName: feed/atom
+
+outputs:
+  home:
+    - HTML
+    - Atom
 
 blackfriday:
   hrefTargetBlank: true

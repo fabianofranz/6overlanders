@@ -1,6 +1,5 @@
 ---
 title: "Apoiadores"
-url: "/apoiadores/"
 draft: false
 ---
 

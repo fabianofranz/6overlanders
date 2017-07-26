@@ -1,12 +1,16 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{ .Site.Title }}</title>
 <meta name="description" content="Uma família de 6 pessoas viajando pelo mundo em um carro + trailer!">
-<meta property="og:title" content="6overlanders">
-<meta property="og:url" content="http://6overlanders.com">
-<meta property="og:site_name" content="6overlanders">
+
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:description" content="Uma família de 6 pessoas viajando pelo mundo em um carro + trailer! Procuramos viver uma vida intencional, praticamos worldschooling e fazemos muito uso de tecnologia e life hacks. Até onde vamos?">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:image" content="http://6overlanders.com/images/trailer.jpg">
+<meta property="og:image" content="{{ "/images/trailer.jpg" | absURL }}">
 <meta property="fb:app_id" content="1947224048846595">
-<link href="{{ .Permalink }}feed/atom.xml" rel="feed alternate" type="application/atom+xml" title="{{ .Site.Title }}">
+
+<link href="{{ "/feed/atom.xml" | absURL }}" rel="feed alternate" type="application/atom+xml" title="{{ .Site.Title }}">

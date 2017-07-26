@@ -6,7 +6,7 @@ local: Canela
 draft: false
 ---
 
-Seguimos trabalhando no projeto [6overlanders.com](https://6overlander.com) e estamos muito próximos de fechar negócio no trailer que será nossa casa durante a duração do projeto!
+Seguimos trabalhando no projeto [6overlanders.com](https://6overlanders.com) e estamos muito próximos de fechar negócio no trailer que será nossa casa durante a duração do projeto!
 
 A escolha da casa rodante tem **muitos** fatores a serem considerados. Queremos que ela seja o tão autossuficiente quanto possível, seja em termos de **energia elétrica** quanto de **água** e **gás**, o que nos permitirá ficar por alguns dias "fora-de-estrada" e nos deixará menos dependentes de lugares com infraestrutura completa, como campings.
 

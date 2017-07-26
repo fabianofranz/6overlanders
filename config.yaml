@@ -1,7 +1,12 @@
 baseURL: "https://6overlanders.com/"
-title: "6overlanders.com"
 languageCode: "pt-br"
 defaultContentLanguage: "pt-br"
+
+Languages:
+  pt-br:
+    title: "6overlanders.com"
+  en:
+    title: "6overlanders.com"
 
 disableKinds:
   - taxonomy

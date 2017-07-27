@@ -1,13 +1,13 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>{{ .Site.Title }}</title>
-<meta name="description" content="Uma família de 6 pessoas viajando pelo mundo em um carro + trailer!">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ if .Summary }}{{ .Summary }}{{ else }}Uma família de 6 pessoas viajando pelo mundo em um carro + trailer!{{ end }}{{ end }}">
 
-<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:description" content="Uma família de 6 pessoas viajando pelo mundo em um carro + trailer! Procuramos viver uma vida intencional, praticamos worldschooling e fazemos muito uso de tecnologia e life hacks. Até onde vamos?">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ if .Summary }}{{ .Summary }}{{ else }}Uma família de 6 pessoas viajando pelo mundo em um carro + trailer! Procuramos viver uma vida intencional, praticamos worldschooling e fazemos muito uso de tecnologia e life hacks. Até onde vamos?{{ end }}{{ end }}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:image" content="{{ "/images/trailer.jpg" | absURL }}">

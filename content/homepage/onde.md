@@ -1,3 +1,6 @@
+---
+title: "Onde?"
+---
 E **quem sabe** ao certo?
 
 Fato é que, durante nosso planejamento, já estabelecemos várias ideias de roteiros, todas bem diferentes entre si. ~~Rota Pan-Americana (Ushuaia ao Alasca)~~, ~~Estados Unidos e Canadá~~, ~~Europa (entrando e saindo dos países pertencentes à Área de Schengen)~~, ~~apenas Brasil~~.

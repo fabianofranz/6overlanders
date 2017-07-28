@@ -1,14 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="{{ .Lang }}" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  {{ partial "header/metadata.html" . }}
-  {{ partial "header/styles.html" . }}
-</head>
-
-<body>
-  {{ partial "header.html" . }}
+{{ define "body" }}
   <main>
     <article class="column row post">
       <h2 class="separator-left">{{ .Title }}</h2>
@@ -33,7 +23,7 @@
         <div class="column small-8 medium-10 text-right bio">
           <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
           <p>
-            {{ readFile "/content/homepage/tradutora.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
           </p>
         </div>
         <div class="column small-4 medium-2">
@@ -47,7 +37,7 @@
         <div class="column small-8 medium-10 text-right bio">
           <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
           <p>
-            {{ readFile "/content/homepage/programador.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
           </p>
         </div>
         <div class="column small-4 medium-2">
@@ -60,7 +50,4 @@
       </div>
     </aside>
   </main>
-  {{ partial "footer.html" . }}
-  {{ partial "footer/scripts.html" . }}
-</body>
-</html>
+{{ end }}

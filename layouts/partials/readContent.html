@@ -1,0 +1,9 @@
+{{ $ctx := index . 0 }}
+{{ $file := index . 1 }}
+{{ if eq $ctx.Lang $ctx.Site.LanguageCode }}
+{{ $content := after 3 (split ($file | readFile) "\n") }}
+{{ delimit $content "\n" | markdownify | safeHTML }}
+{{ else }}
+{{ $content := after 3 (split (replace $file ".md" (delimit (slice "." $ctx.Lang ".md") "") | readFile) "\n") }}
+{{ delimit $content "\n" | markdownify | safeHTML }}
+{{ end }}

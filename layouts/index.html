@@ -1,39 +1,29 @@
-<!doctype html>
-<html class="no-js" lang="{{ .Lang }}" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  {{ partial "header/metadata.html" . }}
-  {{ partial "header/styles.html" . }}
-</head>
-
-<body>
-  {{ partial "header.html" . }}
+{{ define "body" }}
   <main>
     <aside>
       <div class="row">
         <div class="column small-4 medium-2">
           <figure class="polaroid">
-            <img src="images/fabiano.jpg" alt="">
+            <img src="/images/fabiano.jpg" alt="">
             <figcaption>Fabiano</figcaption>
           </figure>
         </div>
         <div class="column small-8 medium-4 bio">
-          <h3 class="separator-left"><strong>O programador</strong></h3>
+          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/programador.md") }}</strong></h3>
           <p>
-            {{ readFile "/content/homepage/programador.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
           </p>
         </div>
 
         <div class="column small-8 medium-4 text-right bio">
-          <h3 class="separator-right"><strong>A tradutora</strong></h3>
+          <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/tradutora.md") }}</strong></h3>
           <p>
-            {{ readFile "/content/homepage/tradutora.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
           </p>
         </div>
         <div class="column small-4 medium-2">
           <figure class="polaroid">
-            <img src="images/pricila.jpg" alt="">
+            <img src="/images/pricila.jpg" alt="">
             <figcaption>Pricila</figcaption>
           </figure>
         </div>
@@ -41,32 +31,32 @@
 
       <div class="row kids">
         <div class="column small-12 medium-4 bio">
-          <h3 class="separator-left"><strong>As crianças</strong></h3>
+          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/criancas.md") }}</strong></h3>
           <p>
-            {{ readFile "/content/homepage/criancas.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/criancas.md") }}
           </p>
         </div>
         <div class="column small-3 medium-2">
           <figure class="polaroid">
-            <img src="images/lander6.jpg" alt="">
+            <img src="/images/lander6.jpg" alt="">
             <figcaption>Elise</figcaption>
           </figure>
         </div>
         <div class="column small-3 medium-2">
           <figure class="polaroid">
-            <img src="images/lander5.jpg" alt="">
+            <img src="/images/lander5.jpg" alt="">
             <figcaption>Clara</figcaption>
           </figure>
         </div>
         <div class="column small-3 medium-2">
           <figure class="polaroid">
-            <img src="images/lander4.jpg" alt="">
+            <img src="/images/lander4.jpg" alt="">
             <figcaption>Michel</figcaption>
           </figure>
         </div>
         <div class="column small-3 medium-2">
           <figure class="polaroid">
-            <img src="images/lander3.jpg" alt="">
+            <img src="/images/lander3.jpg" alt="">
             <figcaption>Isabela</figcaption>
           </figure>
         </div>
@@ -75,41 +65,40 @@
       <div class="row home">
         <div class="column small-4 medium-2">
           <figure class="polaroid">
-            <img src="images/micro-minnie.jpg" alt="">
+            <img src="/images/micro-minnie.jpg" alt="">
             <figcaption>Micro Minnie</figcaption>
           </figure>
         </div>
         <div class="column small-8 medium-10 bio">
-          <h3 class="separator-left"><strong>A casa rodante</strong></h3>
+          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/casa.md") }}</strong></h3>
           <p>
-            {{ readFile "/content/homepage/casa.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/casa.md") }}
           </p>
         </div>
       </div>
     </aside>
 
     <article class="column row">
-      <h2 class="separator-left">Por quê?</h2>
+      <h2 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/pq.md") }}</h2>
       <p>
-        {{ readFile "/content/homepage/pq.md" | markdownify }}
+        {{ partial "readContent" (slice . "/content/homepage/pq.md") }}
       </p>
     </article>
 
     <article class="column row">
-      <h2 class="separator-left">Onde?</h2>
+      <h2 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/onde.md") }}</h2>
       <div class="row">
         <div class="column small-4 show-for-medium">
           <div id="map"></div>
         </div>
         <div class="column small-12 medium-8">
           <p>
-            {{ readFile "/content/homepage/onde.md" | markdownify }}
+            {{ partial "readContent" (slice . "/content/homepage/onde.md") }}
           </p>
         </div>
       </div>
     </article>
   </main>
-  {{ partial "footer.html" . }}
   <script>
     function initMap() {
       var markers = [
@@ -211,6 +200,4 @@
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxKss9LGv22KDJWJKd7aiXy4JuyDkvwNs&callback=initMap"></script>
-  {{ partial "footer/scripts.html" . }}
-</body>
-</html>
+{{ end }}

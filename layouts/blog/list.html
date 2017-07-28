@@ -1,33 +1,20 @@
-<!doctype html>
-<html class="no-js" lang="{{ .Lang }}" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  {{ partial "header/metadata.html" . }}
-  {{ partial "header/styles.html" . }}
-</head>
-
-<body>
-  {{ partial "header.html" . }}
-  <main>
-    <article class="column row post">
-      <h2 class="separator-left">Blog</h2>
-      {{ range .Pages }}
-        <div class="row">
-          <div class="column small-4 medium-2">
-            <span class="small">{{ .Date.Format "02/01/2006" }}</span>
-          </div>
-          <div class="column medium-2 show-for-medium">
-            {{ .Param "local" }}
-          </div>
-          <div class="column small-8">
-            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-          </div>
+{{ define "body" }}
+<main>
+  <article class="column row post">
+    <h2 class="separator-left">Blog</h2>
+    {{ range .Pages }}
+      <div class="row">
+        <div class="column small-4 medium-2">
+          <span class="small">{{ .Date.Format "02/01/2006" }}</span>
         </div>
-      {{ end }}
-    </article>
-  </main>
-  {{ partial "footer.html" . }}
-  {{ partial "footer/scripts.html" . }}
-</body>
-</html>
+        <div class="column medium-2 show-for-medium">
+          {{ .Param "local" }}
+        </div>
+        <div class="column small-8">
+          <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+        </div>
+      </div>
+    {{ end }}
+  </article>
+</main>
+{{ end }}

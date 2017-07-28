@@ -1,14 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="{{ .Lang }}" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  {{ partial "header/metadata.html" . }}
-  {{ partial "header/styles.html" . }}
-</head>
-
-<body>
-  {{ partial "header.html" . }}
+{{ define "body" }}
   <main>
     <article class="column row post">
       <h2 class="separator-left">{{ .Title }}</h2>
@@ -76,7 +66,4 @@
       </aside>
     {{ end }}
   </main>
-  {{ partial "footer.html" . }}
-  {{ partial "footer/scripts.html" . }}
-</body>
-</html>
+{{ end }}

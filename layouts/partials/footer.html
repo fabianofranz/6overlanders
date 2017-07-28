@@ -1,8 +1,8 @@
 <footer>
   <div class="column row second-callout">
-    <h2 class="separator-left">Quando? Nós te avisamos!</h2>
+    <h2 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/avisamos.md") }}</h2>
     <p>
-      {{ readFile "/content/homepage/avisamos.md" | markdownify }}
+      {{ partial "readContent" (slice . "/content/homepage/avisamos.md") }}
     </p>
     <div class="column row social-media">
       <a href="https://www.facebook.com/6overlanders/" target="_blank"><i class="fa fa-facebook"></i></a>

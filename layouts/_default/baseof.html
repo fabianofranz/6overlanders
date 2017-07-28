@@ -1,0 +1,15 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Lang }}" dir="ltr">
+<head>
+<meta charset="utf-8">
+{{ partial "head/metadata.html" . }}
+{{ partial "head/styles.html" . }}
+{{ block "head" . }}{{ end }}
+</head>
+<body>
+{{ partial "header.html" . }}
+{{ block "body" . }}{{ end }}
+{{ partial "footer.html" . }}
+{{ partial "foot/scripts.html" . }}
+</body>
+</html>

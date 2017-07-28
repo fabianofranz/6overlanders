@@ -1,1 +1,4 @@
-Uma família de<mark> 6 pessoas </mark>viajando pelo mundo em um<mark> carro + trailer</mark>. Procuramos viver uma<mark> vida intencional</mark>, praticamos<mark> worldschooling </mark> e fazemos muito uso de<mark> tecnologia </mark>e life hacks. Até onde vamos?
+---
+title: "Callout"
+---
+A family of<mark> 6 people </mark>traveling the world in a<mark> car + travel trailer</mark>. We seek to live an<mark> intentional life</mark>, we do<mark> worldschooling </mark> and we use a lot of<mark> technology </mark>and life hacks. How far will we go?

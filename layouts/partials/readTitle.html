@@ -1,0 +1,10 @@
+{{ $ctx := index . 0 }}
+{{ $file := index . 1 }}
+{{ $regex := "title: \"(.*)\"" }}
+{{ if eq $ctx.Lang $ctx.Site.LanguageCode }}
+{{ $line := index (split ($file | readFile) "\n") 1 }}
+{{ replaceRE $regex "$1" $line }}
+{{ else }}
+{{ $line := index (split (replace $file ".md" (delimit (slice "." $ctx.Lang ".md") "") | readFile) "\n") 1 }}
+{{ replaceRE $regex "$1" $line }}
+{{ end }}

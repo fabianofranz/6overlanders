@@ -290,7 +290,7 @@ main {
     }
 
 
-    h2 {
+    h1 {
       line-height: 1;
     }
 
@@ -301,6 +301,24 @@ main {
     }
 
     &.post {
+      h1 {
+        &:first-of-type {
+          font-size: 3.5rem;
+        }
+      }
+      ul, ol {
+        margin-left: 2rem;
+      }
+
+      ul {
+        &.task-list {
+          margin-left: .5rem;
+          list-style-type: none;
+        }
+      }
+    }
+
+    &.post, &.page {
       padding-top: 1rem;
       padding-bottom: 1rem;
 
@@ -364,7 +382,7 @@ footer {
     }
 
 
-    h2 {
+    h1 {
       color: #fff;
       line-height: 1;
     }

@@ -44,4 +44,18 @@ Hodor [link externo](http://hodoripsum.com/) hodor link sem texto http://hodorip
 | Hodor 2       | hodor hodor         | hodor |
 | Hodor 3       | hodor hodor hodor   | hodor |
 
+{{< figure "hodor2.jpg" "Hodor hodor" "float-left" >}}
+
+Hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... Hodor hodor hodor hodor hodor. Hodor. Hodor hodor; hodor hodor... Hodor hodor hodor. Hodor. Hodor! Hodor hodor, HODOR hodor, hodor hodor hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor hodor?! Hodor, hodor; hodor hodor; hodor hodor hodor hodor?
+
+{{< figure "hodor3.jpg" "Hodor hodor hodor" "float-right" >}}
+
+Hodor! Hodor hodor, HODOR hodor, hodor hodor hodor hodor. Hodor hodor... Hodor hodor hodor, hodor. Hodor hodor; hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor hodor hodor hodor hodor hodor. Hodor hodor - hodor... Hodor hodor hodor. Hodor! Hodor hodor, hodor, hodor. Hodor hodor hodor hodor, hodor, hodor hodor.
+
+Hodor, HODOR hodor, hodor hodor, hodor. Hodor hodor... Hodor hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor?! Hodor, hodor. Hodor. Hodor, hodor - hodor hodor, hodor. Hodor hodor hodor! Hodor. Hodor HODOR hodor, hodor hodor - hodor... Hodor hodor hodor. Hodor.
+
+{{< figure "hodor1.jpg" "Hodor" "float-center" >}}
+
+Hodor hodor HODOR! Hodor hodor; hodor hodor hodor? Hodor. Hodor hodor hodor hodor... Hodor hodor hodor. Hodor. Hodor, hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor, hodor. Hodor hodor; hodor hodor?! Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor; hodor HODOR hodor, hodor hodor hodor! Hodor hodor; hodor hodor. Hodor. Hodor hodor - hodor; hodor hodor hodor hodor. Hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor - hodor.
+
 [^1]: Hodor hodor hodor

@@ -306,6 +306,7 @@ main {
           font-size: 3.5rem;
         }
       }
+
       ul, ol {
         margin-left: 2rem;
       }
@@ -347,13 +348,10 @@ main {
 
         figcaption {
           text-align: center;
+          font-size: .8rem;
 
-          h4 {
-            font-size: .8rem;
-
-            @include breakpoint(large) {
-              font-size: 1.2rem;
-            }
+          @include breakpoint(large) {
+            font-size: 1.2rem;
           }
         }
       }

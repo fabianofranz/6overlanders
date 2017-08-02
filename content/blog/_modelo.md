@@ -1,16 +1,11 @@
 ---
-title: "Modelo"
+title: Modelo de Post
+callout: Callout hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... 
 date: 2017-07-07T15:00:00-03:00
 author: pricila
 local: Canela
 draft: true
 ---
-
-# Título hodor ipsum
-
-## Subtítulo hodor hodor
-
-### Subsubtítulo hodor hodor
 
 Hodor, *itálico hodor*, hodor. **Negrito Hodor** hodor... Hodor hodor! ***Negrito e itálico*** HODOR hodor, hodor hodor?! ~~Sobrescrito Hodor~~ HODOR! Hodor hodor...
 
@@ -43,6 +38,12 @@ Hodor [link externo](http://hodoripsum.com/) hodor link sem texto http://hodorip
 | Hodor 1       | hodor               | hodor |
 | Hodor 2       | hodor hodor         | hodor |
 | Hodor 3       | hodor hodor hodor   | hodor |
+
+# Título hodor ipsum
+
+## Subtítulo hodor hodor
+
+### Subsubtítulo hodor hodor
 
 {{< figure "hodor2.jpg" "Hodor hodor" "float-left" >}}
 

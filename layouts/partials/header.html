@@ -13,19 +13,11 @@
           <li><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>
           <li><a href="https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA" target="_blank"><i class="fa fa-youtube"></i></a></li>
-          <!--
-          {{ if .IsTranslated }}
-            {{ range .Translations }}
-              <li>
-                <a href="{{ .Permalink }}">{{ .Lang }}</a>
-              </li>
-            {{ end}}
-          {{ end }}
-          -->
         </ul>
       </div>
     </div>
   </nav>
+  {{ block "title" . }}{{ end }}
   <div class="column row title">
     <h1>6overlanders</h1>
   </div>

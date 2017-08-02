@@ -1,21 +1,21 @@
+{{ define "title" }}
+  <div class="column row title internal separator-center">
+    <h1>{{ .Title }}</h1>
+  </div>
+{{ end }}
+
 {{ define "body" }}
   <main>
     <article class="column row post">
-      <h1 class="separator-left">{{ .Title }}</h1>
+      {{ if .Param "callout" }}
+      <p class="callout">
+        {{ .Param "callout" }}
+      </p>
+      {{ end }}
+      <p class="author">
+        por Fabiano Franz, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ $.Param "local" }}
+      </p>
       {{ .Content }}
-      <div class="row">
-        <div class="column small-6">
-          {{ range $.Param "tags" }}
-            <small><a href="#">#{{ . }}</a></small>
-          {{ end }}
-        </div>
-        <div class="column small-6 text-right">
-          <small>
-            {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em
-            <a href="#">{{ $.Param "local" }}</a>
-          </small>
-        </div>
-      </div>
     </article>
     <aside>
       <div class="row">

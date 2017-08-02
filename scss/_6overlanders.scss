@@ -1,6 +1,6 @@
 body {
   background: #d6d6d6;
-  background: linear-gradient(to left, #ECE9E6, #d6d6d6);
+  background: linear-gradient(to left, #ece9e6, #d6d6d6);
 }
 
 body, h1, h2, h3, h4 {
@@ -13,7 +13,7 @@ strong, b {
   font-weight: 400;
 }
 
-.separator-left, .separator-right {
+.separator-left, .separator-right, .separator-center {
   &::after {
     position: relative;
     width: 3rem;
@@ -37,6 +37,13 @@ strong, b {
   &::after {
     margin-left: auto;
     margin-right: 0;
+  }
+}
+
+.separator-center {
+  &::after {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -128,6 +135,32 @@ header {
         margin-bottom: -4.1rem;
       }
     }
+
+    &.internal {
+      text-align: center;
+
+      h1 {
+        text-transform: lowercase;
+        line-height: 0.8;
+        margin-bottom: 1rem;
+        font-size: 2.8rem;
+
+        @include breakpoint(large) {
+          font-size: 8rem;
+          margin-bottom: 2rem;
+        }
+      }
+
+      &::after {
+        width: 5rem;
+        border-bottom: .2rem solid #cc4b37;
+
+        @include breakpoint(large) {
+          width: 8rem;
+          border-bottom: .3rem solid #cc4b37;
+        }
+      }
+    }
   }
 
   .summary {
@@ -135,21 +168,19 @@ header {
     background-color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    line-height: 1.4;
 
     @include breakpoint(large) {
       padding-top: 1.2rem;
       padding-bottom: 1.2rem;
       font-size: 2.5rem;
+      line-height: 1.5;
     }
   }
 
   nav {
     background-color: rgba(68, 68, 68, 0.4);
     padding-top: .3rem;
-
-    .menu, .menu-text {
-      font-weight: 400 !important;
-    }
 
     .menu {
       @include breakpoint(large) {
@@ -301,9 +332,20 @@ main {
     }
 
     &.post {
-      h1 {
-        &:first-of-type {
-          font-size: 3.5rem;
+      p {
+        &.callout {
+          font-size: 1.4rem;
+          line-height: 1.3;
+
+          @include breakpoint(large) {
+            font-size: 2.5rem;
+            line-height: 1.3;
+          }
+        }
+
+        &.author {
+          font-size: 80%;
+          color: gray;
         }
       }
 
@@ -356,7 +398,7 @@ main {
         }
       }
 
-      .separator-left, .separator-right {
+      .separator-left, .separator-right, .separator-center {
         &::after {
           margin-bottom: 1.5rem;
         }

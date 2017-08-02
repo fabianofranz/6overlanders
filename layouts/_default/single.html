@@ -1,7 +1,12 @@
+{{ define "title" }}
+  <div class="column row title internal separator-center">
+    <h1>apoiadores</h1>
+  </div>
+{{ end }}
+
 {{ define "body" }}
   <main>
     <article class="column row page">
-      <h1 class="separator-left">{{ .Title }}</h1>
       {{ .Content }}
     </article>
     {{ if eq .Page.URL "/apoiadores/" }}

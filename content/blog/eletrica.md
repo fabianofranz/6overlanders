@@ -1,12 +1,11 @@
 ---
-title: "Sustentabilidade Elétrica"
+title: Sustentabilidade Elétrica
+callout: Seguimos trabalhando em nosso projeto de viagem e estamos muito próximos de fechar negócio no trailer que será nossa casa rodante!
 date: 2017-07-08T16:51:00-03:00
 author: fabiano
-local: Canela
+local: Canela / Brasil
 draft: false
 ---
-
-Seguimos trabalhando no projeto [6overlanders.com](https://6overlanders.com) e estamos muito próximos de fechar negócio no trailer que será nossa casa durante a duração do projeto!
 
 A escolha da casa rodante tem **muitos** fatores a serem considerados. Queremos que ela seja o tão autossuficiente quanto possível, seja em termos de **energia elétrica** quanto de **água** e **gás**, o que nos permitirá ficar por alguns dias "fora-de-estrada" e nos deixará menos dependentes de lugares com infraestrutura completa, como campings.
 

@@ -5,6 +5,13 @@
 {{ end }}
 
 {{ define "body" }}
+  {{ if .Param "image" }}
+    <style>
+      header {
+        background-image: url(/media/{{ .Param "image" }});
+      }
+    </style>
+  {{ end }}
   <main>
     <article class="column row post">
       {{ if .Param "callout" }}
@@ -13,13 +20,13 @@
       </p>
       {{ end }}
       <p class="author">
-        por Fabiano Franz, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ $.Param "local" }}
+      por {{ if eq (.Param "author") "fabiano" }}Fabiano Franz{{ end }}{{ if eq (.Param "author") "pricila" }}Pricila Franz{{ end }}, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ .Param "local" }}
       </p>
       {{ .Content }}
     </article>
     <aside>
       <div class="row">
-        {{ if eq ($.Param "author") "pricila" }}
+        {{ if eq (.Param "author") "pricila" }}
         <div class="column small-8 medium-10 text-right bio">
           <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
           <p>
@@ -33,7 +40,7 @@
           </figure>
         </div>
         {{ end }}
-        {{ if eq ($.Param "author") "fabiano" }}
+        {{ if eq (.Param "author") "fabiano" }}
         <div class="column small-8 medium-10 text-right bio">
           <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
           <p>

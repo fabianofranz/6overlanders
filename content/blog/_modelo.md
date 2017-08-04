@@ -3,7 +3,7 @@ title: Modelo de Post
 callout: Callout hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... 
 date: 2017-07-07T15:00:00-03:00
 author: pricila
-local: Canela
+local: Canela, Brasil
 draft: true
 ---
 

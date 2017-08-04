@@ -8,7 +8,7 @@ local: Canela, Brasil
 draft: false
 ---
 
-Acho que desde sempre soubemos que a jornada de nossas vidas não seria nada convencional. De forma mais proeminente em alguns períodos do que outros, sempre fomos assim meio que uns pontinhos fora da curva. Te explico.
+Acho que desde sempre soubemos que a jornada de nossas vidas não seria nada convencional. De forma mais proeminente em alguns períodos do que outros, sempre fomos assim meio que uns pontinhos fora da curva. Te explico.<!--more-->
 
 No início, muito lutamos pelo ajustamento. Foco total em nossas carreiras, que muito rápido se desenvolveram, e na realização acadêmica acima da média. Mestrado, no mínimo, né!? Busca incessante pelo imóvel próprio, em região central, com boa metragem e módica parcela. Um concurso público de nível nacional, trazendo estabilidade até a aposentadoria e evitando a fadiga do empreendedorismo.
 

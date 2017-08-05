@@ -12,7 +12,7 @@ Acho que desde sempre soubemos que a jornada de nossas vidas não seria nada con
 
 No início, muito lutamos pelo ajustamento. Foco total em nossas carreiras, que muito rápido se desenvolveram, e na realização acadêmica acima da média. Mestrado, no mínimo, né!? Busca incessante pelo imóvel próprio, em região central, com boa metragem e módica parcela. Um concurso público de nível nacional, trazendo estabilidade até a aposentadoria e evitando a fadiga do empreendedorismo.
 
-Mas calma lá. No fundo, bem lá no fundo, alguma coisa parecia não se ajustar. Me diz se pode terno e gravata, com cabelo comprido? Ter medo de altura e saltar de paraquedas? Fazer doutorado, mas não perseguir a carreira acadêmica? Magistério e não gostar de lecionar? Capitalismo selvagem, mas valorização da família acima de qualquer coisa? Religião? Formação erudita, mas curtir um heavy metal? Quatro filhos, onde já se viu hoje em dia, não tem Netflix em casa?
+Mas calma lá. No fundo, bem lá no fundo, alguma coisa parecia não se ajustar. Me diz se pode terno e gravata, com cabelo comprido? Ter medo de altura e saltar de paraquedas? Fazer doutorado, mas não perseguir a carreira acadêmica? Magistério e não concordar com o modelo tradicional de escola? Parto domiciliar, amamentação exclusiva, berço no chão, unschooling? Capitalismo selvagem, mas valorização da família acima de qualquer coisa? Religião? Formação em piano erudito, mas curtir heavy metal? Pai de família patinador? Quatro filhos, onde já se viu hoje em dia, não tem Netflix em casa?
 {{< figure "pri-isa-dunas.jpg" "Donas" "float-right" >}}
 
 {{< callout >}}

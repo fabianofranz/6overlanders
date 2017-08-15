@@ -1,7 +1,7 @@
 ---
 title: Sustentabilidade Elétrica
 callout: Seguimos trabalhando em nosso projeto de viagem e estamos muito próximos de fechar negócio no trailer que será nossa casa rodante!
-date: 2017-07-08T16:51:00-03:00
+date: 2017-08-10T13:22:00-03:00
 author: fabiano
 local: Canela, Brasil
 draft: false

@@ -103,6 +103,10 @@ strong, b {
   }
 }
 
+.heart {
+  color: #e91e63;
+}
+
 header {
   background-image: url(../images/landscape.jpg);
   background-position: center fixed;
@@ -211,9 +215,9 @@ header {
 }
 
 mark {
+  background-color: #ffecb3;
   color: #666;
   font-weight: 400;
-  background-color: #faf785;
 }
 
 figure {
@@ -434,9 +438,10 @@ main {
 }
 
 footer {
+  color: #fff;
+  background-color: #444;
+
   .second-callout {
-    color: #fff;
-    background-color: #444;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
@@ -455,10 +460,11 @@ footer {
   }
 
   .copyright {
-    text-align: center;
     font-size: 0.75rem;
 
     @include breakpoint(large) {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
       font-size: 1rem;
     }
   }

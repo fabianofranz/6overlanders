@@ -37,7 +37,8 @@
 </header>
 {{ block "body" . }}{{ end }}
 <footer>
-  <div class="column row second-callout">
+  <div class="row second-callout">
+    <div class="column small-8">
     <h1 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/avisamos.md") }}</h1>
     <p>
       {{ partial "readContent" (slice . "/content/homepage/avisamos.md") }}
@@ -49,8 +50,12 @@
       <div class="social-media-id">/6overlanders</div>
     </div>
   </div>
+    <div class="column small-4 text-right">
+      <div class="fb-page" data-href="https://www.facebook.com/6overlanders" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/6overlanders" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/6overlanders">6overlanders</a></blockquote></div>
+    </div>
+  </div>
   <div class="column row copyright">
-    2017 teh 6overlanders yo made in Canela yo but one in Paris and one in Floripa. whatever with proud and &hearts;
+    &copy;2017 6overlanders. desenvolvido por <a href="http://fabianofranz.com" target="_blank">fabiano</a>. conteúdo e crianças por <a href="http://fabianofranz.com" target="_blank">fabiano</a> e <a href="http://pricilafranz.com" target="_blank">pricila</a>. made in canela but one in paris one in floripa. whatever with proud and <span class="heart">&hearts;</span>.
   </div>
 </footer>
 {{ partial "foot/scripts.html" . }}

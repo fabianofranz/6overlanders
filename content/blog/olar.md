@@ -19,13 +19,13 @@ Mas calma lá. No fundo, bem lá no fundo, alguma coisa parecia não se ajustar.
 Acontece que o que estava no fundo, bem lá no fundo, era na verdade a essência.
 {{< /callout >}}
 
-Neste site, que está só começando, vamos documentar **a aventura de levar nossos quatro filhos pequenos pra conhecer o mundo a bordo de um trailer**, que será nossa casa pela duração do projeto. A primeira "perna" de nossa viagem será a América do Sul, de Ushuaia a Cartagena, e terá duração aproximada de cerca de um ano. Partimos no início de 2018.
+Então, é isso mesmo: a partir do início de 2018, vamos viver **a aventura de levar nossos quatro filhos pequenos pra conhecer o mundo vivendo a bordo de um carro + trailer**. A primeira etapa da nossa viagem será a América do Sul, saindo de Canela/RS e percorrendo todo o continente de sul a norte (Ushuaia a Cartagena), e terá duração aproximada de cerca de um ano.
 
 Decidimos chamar este projeto de **6 overlanders**. O termo "overlander" tem sido usado pra designar aqueles que viajam por terra, passando por vários países. Particularmente, gosto de pensar no overlander como **aquele que viaja além**.  
 
 Além da sua cidade, do seu estado, seu país. Além-terra. Além de suas limitações, seus medos, do estabelecido e do ajustamento. Além, bem lá no fundo, até de sua própria essência.
 
-Você pode nos acompanhar, além deste site, no [Facebook](https://www.facebook.com/6overlanders/), [Instagram](https://www.instagram.com/6overlanders/) e [Youtube](https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA): estamos planejando várias coisas legais para estes espaços, que vamos te contando ao longo da viagem! 
+Neste site, que está só começando, pretendemos documentar toda nossa preparação e, é claro, toda viagem, em detalhes. Também vamos atualizar frequentemente as redes sociais do projeto, no [Facebook](https://www.facebook.com/6overlanders/), [Instagram](https://www.instagram.com/6overlanders/) e [Youtube](https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA). Estamos planejando várias coisas legais para estes espaços, que vamos te contando ao longo da viagem! 
 
 E aí, apesar de não podermos te levar junto no trailer, quem sabe não conseguimos, pelo menos um pouquinho, **te inspirar a também buscar sua essência overlander**!
 

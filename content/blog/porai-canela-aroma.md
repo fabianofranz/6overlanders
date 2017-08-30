@@ -12,8 +12,6 @@ Se você leu nossa apresentação no post [Olá, Mundo](.../olar) já sabe quais
 
 Por isso queremos aproveitar as experiências anteriores que tivemos e criamos a série “Por Aí”. Nela vamos dar dicas e mostrar lugares bacanas pelas quais já passamos ou moramos antes de zarparmos para nossa volta ao mundo. Esperamos que vocês curtam as dicas e viajem junto com a gente pelas fotos e vídeos.
 
-----
-
 Inaugurando essa seção, nosso primeiro post dessa série não podia deixar de vir da charmosa cidade de Canela. Reinaugurado recentemente, o café-sebo-livraria-estúdio de pesquisa teatral [Aroma Literário](http://www.facebook.com/AromaLiterario/) é tudo aquilo o que no início do namoro eu e o Fabiano queríamos fazer num futuro não muito distante: café-livraria-centro cultural. Agora nem precisamos ter todo esse trabalho, pois os queridos [Ronaldo](http://www.facebook.com/profile.php?id=100008310520840) e [Edel](http://www.facebook.com/edel.ramos.18) realizaram o nosso sonho! 
 
 {{< figure "2017-07-30 16.40.31.jpg" "Já me conquistou de cara com o Borges" "float-right" >}}

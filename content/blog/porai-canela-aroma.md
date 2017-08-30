@@ -5,7 +5,7 @@ image: 2017-07-30-16.39.56.jpg
 date: 2017-08-16T15:21:45-03:00
 author: pricila
 local: Canela, Brasil
-draft: true
+draft: false
 ---
 
 Se você leu nossa apresentação no post [Olá, Mundo](.../olar) já sabe quais são as nossas motivações para termos esse espírito aventureiro... É como uma pulguinha que não deixa a gente ficar quieto no lugar! Estamos sempre passeando, conhecendo lugares novos ou morando em outras cidades. 

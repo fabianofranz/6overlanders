@@ -14,7 +14,7 @@ Por isso queremos aproveitar as experiências anteriores que tivemos e **criamos
 
 {{< figure "aroma1.jpg" "Já me conquistou de cara com o Borges" "float-left" >}}
 
-Inaugurando essa seção, nosso primeiro post dessa série não podia deixar de vir da charmosa cidade de **Canela**, no **Rio Grande do Sul**. Reinaugurado recentemente, o café-sebo-livraria-estúdio de pesquisa teatral **[Aroma Literário](http://www.facebook.com/AromaLiterario/)** é tudo aquilo o que no início do namoro eu e o Fabiano queríamos fazer num futuro não muito distante: café-livraria-centro cultural. Agora nem precisamos ter todo esse trabalho, pois os queridos [Ronaldo](http://www.facebook.com/profile.php?id=100008310520840) e [Edel](http://www.facebook.com/edel.ramos.18) realizaram o nosso sonho! 
+Inaugurando essa seção, nosso primeiro post dessa série não podia deixar de vir da charmosa cidade de **Canela**, no **Rio Grande do Sul**. Reinaugurado recentemente, o café-sebo-livraria-estúdio de pesquisa teatral **[Aroma Literário](http://www.facebook.com/AromaLiterario/)** é tudo aquilo o que no início do namoro eu e o Fabiano queríamos fazer num futuro não muito distante. Agora nem precisamos ter todo esse trabalho, pois os queridos [Ronaldo](http://www.facebook.com/profile.php?id=100008310520840) e [Edel](http://www.facebook.com/edel.ramos.18) realizaram o nosso sonho! 
 
 {{< figure "aroma2.jpg" "Sebo e troca de livros" "float-right" >}}
 

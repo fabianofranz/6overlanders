@@ -2,4 +2,4 @@ bower_components
 node_modules
 npm-debug.log
 public
-static/css/app.css
+src/static/css/app.css

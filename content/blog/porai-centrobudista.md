@@ -20,7 +20,7 @@ Na casa das rodas de orações há vários cilindros gigantescos com milhares de
  
 {{< figure "trescoroas5.jpg" "A visão é deslumbrante" "float-left" >}} 
 
-{{< figure "trescoroas7.jpg" "Stupas" "float-left" >}}
+{{< figure "trescoroas7.jpg" "Stupas" "float-right" >}}
 
 {{< figure "trescoroas8.jpg" "" "float-center" >}}
 

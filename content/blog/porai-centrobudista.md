@@ -1,6 +1,7 @@
 ---
 title: Templo Budista
-callout: Callout hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... 
+callout: "\"Todo mundo fala de paz, mas ninguém educa para a paz. As pessoas educam apenas para a competição e a competição leva à guerra.\" Pablo Lipnizky
+image: trescoroas6.jpg
 date: 2017-09-01T15:00:00-03:00
 author: pricila
 local: Canela, Brasil
@@ -12,12 +13,11 @@ Continuando a série **"Por Aí"**, queremos trazer mais alguns cantinhos não t
 {{< figure "trescoroas3.jpg" "Casa das rodas de orações" "float-left" >}}
 
  
-Rodas de orações - milhares de mantras dentro de cada cilindro.  Quando os cilindros rodam, os mantras são levados para o mundo todo. 
+Na casa das rodas de orações há vários cilindros gigantescos com milhares de mantras dentro de cada um. Quando os cilindros rodam, os mantras são levados para o mundo todo. 
 
 
 {{< figure "trescoroas1.jpg" "Templo principal - lindíssimo!! Infelizmente não é permitido tirar fotos do interior" "float-right" >}} 
 
-Stupas
 
 {{< figure "trescoroas2.jpg" "Guru Rinpoche" "float-left" >}} 
  
@@ -30,7 +30,9 @@ Stupas
 
 {{< figure "trescoroas8.jpg" "" "float-center" >}}
 
-Para mais informações: [Centro Budista](http://kl.chagdud.org/), entrada gratuita.
+Para mais informações: [Centro Budista](http://templobudista.org/), entrada gratuita.
+
+Estrada Linha Águas Brancas, 1211.
 
 Horário: quartas às sextas: 9:30-11:30 e 14:00-17:00 - sábados e domingos: 9:00-16:30
 

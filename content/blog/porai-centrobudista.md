@@ -12,19 +12,13 @@ Continuando a série **"Por Aí"**, queremos trazer mais alguns cantinhos não t
 
 {{< figure "trescoroas3.jpg" "Casa das rodas de orações" "float-left" >}}
 
- 
 Na casa das rodas de orações há vários cilindros gigantescos com milhares de mantras dentro de cada um. Quando os cilindros rodam, os mantras são levados para o mundo todo. 
-
 
 {{< figure "trescoroas1.jpg" "Templo principal - lindíssimo!! Infelizmente não é permitido tirar fotos do interior" "float-right" >}} 
 
-
 {{< figure "trescoroas2.jpg" "Guru Rinpoche" "float-left" >}} 
  
-
 {{< figure "trescoroas5.jpg" "A visão é deslumbrante" "float-left" >}} 
-
-{{< figure "trescoroas6.jpg" "Templo construído da mesma forma que no Nepal" "float-right" >}}
 
 {{< figure "trescoroas7.jpg" "Stupas" "float-left" >}}
 

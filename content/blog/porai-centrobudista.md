@@ -14,7 +14,7 @@ Continuando a série **"Por Aí"**, queremos trazer mais alguns cantinhos não t
 
 Na casa das rodas de orações há vários cilindros gigantescos com milhares de mantras dentro de cada um. Quando os cilindros rodam, os mantras são levados para o mundo todo. 
 
-{{< figure "trescoroas1.jpg" "Templo principal - lindíssimo!! Infelizmente não é permitido tirar fotos do interior" "float-right" >}} 
+{{< figure "trescoroas1.jpg" "Templo principal - lindíssimo!! Infelizmente não é permitido tirar fotos do interior" "float-center" >}} 
 
 {{< figure "trescoroas2.jpg" "Guru Rinpoche" "float-left" >}} 
  

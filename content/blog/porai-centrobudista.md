@@ -7,6 +7,28 @@ local: Canela, Brasil
 draft: true
 ---
 
+Continuando a série **"Por Aí"**, queremos trazer mais alguns cantinhos não tão conhecidos da Serra Gaúcha. A maioria das pessoas pensa em lugares imperdíveis em Gramado e em Canela. Mas há muito a ser explorado além dessas duas cidades. Por exemplo, para quem não conhece, em Três Coroas, cidade vizinha de Gramado (15 minutos de distância), há um Centro Budista. Independente da profissão religiosa a visita vale muito a pena, porque o lugar é muito lindo! É uma aula sobre artes, religião, cultura, natureza e respeito.
+
+{{< figure "aroma1.jpg" "Já me conquistou de cara com o Borges" "float-left" >}}
+
+Casa das rodas de orações 
+Rodas de orações - milhares de mantras dentro de cada cilindro.  Quando os cilindros rodam, os mantras são levados para o mundo todo. 
+
+
+Templo principal - não é permitido tirar fotos do interior (lindo!!) 
+
+Stupas
+
+Guru Rinpoche
+
+
+Templo construído da mesma forma que no Nepal
+
+
+Para mais informações: http://kl.chagdud.org/. Gratuito.
+Horário: quartas às sextas (9:30-11:30 e 14:00-17:00), sábados e domingos (9:00-16:30)
+
+
 Hodor, *itálico hodor*, hodor. **Negrito Hodor** hodor... Hodor hodor! ***Negrito e itálico*** HODOR hodor, hodor hodor?! ~~Sobrescrito Hodor~~ HODOR! Hodor hodor...
 
 Hodor - hodor -- hodor --- hodor 1/2 hodor 5/4 hodor hodor hodor hodor rodapé[^1] hodor; hodor hodor? Hodor, HODOR hodor, hodor hodor; hodor hodor hodor! Hodor! Hodor hodor, HODOR hodor, hodor hodor hodor hodor.

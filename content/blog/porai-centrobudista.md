@@ -20,12 +20,11 @@ Rodas de orações - milhares de mantras dentro de cada cilindro.  Quando os cil
 Stupas
 
 {{< figure "trescoroas2.jpg" "Guru Rinpoche" "float-left" >}} 
-
-{{< figure "trescoroas4.jpg" "Templo construído da mesma forma que no Nepal" "float-right" >}} 
+ 
 
 {{< figure "trescoroas5.jpg" "A visão é deslumbrante" "float-left" >}} 
 
-{{< figure "trescoroas6.jpg" "" "float-right" >}}
+{{< figure "trescoroas6.jpg" "Templo construído da mesma forma que no Nepal" "float-right" >}}
 
 {{< figure "trescoroas7.jpg" "Stupas" "float-left" >}}
 

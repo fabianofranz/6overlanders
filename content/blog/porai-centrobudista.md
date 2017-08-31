@@ -10,7 +10,7 @@ draft: true
 
 Continuando a série **"Por Aí"**, queremos trazer mais alguns cantinhos não tão conhecidos da Serra Gaúcha. A maioria das pessoas pensa em lugares imperdíveis em Gramado e em Canela. Mas há muito a ser explorado além dessas duas cidades. Por exemplo, para quem não conhece, em Três Coroas, cidade vizinha de Gramado (15 minutos de distância), há um Centro Budista. Independente da profissão religiosa a visita vale muito a pena, porque o lugar é muito lindo! É uma aula sobre artes, religião, cultura, natureza e respeito.
 
-{{< figure "trescoroas3.jpg" "Casa das rodas de orações" "float-left" >}}
+{{< figure "trescoroas3.jpg" "Casa das rodas de orações" "float-center" >}}
 
 Na casa das rodas de orações há vários cilindros gigantescos com milhares de mantras dentro de cada um. Quando os cilindros rodam, os mantras são levados para o mundo todo. 
 

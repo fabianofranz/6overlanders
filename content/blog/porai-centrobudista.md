@@ -16,7 +16,7 @@ Na casa das rodas de orações há vários cilindros gigantescos com milhares de
 
 {{< figure "trescoroas1.jpg" "Templo principal - lindíssimo!! Infelizmente não é permitido tirar fotos do interior" "float-center" >}} 
 
-{{< figure "trescoroas2.jpg" "Guru Rinpoche" "float-left" >}} 
+{{< figure "trescoroas2.jpg" "Guru Rinpoche" "float-center" >}} 
  
 {{< figure "trescoroas5.jpg" "A visão é deslumbrante" "float-left" >}} 
 

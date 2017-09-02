@@ -280,7 +280,7 @@ main {
     }
 
 
-    .row {
+    .row, .grid-container {
       margin-bottom: 1.5rem;
 
       &:last-of-type {
@@ -288,7 +288,7 @@ main {
       }
 
       @include breakpoint(large) {
-        &.kids {
+        .kids {
           text-align: right;
 
           .separator-left {

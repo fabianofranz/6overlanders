@@ -1,81 +1,87 @@
 {{ define "body" }}
   <main>
     <aside>
-      <div class="row">
-        <div class="column small-4 medium-2">
-          <figure class="polaroid">
-            <img src="/images/fabiano.jpg" alt="">
-            <figcaption>Fabiano</figcaption>
-          </figure>
-        </div>
-        <div class="column small-8 medium-4 bio">
-          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/programador.md") }}</strong></h3>
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
-          </p>
-        </div>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell small-4 medium-2">
+            <figure class="polaroid">
+              <img src="/images/fabiano.jpg" alt="">
+              <figcaption>Fabiano</figcaption>
+            </figure>
+          </div>
+          <div class="cell small-8 medium-4 bio">
+            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/programador.md") }}</strong></h3>
+            <p>
+              {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
+            </p>
+          </div>
 
-        <div class="column small-8 medium-4 text-right bio">
-          <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/tradutora.md") }}</strong></h3>
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
-          </p>
-        </div>
-        <div class="column small-4 medium-2">
-          <figure class="polaroid">
-            <img src="/images/pricila.jpg" alt="">
-            <figcaption>Pricila</figcaption>
-          </figure>
+          <div class="cell small-8 medium-4 text-right bio">
+            <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/tradutora.md") }}</strong></h3>
+            <p>
+              {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
+            </p>
+          </div>
+          <div class="cell small-4 medium-2">
+            <figure class="polaroid">
+              <img src="/images/pricila.jpg" alt="">
+              <figcaption>Pricila</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
 
-      <div class="row kids">
-        <div class="column small-12 medium-4 bio">
-          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/criancas.md") }}</strong></h3>
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/criancas.md") }}
-          </p>
-        </div>
-        <div class="column small-3 medium-2">
-          <figure class="polaroid">
-            <img src="/images/lander6.jpg" alt="">
-            <figcaption>Elise</figcaption>
-          </figure>
-        </div>
-        <div class="column small-3 medium-2">
-          <figure class="polaroid">
-            <img src="/images/lander5.jpg" alt="">
-            <figcaption>Clara</figcaption>
-          </figure>
-        </div>
-        <div class="column small-3 medium-2">
-          <figure class="polaroid">
-            <img src="/images/lander4.jpg" alt="">
-            <figcaption>Michel</figcaption>
-          </figure>
-        </div>
-        <div class="column small-3 medium-2">
-          <figure class="polaroid">
-            <img src="/images/lander3.jpg" alt="">
-            <figcaption>Isabela</figcaption>
-          </figure>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x kids">
+          <div class="cell small-12 medium-4 bio">
+            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/criancas.md") }}</strong></h3>
+            <p>
+              {{ partial "readContent" (slice . "/content/homepage/criancas.md") }}
+            </p>
+          </div>
+          <div class="cell small-3 medium-2">
+            <figure class="polaroid">
+              <img src="/images/lander6.jpg" alt="">
+              <figcaption>Elise</figcaption>
+            </figure>
+          </div>
+          <div class="cell small-3 medium-2">
+            <figure class="polaroid">
+              <img src="/images/lander5.jpg" alt="">
+              <figcaption>Clara</figcaption>
+            </figure>
+          </div>
+          <div class="cell small-3 medium-2">
+            <figure class="polaroid">
+              <img src="/images/lander4.jpg" alt="">
+              <figcaption>Michel</figcaption>
+            </figure>
+          </div>
+          <div class="cell small-3 medium-2">
+            <figure class="polaroid">
+              <img src="/images/lander3.jpg" alt="">
+              <figcaption>Isabela</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
 
-      <div class="row home">
-        <div class="column small-4 medium-2">
-          <figure class="polaroid">
-            <img src="/images/micro-minnie.jpg" alt="">
-            <figcaption>Micro Minnie</figcaption>
-          </figure>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x home">
+          <div class="cell small-4 medium-2">
+            <figure class="polaroid">
+              <img src="/images/micro-minnie.jpg" alt="">
+              <figcaption>Micro Minnie</figcaption>
+            </figure>
+          </div>
+          <div class="cell small-8 medium-10 bio">
+            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/casa.md") }}</strong></h3>
+            <p>
+              {{ partial "readContent" (slice . "/content/homepage/casa.md") }}
+            </p>
+          </div>
         </div>
-        <div class="column small-8 medium-10 bio">
-          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/casa.md") }}</strong></h3>
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/casa.md") }}
-          </p>
         </div>
-      </div>
     </aside>
 
     <article class="column row">

@@ -1,87 +1,74 @@
 {{ define "body" }}
   <main>
-    <aside>
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-          <div class="cell small-4 medium-2">
-            <figure class="polaroid">
-              <img src="/images/fabiano.jpg" alt="">
-              <figcaption>Fabiano</figcaption>
-            </figure>
-          </div>
-          <div class="cell small-8 medium-4 bio">
-            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/programador.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
-            </p>
-          </div>
+    <aside class="bios">
+      <div class="us">
+        <div class="bio">
+          <figure class="polaroid left">
+            <img src="/images/fabiano.jpg" alt="">
+            <figcaption>Fabiano</figcaption>
+          </figure>
 
-          <div class="cell small-8 medium-4 text-right bio">
-            <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/tradutora.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
-            </p>
-          </div>
-          <div class="cell small-4 medium-2">
-            <figure class="polaroid">
-              <img src="/images/pricila.jpg" alt="">
-              <figcaption>Pricila</figcaption>
-            </figure>
-          </div>
+          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/programador.md") }}</strong></h3>
+          <p>
+            {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
+          </p>
+        </div>
+
+        <div class="bio text-right">
+          <figure class="polaroid right">
+            <img src="/images/pricila.jpg" alt="">
+            <figcaption>Pricila</figcaption>
+          </figure>
+
+          <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/tradutora.md") }}</strong></h3>
+          <p>
+            {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
+          </p>
         </div>
       </div>
 
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x kids">
-          <div class="cell small-12 medium-4 bio">
-            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/criancas.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/criancas.md") }}
-            </p>
-          </div>
-          <div class="cell small-3 medium-2">
-            <figure class="polaroid">
-              <img src="/images/lander6.jpg" alt="">
-              <figcaption>Elise</figcaption>
-            </figure>
-          </div>
-          <div class="cell small-3 medium-2">
-            <figure class="polaroid">
-              <img src="/images/lander5.jpg" alt="">
-              <figcaption>Clara</figcaption>
-            </figure>
-          </div>
-          <div class="cell small-3 medium-2">
-            <figure class="polaroid">
-              <img src="/images/lander4.jpg" alt="">
-              <figcaption>Michel</figcaption>
-            </figure>
-          </div>
-          <div class="cell small-3 medium-2">
-            <figure class="polaroid">
-              <img src="/images/lander3.jpg" alt="">
-              <figcaption>Isabela</figcaption>
-            </figure>
-          </div>
+      <div class="kids">
+        <div class="bio text-right">
+          <figure class="polaroid right" style="width:14.5%;">
+            <img src="/images/lander3.jpg" alt="">
+            <figcaption>Isabela</figcaption>
+          </figure>
+
+          <figure class="polaroid right" style="width:14.5%;">
+            <img src="/images/lander4.jpg" alt="">
+            <figcaption>Michel</figcaption>
+          </figure>
+
+          <figure class="polaroid right" style="width:14.5%;">
+            <img src="/images/lander5.jpg" alt="">
+            <figcaption>Clara</figcaption>
+          </figure>
+
+          <figure class="polaroid right" style="width:14.5%;">
+            <img src="/images/lander6.jpg" alt="">
+            <figcaption>Elise</figcaption>
+          </figure>
+
+          <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/criancas.md") }}</strong></h3>
+          <p>
+            {{ partial "readContent" (slice . "/content/homepage/criancas.md") }}
+          </p>
         </div>
       </div>
+      
+      <div class="trailer">
+        <div class="bio">
+          <figure class="polaroid left" style="width:14.5%">
+            <img src="/images/micro-minnie.jpg" alt="">
+            <figcaption>Micro Minnie</figcaption>
+          </figure>
 
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x home">
-          <div class="cell small-4 medium-2">
-            <figure class="polaroid">
-              <img src="/images/micro-minnie.jpg" alt="">
-              <figcaption>Micro Minnie</figcaption>
-            </figure>
-          </div>
-          <div class="cell small-8 medium-10 bio">
-            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/casa.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/casa.md") }}
-            </p>
-          </div>
+          <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/casa.md") }}</strong></h3>
+          <p>
+            {{ partial "readContent" (slice . "/content/homepage/casa.md") }}
+          </p>
         </div>
-        </div>
+      </div>
     </aside>
 
     <article class="column row">

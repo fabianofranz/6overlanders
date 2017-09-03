@@ -15,14 +15,15 @@ strong, b {
 
 .separator-left, .separator-right, .separator-center {
   &::after {
+    background: none repeat scroll 0 0 #cc4b37;
+    bottom: -10px;
+    content: "";
+    display: table;
+    height: .125rem;
     position: relative;
     width: 3rem;
-    border-bottom: .125rem solid #cc4b37;
-    clear: both;
-    display: table;
-    content: ' ';
-    margin-top: .8rem;
-    margin-bottom: 0;
+    margin-top: .3rem;
+    margin-bottom: 1.4rem;
   }
 }
 
@@ -133,6 +134,7 @@ header {
       font-family: 'Cookie', cursive;
       font-weight: 400;
       color: #fff;
+      text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 
       @include breakpoint(large) {
         font-size: 13rem;
@@ -148,6 +150,7 @@ header {
         line-height: 0.8;
         margin-bottom: 1rem;
         font-size: 4rem;
+        text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 
         @include breakpoint(large) {
           font-size: 7rem;
@@ -227,7 +230,7 @@ mark {
 
 figure {
   &.polaroid {
-    width: 100%;
+    width: 29%;
     text-align: center;
     background-color: #fff;
     padding: .5rem;
@@ -239,6 +242,16 @@ figure {
       padding: .75rem;
     }
 
+
+    &.left {
+      float: left;
+      margin-right: 1.5rem;
+    }
+
+    &.right {
+      float: right;
+      margin-left: 1.5rem;
+    }
 
     &.semi-grayscale {
       filter: grayscale(50%);
@@ -272,7 +285,7 @@ figure {
 }
 
 main {
-  aside {
+  .bios {
     margin-top: 1rem;
 
     @include breakpoint(large) {
@@ -280,39 +293,45 @@ main {
     }
 
 
-    .row, .grid-container {
-      margin-bottom: 1.5rem;
-
-      &:last-of-type {
-        margin-bottom: 0;
-      }
-
-      @include breakpoint(large) {
-        .kids {
-          text-align: right;
-
-          .separator-left {
-            &::after {
-              margin-left: auto;
-              margin-right: 0;
-            }
-          }
-        }
-      }
-
-
+    .bio {
       h3 {
         line-height: 1;
       }
 
-      .bio {
-        p {
-          font-size: 1rem;
+      p {
+        font-size: 1rem;
 
-          @include breakpoint(large) {
-            font-size: 1.2rem;
-          }
+        @include breakpoint(large) {
+          font-size: 1.2rem;
         }
+      }
+    }
+
+    .us {
+      @include grid-row;
+
+      .bio {
+        @include grid-column;
+
+        @include breakpoint(medium) {
+          @include grid-column(6);
+        }
+      }
+    }
+
+    .kids {
+      @include grid-row;
+
+      .bio {
+        @include grid-column;
+      }
+    }
+
+    .trailer {
+      @include grid-row;
+
+      .bio {
+        @include grid-column;
       }
     }
   }

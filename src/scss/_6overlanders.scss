@@ -378,6 +378,16 @@ main {
       }
     }
 
+    &.where {
+      .cell {
+        &:last-of-type {
+          @include breakpoint(medium) {
+            padding-left: .7rem;
+          }
+        }
+      }
+    }
+
     &.post, &.page {
       padding-top: 1rem;
       padding-bottom: 1rem;

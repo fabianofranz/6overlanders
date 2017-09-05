@@ -11,14 +11,14 @@
   <nav>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="cell small-12 medium-9">
+        <div class="cell auto">
           <ul class="menu">
             {{ range .Site.Menus.main }}
               <li><a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </div>
-        <div class="cell medium-3 show-for-medium">
+        <div class="cell shrink show-for-medium text-right">
           <ul class="menu social align-right social-icons icon-flat list-unstyled list-inline">
             <li><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>

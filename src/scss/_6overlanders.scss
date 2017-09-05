@@ -1,3 +1,5 @@
+@import "components";
+
 body {
   background: #d6d6d6;
   background: linear-gradient(to left, #ece9e6, #d6d6d6);
@@ -11,101 +13,6 @@ body, h1, h2, h3, h4 {
 
 strong, b {
   font-weight: 400;
-}
-
-.separator-left, .separator-right, .separator-center {
-  &::after {
-    background: none repeat scroll 0 0 #cc4b37;
-    bottom: -10px;
-    content: "";
-    display: table;
-    height: .125rem;
-    position: relative;
-    width: 3rem;
-    margin-top: .3rem;
-    margin-bottom: 1.4rem;
-  }
-}
-
-.separator-left {
-  &::after {
-    margin-right: auto;
-    margin-left: 0;
-  }
-}
-
-.separator-right {
-  &::after {
-    margin-left: auto;
-    margin-right: 0;
-  }
-}
-
-.separator-center {
-  &::after {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-.social-media {
-  .fa {
-    width: 2rem;
-    height: 2rem;
-    line-height: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #fff;
-    border-radius: 0;
-    margin-right: .5rem;
-
-    @include breakpoint(large) {
-      width: 3rem;
-      height: 3rem;
-      line-height: 3rem;
-      font-size: 2rem;
-    }
-
-
-    &.fa-facebook {
-      background: #3b5998;
-    }
-
-    &.fa-linkedin {
-      background: #007bb6;
-    }
-
-    &.fa-twitter {
-      background: #00aced;
-    }
-
-    &.fa-instagram {
-      background-color: #A1755C;
-    }
-
-    &.fa-youtube-play {
-      background-color: #C52F30;
-    }
-  }
-
-  .social-media-id {
-    font-weight: 400;
-    display: inline-block;
-    vertical-align: bottom;
-    height: 2rem;
-    line-height: 2rem;
-    font-size: 1.2rem;
-
-    @include breakpoint(large) {
-      height: 3rem;
-      line-height: 3rem;
-      font-size: 2rem;
-    }
-  }
-}
-
-.heart {
-  color: #e91e63;
 }
 
 header {
@@ -144,22 +51,24 @@ header {
 
     &.internal {
       text-align: center;
+      @include breakpoint(small only) {
+        padding-bottom: .5rem;
+      }
 
       h1 {
         text-transform: lowercase;
         line-height: 0.8;
-        margin-bottom: 1rem;
+        margin-bottom: .2rem;
         font-size: 4rem;
         text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 
         @include breakpoint(large) {
           font-size: 7rem;
+          margin-bottom: .5rem;
 
           &::first-line {
             font-size: 11rem;
           }
-
-          margin-bottom: 2rem;
         }
       }
 
@@ -222,84 +131,64 @@ header {
   }
 }
 
-mark {
-  background-color: #ffecb3;
-  color: #666;
-  font-weight: 400;
-}
-
-figure {
-  &.polaroid {
-    width: 29%;
-    text-align: center;
-    background-color: #fff;
-    padding: .5rem;
-    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
-    filter: grayscale(100%);
-    position: relative;
-
-    @include breakpoint(large) {
-      padding: .75rem;
-    }
-
-
-    &.left {
-      float: left;
-      margin-right: 1.5rem;
-    }
-
-    &.right {
-      float: right;
-      margin-left: 1.5rem;
-    }
-
-    &.semi-grayscale {
-      filter: grayscale(50%);
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    figcaption {
-      font-family: 'Cookie', cursive;
-      font-size: 1.3rem;
-      text-align: center;
-      margin-top: .5rem;
-      transition: all 0.3s;
-
-      @include breakpoint(large) {
-        margin-top: .75rem;
-        font-size: 1.8rem;
-      }
-    }
-
-    &:hover {
-      transform: scale(1.5, 1.5) rotate(4deg);
-      filter: none;
-      transition: all 0.3s;
-      z-index: 50;
-    }
-  }
-}
-
 main {
+  aside {
+    @include xy-grid-container;
+  }
+
   .bios {
     margin-top: 1rem;
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
       margin-top: 2rem;
     }
 
 
     .bio {
+      display: block;
+
+      .polaroid {
+        &.left {
+          float: left;
+
+          @include breakpoint(large) {
+            float: none;
+          }
+        }
+
+        &.right {
+          float: right;
+
+          @include breakpoint(large) {
+            float: none;
+          }
+        }
+      }
+
+      @include breakpoint(large) {
+        display: flex;
+        flex-direction: row;
+
+        .figures {
+          display: flex;
+          flex-direction: row;
+          order: 9;
+        }
+
+        .polaroid {
+          align-self: flex-start;
+          flex-shrink: 0;
+        }
+      }
+
+
       h3 {
         line-height: 1;
       }
 
       p {
         font-size: 1rem;
+        margin-bottom: 0;
 
         @include breakpoint(large) {
           font-size: 1.2rem;
@@ -308,35 +197,98 @@ main {
     }
 
     .us {
-      @include grid-row;
+      @include breakpoint(medium) {
+        display: flex;
+        flex-direction: row;
+      }
+
 
       .bio {
-        @include grid-column;
+        &:last-of-type {
+          @include breakpoint(small only) {
+            margin-top: .7rem;
+          }
 
-        @include breakpoint(medium) {
-          @include grid-column(6);
+
+          @include breakpoint(large) {
+            .polaroid {
+              order: 2;
+            }
+          }
         }
       }
     }
 
     .kids {
-      @include grid-row;
+      margin-top: .7rem;
+
+      @include breakpoint(medium) {
+        margin-top: 1.5rem;
+      }
+
+
+      @include breakpoint(medium only) {
+        display: block;
+
+        @include clearfix;
+
+        .figures {
+          float: right;
+        }
+      }
+
 
       .bio {
-        @include grid-column;
+        @include breakpoint(small only) {
+          .description {
+            margin-bottom: .7rem;
+          }
+
+          .figures {
+            display: flex;
+            flex-direction: row;
+
+            .polaroid {
+              &:first-of-type {
+                margin-left: 0;
+              }
+            }
+          }
+        }
       }
     }
 
     .trailer {
-      @include grid-row;
+      margin-top: 1.2rem;
+      clear: both;
 
-      .bio {
-        @include grid-column;
+      @include breakpoint(medium) {
+        margin-top: 1.5rem;
       }
     }
-  }
+    
+    .supporter {
+      margin-top: 1.5rem;
+
+      @include breakpoint(medium) {
+        margin-top: 2.5rem;
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+
+        &:last-of-type {
+          .description {
+            order: -1;
+          }
+        }
+      }
+    }
+ }
 
   article {
+    @include xy-grid-container;
+
     margin-top: 1rem;
     background-color: #fff;
     padding-top: 1rem;
@@ -361,20 +313,36 @@ main {
 
     &.post {
       .meta {
-        height: 2rem;
+        @include xy-grid;
+
+        align-items: center;
 
         @include breakpoint(large) {
-          height: 3.5rem;
+          height: 2rem;
+          margin-bottom: 1rem;
         }
 
 
         .author {
+          @include xy-cell();
+          @include breakpoint(medium) {
+            @include xy-cell(auto);
+          }
+
           font-size: 80%;
           color: gray;
+          margin-left: 0 !important;
         }
 
         .share {
           > .fb-like {
+            @include xy-cell();
+            @include breakpoint(medium) {
+              @include xy-cell(shrink);
+              text-align: right;
+            }
+
+          margin-left: 0 !important;
             line-height: 1;
             font-size: 1rem;
             height: 20px;
@@ -481,6 +449,12 @@ footer {
       color: #fff;
       line-height: 1;
     }
+
+    .social-media {
+      @include breakpoint(small only) {
+        margin-bottom: 1rem;
+      }
+    }
   }
 
   .copyright {
@@ -502,4 +476,8 @@ footer {
 #map {
   height: 33rem;
   width: 100%;
+  margin-right: .7rem;
+  @include breakpoint(large) {
+    margin-right: 1.5rem;
+  }
 }

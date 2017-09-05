@@ -1,71 +1,71 @@
 {{ define "title" }}
-  <div class="column row title internal separator-center">
+  <div class="title internal separator-center">
     <h1>apoiadores</h1>
   </div>
 {{ end }}
 
 {{ define "body" }}
   <main>
-    <article class="column row page">
+    <article>
       {{ .Content }}
     </article>
     {{ if eq .Page.URL "/apoiadores/" }}
-      <aside>
-        <div class="row home">
-          <div class="column small-4 medium-2">
-            <figure class="polaroid semi-grayscale">
+      <aside class="bios">
+        <div class="supporter">
+          <div class="bio">
+            <figure class="polaroid left semi-grayscale">
               <img src="/images/itutrailer1.jpg" alt="">
               <figcaption>Empresa</figcaption>
             </figure>
-          </div>
-          <div class="column medium-2 show-for-medium">
-            <figure class="polaroid semi-grayscale">
+
+            <figure class="polaroid left semi-grayscale show-for-medium">
               <img src="/images/itutrailer2.jpg" alt="">
               <figcaption>Micro Minnie</figcaption>
             </figure>
-          </div>
-          <div class="column small-8 bio">
-            <h3 class="separator-left"><strong>Itu Trailer</strong></h3>
-            <p>
-              A maior e mais completa loja de Trailers, Motor-Homes e produtos para seu lazer reunidas em um só lugar. Importadora oficial dos trailers americanos <a href="http://winnebagoind.com/" target="_blank">Winnebago</a>.
-            </p>
-            <p>
-              <a href="http://www.itutrailer.com.br/" target="_blank">www.itutrailer.com.br</a>
-              <div class="social-media">
-                <a href="https://www.facebook.com/itutrailer/" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/itutrailer/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.youtube.com/user/Itutrailer" target="_blank"><i class="fa fa-youtube-play"></i></a>
-              </div>
-            </p>
+
+            <div class="description">
+              <h3 class="separator-left"><strong>Itu Trailer</strong></h3>
+              <p>
+                A maior e mais completa loja de Trailers, Motor-Homes e produtos para seu lazer reunidas em um só lugar. Importadora oficial dos trailers americanos <a href="http://winnebagoind.com/" target="_blank">Winnebago</a>.
+              </p>
+              <p>
+                <a href="http://www.itutrailer.com.br/" target="_blank">www.itutrailer.com.br</a>
+                <div class="social-media">
+                  <a href="https://www.facebook.com/itutrailer/" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/itutrailer/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/user/Itutrailer" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="row home">
-          <div class="column small-8 text-right bio">
-            <h3 class="separator-right"><strong>Pano Estampado</strong></h3>
-            <p>
-              A Pano Estampado surgiu para comercializar camisetas personalizadas de bandas, seriados, personagens e muitos mais. Camisetas confortáveis, agradáveis e com estampas bacanas.
-            </p>
-            <p>
-              <a href="http://www.panoestampado.com/" target="_blank">www.panoestampado.com</a>
-              <div class="social-media">
-                <a href="https://www.facebook.com/panoestampadooficial/" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/panoestampado/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://twitter.com/panoestampado" target="_blank"><i class="fa fa-twitter"></i></a>
-              </div>
-            </p>
-          </div>
-          <div class="column small-4 medium-2">
-            <figure class="polaroid semi-grayscale">
+        <div class="supporter">
+          <div class="bio">
+            <figure class="polaroid right semi-grayscale">
               <img src="/images/pano1.jpg" alt="">
               <figcaption>Empresa</figcaption>
             </figure>
-          </div>
-          <div class="column medium-2 show-for-medium">
-            <figure class="polaroid semi-grayscale">
+
+            <figure class="polaroid right semi-grayscale show-for-medium">
               <img src="/images/pano2.jpg" alt="">
               <figcaption>Camisetas</figcaption>
             </figure>
+
+            <div class="description text-right">
+              <h3 class="separator-right"><strong>Pano Estampado</strong></h3>
+              <p>
+                A Pano Estampado surgiu para comercializar camisetas personalizadas de bandas, seriados, personagens e muitos mais. Camisetas confortáveis, agradáveis e com estampas bacanas.
+              </p>
+              <p>
+                <a href="http://www.panoestampado.com/" target="_blank">www.panoestampado.com</a>
+                <div class="social-media">
+                  <a href="https://www.facebook.com/panoestampadooficial/" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/panoestampado/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://twitter.com/panoestampado" target="_blank"><i class="fa fa-twitter"></i></a>
+                </div>
+              </p>
+            </div>
           </div>
         </div>
       </aside>

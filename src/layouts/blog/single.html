@@ -1,5 +1,5 @@
 {{ define "title" }}
-  <div class="column row title internal separator-center">
+  <div class="title internal separator-center">
     <h1>{{ .Title }}</h1>
   </div>
 {{ end }}
@@ -13,51 +13,47 @@
     </style>
   {{ end }}
   <main>
-    <article class="column row post">
+    <article class="post">
       {{ if .Param "callout" }}
       <p class="callout">
         {{ .Param "callout" }}
       </p>
       {{ end }}
-      <div class="meta row">
-        <div class="author column small-12 medium-8">
-          por {{ if eq (.Param "author") "fabiano" }}Fabiano Franz{{ end }}{{ if eq (.Param "author") "pricila" }}Pricila Franz{{ end }}, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ .Param "local" }}
+      <div class="meta">
+        <div class="author">
+          {{ if eq (.Param "author") "fabiano" }}Fabiano Franz{{ end }}{{ if eq (.Param "author") "pricila" }}Pricila Franz{{ end }}, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ .Param "local" }}
         </div>
-        <div class="share column small-12 medium-4 text-right">
+        <div class="share">
           <div class="fb-like" data-href="{{ .Permalink }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
         </div>
       </div>
       {{ .Content }}
     </article>
-    <aside>
-      <div class="row">
+    <aside class="bios">
+      <div class="bio text-right">
         {{ if eq (.Param "author") "pricila" }}
-        <div class="column small-8 medium-10 text-right bio">
-          <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
-          </p>
-        </div>
-        <div class="column small-4 medium-2">
-          <figure class="polaroid">
+          <div class="description">
+            <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
+            <p>
+              {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
+            </p>
+          </div>
+          <figure class="polaroid right">
             <img src="/images/pricila.jpg" alt="">
             <figcaption>Pricila</figcaption>
           </figure>
-        </div>
         {{ end }}
         {{ if eq (.Param "author") "fabiano" }}
-        <div class="column small-8 medium-10 text-right bio">
-          <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
-          </p>
-        </div>
-        <div class="column small-4 medium-2">
-          <figure class="polaroid">
+          <div class="description">
+            <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
+            <p>
+              {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
+            </p>
+          </div>
+          <figure class="polaroid right">
             <img src="/images/fabiano.jpg" alt="">
             <figcaption>Fabiano</figcaption>
           </figure>
-        </div>
         {{ end }}
       </div>
     </aside>

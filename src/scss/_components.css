@@ -1,0 +1,164 @@
+.separator-left, .separator-right, .separator-center {
+  &::after {
+    background: none repeat scroll 0 0 #cc4b37;
+    bottom: -10px;
+    content: "";
+    display: table;
+    height: .125rem;
+    position: relative;
+    width: 3rem;
+    margin-top: .3rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+.separator-left {
+  &::after {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+.separator-right {
+  &::after {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+.separator-center {
+  &::after {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.social-media {
+  .fa {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    margin-right: .5rem;
+
+    @include breakpoint(large) {
+      width: 3rem;
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 2rem;
+    }
+
+
+    &.fa-facebook {
+      background: #3b5998;
+    }
+
+    &.fa-linkedin {
+      background: #007bb6;
+    }
+
+    &.fa-twitter {
+      background: #00aced;
+    }
+
+    &.fa-instagram {
+      background-color: #A1755C;
+    }
+
+    &.fa-youtube-play {
+      background-color: #C52F30;
+    }
+  }
+
+  .social-media-id {
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+    @include breakpoint(large) {
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+.heart {
+  color: #e91e63;
+}
+
+mark {
+  background-color: #ffecb3;
+  color: #666;
+  font-weight: 400;
+}
+
+figure {
+  &.polaroid {
+    width: 7.5rem;
+    text-align: center;
+    background-color: #fff;
+    padding: .5rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+    filter: grayscale(100%);
+
+    @include breakpoint(large) {
+      width: 10.5rem;
+      padding: .75rem;
+    }
+
+
+    &.left {
+      margin-right: .7rem;
+
+      @include breakpoint(large) {
+        margin-right: 1.5rem;
+      }
+    }
+
+    &.right {
+      margin-left: .7rem;
+
+      @include breakpoint(large) {
+        margin-left: 1.5rem;
+      }
+    }
+
+    &.semi-grayscale {
+      filter: grayscale(50%);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      font-family: 'Cookie', cursive;
+      font-size: 1.3rem;
+      text-align: center;
+      margin-top: .5rem;
+      transition: all 0.3s;
+
+      @include breakpoint(large) {
+        margin-top: .75rem;
+        font-size: 1.8rem;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.5, 1.5) rotate(4deg);
+      filter: none;
+      transition: all 0.3s;
+      z-index: 50;
+    }
+  }
+}
+
+

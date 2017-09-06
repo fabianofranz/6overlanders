@@ -30,31 +30,33 @@
       {{ .Content }}
     </article>
     <aside class="bios">
-      <div class="bio text-right">
-        {{ if eq (.Param "author") "pricila" }}
-          <div class="description">
-            <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
-            </p>
-          </div>
-          <figure class="polaroid right">
-            <img src="/images/pricila.jpg" alt="">
-            <figcaption>Pricila</figcaption>
-          </figure>
-        {{ end }}
-        {{ if eq (.Param "author") "fabiano" }}
-          <div class="description">
-            <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
-            </p>
-          </div>
-          <figure class="polaroid right">
-            <img src="/images/fabiano.jpg" alt="">
-            <figcaption>Fabiano</figcaption>
-          </figure>
-        {{ end }}
+      <div class="author">
+        <div class="bio text-right clearfix">
+          {{ if eq (.Param "author") "pricila" }}
+            <figure class="polaroid right">
+              <img src="/images/pricila.jpg" alt="">
+              <figcaption>Pricila</figcaption>
+            </figure>
+            <div class="description">
+              <h3 class="separator-right"><strong>Pricila Franz</strong></h3>
+              <p>
+                {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
+              </p>
+            </div>
+          {{ end }}
+          {{ if eq (.Param "author") "fabiano" }}
+            <figure class="polaroid right">
+              <img src="/images/fabiano.jpg" alt="">
+              <figcaption>Fabiano</figcaption>
+            </figure>
+            <div class="description">
+              <h3 class="separator-right"><strong>Fabiano Franz</strong></h3>
+              <p>
+                {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
+              </p>
+            </div>
+          {{ end }}
+        </div>
       </div>
     </aside>
   </main>

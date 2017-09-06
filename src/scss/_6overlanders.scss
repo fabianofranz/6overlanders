@@ -284,6 +284,14 @@ main {
         }
       }
     }
+
+    .author {
+      @include breakpoint(large) {
+        .polaroid {
+          order: 2;
+        }
+      }
+    }
  }
 
   article {

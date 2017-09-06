@@ -39,7 +39,7 @@ function media() {
 function watch(done) {
   gulp.watch(['src/scss/**/*.scss'], gulp.series('scss', reload));
   gulp.watch(['media/**/*'], gulp.series('media', reload));
-  gulp.watch(['content/**/*'], gulp.series('hugo:dev', reload));
+  gulp.watch(['content/**/*', 'gulpfile.js'], gulp.series('hugo:dev', reload));
   gulp.watch(['src/**/*', '!src/scss/**/*.scss'], gulp.series('hugo:dev', reload));
   done();
 }

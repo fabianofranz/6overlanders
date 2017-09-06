@@ -350,14 +350,11 @@ main {
               text-align: right;
             }
 
-          margin-left: 0 !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
             line-height: 1;
             font-size: 1rem;
             height: 20px;
-
-            @include breakpoint(large) {
-              padding-right: .5rem;
-            }
           }
         }
       }

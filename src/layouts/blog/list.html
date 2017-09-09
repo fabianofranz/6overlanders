@@ -16,7 +16,7 @@
         <div class="post-summary cell">
           <div class="card">
             <div class="card-image">
-              <a href="{{ .RelPermalink }}">
+              <a href="{{ .RelPermalink }}" title="abrir post">
                 {{ if .Param "thumb" }}
                   <img src="/media/{{ .Param "thumb" }}">
                 {{ else }}
@@ -36,6 +36,11 @@
                 {{ .Date.Format "02 January 2006" }}</span>
               </div>
               <p class="summary">{{ .Summary | truncate 280 }}</p>
+              <div class="expand sub text-center">
+                <a href="{{ .RelPermalink }}" title="abrir post">
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

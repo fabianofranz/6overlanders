@@ -493,6 +493,8 @@ main {
         }
 
         .card-section {
+          padding-bottom: 0;
+
           .author {
             padding-top: .3rem;
             padding-bottom: .3rem;
@@ -502,6 +504,13 @@ main {
             overflow: hidden;
             text-overflow: ellipsis;
             height: 9.1rem;
+            margin-bottom: .3rem;
+          }
+
+          .expand {
+            a {
+              color: #8a8a8a;
+            }
           }
         }
       }

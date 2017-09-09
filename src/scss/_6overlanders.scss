@@ -474,6 +474,12 @@ main {
             float: left;
             overflow: hidden;
             width: 100%;
+            z-index: 10;
+
+            &:hover {
+              transform: scale(1.2, 1.2);
+              transition: all 0.3s;
+            }
           }
         }
 
@@ -490,10 +496,13 @@ main {
           padding: .5rem 1rem .5rem 1rem;
           line-height: 1;
           text-transform: lowercase;
+          z-index: 11;
         }
 
         .card-section {
           padding-bottom: 0;
+          z-index: 9;
+          background-color: white;
 
           .author {
             padding-top: .3rem;
@@ -509,7 +518,12 @@ main {
 
           .expand {
             a {
-              color: #8a8a8a;
+              color: lightgray;
+              display: block;
+
+              &:hover {
+                color: #8a8a8a;
+              }
             }
           }
         }

@@ -2,6 +2,7 @@
 title: Aroma Literário
 callout: "\"Siempre imaginé que el paraíso sería algún tipo de biblioteca.\" Jorge Luís Borges"
 image: aroma.jpg
+thumb: aroma-thumb.jpg
 date: 2017-08-29T15:21:45-03:00
 author: pricila
 local: Canela, Brasil

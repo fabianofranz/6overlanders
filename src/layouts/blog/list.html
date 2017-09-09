@@ -1,27 +1,46 @@
 {{ define "title" }}
-  <div class="column row title internal separator-center">
+  <div class="title internal">
     <h1>diário</h1>
   </div>
 {{ end }}
 
 {{ define "body" }}
 <main>
-  {{ range .Pages }}
-    <article class="post">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      {{ if .Param "callout" }}
-        <p>{{ .Param "callout" }}</p>
+  <article>
+    Estamos preparando nossa saída para <strong>o início de 2018</strong>. Enquanto isso, você acompanha por aqui toda nossa preparação e também alguns posts sobre lugares que gostamos na região de <strong>Canela</strong> e <strong>Gramado</strong>.
+  </article>
+
+  <div class="grid-container">
+    <div class="post-summaries grid-x small-up-1 medium-up-2 large-up-3">
+      {{ range .Pages }}
+        <div class="post-summary cell">
+          <div class="card">
+            <div class="card-image">
+              <a href="{{ .RelPermalink }}">
+                {{ if .Param "thumb" }}
+                  <img src="/media/{{ .Param "thumb" }}">
+                {{ else }}
+                  <img src="https://placehold.it/600x400">
+                {{ end }}
+                <span class="card-title" style="">{{ .Title }}</span>
+              </a>
+            </div>
+            <div class="card-section">
+              <div class="sub author">
+                {{ if eq (.Param "author") "pricila" }}
+                  Pricila Franz -
+                {{ end }}
+                {{ if eq (.Param "author") "fabiano" }}
+                  Fabiano Franz -
+                {{ end }}
+                {{ .Date.Format "02 January 2006" }}</span>
+              </div>
+              <p class="summary">{{ .Summary | truncate 280 }}</p>
+            </div>
+          </div>
+        </div>
       {{ end }}
-      <p class="author">
-        {{ if eq (.Param "author") "pricila" }}
-          Pricila Franz,
-        {{ end }}
-        {{ if eq (.Param "author") "fabiano" }}
-          Fabiano Franz,
-        {{ end }}
-        {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ .Param "local" }}</span>
-      </p>
-    </article>
-  {{ end }}
+    </div>
+  </div>
 </main>
 {{ end }}

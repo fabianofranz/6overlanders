@@ -2,6 +2,7 @@
 title: Templo Budista
 callout: "\"Todo mundo fala de paz, mas ninguém educa para a paz. As pessoas educam apenas para a competição e a competição leva à guerra.\" Pablo Lipnizky"
 image: trescoroas6.jpg
+thumb: trescoroas-thumb.jpg
 date: 2017-09-01T15:00:00-03:00
 author: pricila
 local: Canela, Brasil

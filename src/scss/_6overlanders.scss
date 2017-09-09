@@ -51,9 +51,11 @@ header {
 
     &.internal {
       text-align: center;
+
       @include breakpoint(small only) {
         padding-bottom: .5rem;
       }
+
 
       h1 {
         text-transform: lowercase;
@@ -266,7 +268,7 @@ main {
         margin-top: 1.5rem;
       }
     }
-    
+
     .supporter {
       margin-top: 1.5rem;
 
@@ -292,7 +294,7 @@ main {
         }
       }
     }
- }
+  }
 
   article {
     @include xy-grid-container;
@@ -332,23 +334,25 @@ main {
 
 
         .author {
-          @include xy-cell();
+          @include xy-cell;
           @include breakpoint(medium) {
             @include xy-cell(auto);
           }
 
+
           font-size: 80%;
-          color: gray;
           margin-left: 0 !important;
         }
 
         .share {
           > .fb-like {
-            @include xy-cell();
+            @include xy-cell;
             @include breakpoint(medium) {
               @include xy-cell(shrink);
+
               text-align: right;
             }
+
 
             margin-left: 0 !important;
             margin-right: 0 !important;
@@ -434,10 +438,71 @@ main {
           }
         }
       }
+    }
+  }
 
-      .separator-left, .separator-right, .separator-center {
-        &::after {
-          margin-bottom: 1.5rem;
+  .post-summaries {
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+
+    @include breakpoint(medium) {
+      margin-top: 2rem;
+      margin-left: -1.4rem;
+      margin-bottom: -1.4rem;
+    }
+
+
+    .post-summary {
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+
+      @include breakpoint(medium) {
+        padding-left: 1.4rem;
+        padding-bottom: 1.4rem;
+      }
+
+
+      .card {
+        height: 100%;
+        position: relative;
+
+        .card-image {
+          position: relative;
+
+          img {
+            float: left;
+            overflow: hidden;
+            width: 100%;
+          }
+        }
+
+        .card-title {
+          text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+          background-color: rgba(68, 68, 68, 0.4);
+          left: 0;
+          bottom: 0;
+          position: absolute;
+          z-index: 10;
+          font-family: 'Cookie', cursive;
+          font-size: 2.5rem;
+          color: white;
+          padding: .5rem 1rem .5rem 1rem;
+          line-height: 1;
+          text-transform: lowercase;
+        }
+
+        .card-section {
+          .author {
+            padding-top: .3rem;
+            padding-bottom: .3rem;
+          }
+
+          .summary {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 9.1rem;
+          }
         }
       }
     }
@@ -492,6 +557,7 @@ footer {
   height: 33rem;
   width: 100%;
   margin-right: .7rem;
+
   @include breakpoint(large) {
     margin-right: 1.5rem;
   }

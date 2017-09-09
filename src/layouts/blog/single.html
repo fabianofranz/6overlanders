@@ -1,5 +1,5 @@
 {{ define "title" }}
-  <div class="title internal separator-center">
+  <div class="title internal">
     <h1>{{ .Title }}</h1>
   </div>
 {{ end }}
@@ -30,7 +30,7 @@
       {{ .Content }}
     </article>
     <aside class="bios">
-      <div class="author">
+      <div class="sub author">
         <div class="bio text-right clearfix">
           {{ if eq (.Param "author") "pricila" }}
             <figure class="polaroid right">

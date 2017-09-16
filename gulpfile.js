@@ -15,13 +15,12 @@ var sassPaths = [
 
 gulp.task('scss', scss);
 gulp.task('media', media);
-gulp.task('resize', resize);
-gulp.task('optimize', optimize);
+gulp.task('images', images);
 gulp.task('hugo:dev', hugoDev);
 gulp.task('hugo:prod', hugoProd);
 
-gulp.task('start', gulp.series(gulp.parallel('scss', 'optimize', 'resize', 'media', 'hugo:dev'), watch, server));
-gulp.task('build', gulp.parallel('scss', 'optimize', 'resize', 'media', 'hugo:prod'));
+gulp.task('start', gulp.series(gulp.parallel('scss', 'media', 'images', 'hugo:dev'), watch, server));
+gulp.task('build', gulp.parallel('scss', 'media', 'images', 'hugo:prod'));
 gulp.task('default', gulp.series('start'));
 
 function scss() {
@@ -37,48 +36,51 @@ function scss() {
     .pipe(gulp.dest('public/css'));
 }
 
-function resize() {
-  return gulp.src('media/**/*.{jpg,jpeg,png,gif}')
+var images = [
+  { width: 600, height: 400, crop: true, upscale: true, quality: 0.9, noProfile: true },
+  { width: 1200, quality: 0.9, noProfile: true }
+];
+
+function media(done) {
+  gulp.src(['media/**/*']).pipe(gulp.dest('public/media'));
+
+  images.forEach(function(image){
+    var filenameAppend = "-" + 
+      image.width + 
+      (image.hasOwnProperty("height") ? "x" + image.height : "");
+
+    gulp.src('media/**/*.{jpg,jpeg,png,gif}')
     .pipe(changed('public/media'))
-    .pipe(imageResize({
-      width: 600,
-      height: 400,
-      crop: true,
-      upscale: true,
-      quality: 0.9,
-      noProfile: true
-    }))
+    .pipe(imageResize(image))
     .pipe(imagemin([
       imagemin.gifsicle({interlaced: true}),
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng({optimizationLevel: 5})
     ]))
-    .pipe(rename(function (path){ path.basename += "-thumb"; }))
+    .pipe(rename(function (path){ path.basename += filenameAppend; }))
     .pipe(gulp.dest('public/media'));
+  });
+
+  done();
 }
 
-function optimize() {
-  return gulp.src('media/**/*.{jpg,jpeg,png,gif}')
-    .pipe(changed('public/media'))
-    .pipe(imagemin([
-      imagemin.gifsicle({interlaced: true}),
-      imagemin.jpegtran({progressive: true}),
-      imagemin.optipng({optimizationLevel: 5})
-    ]))
-    .pipe(gulp.dest('public/media'));
-}
-
-function media() {
-  return gulp.src(['media/**/*', '!media/**/*.{jpg,jpeg,png,gif}'])
-    .pipe(gulp.dest('public/media'));
+function images() {
+  return gulp.src('src/images/**/*')
+  .pipe(changed('public/images'))
+  .pipe(imagemin([
+    imagemin.gifsicle({interlaced: true}),
+    imagemin.jpegtran({progressive: true}),
+    imagemin.optipng({optimizationLevel: 5})
+  ]))
+  .pipe(gulp.dest('public/images'));
 }
 
 function watch(done) {
   gulp.watch(['src/scss/**/*.scss'], gulp.series('scss', reload));
-  gulp.watch(['media/**/*', '!media/**/*.{jpg,jpeg,png,gif}'], gulp.series('media', reload));
-  gulp.watch(['media/**/*.{jpg,jpeg,png,gif}'], gulp.series('optimize', 'resize', reload));
+  gulp.watch(['media/**/*'], gulp.series('media', reload));
+  gulp.watch(['images/**/*'], gulp.series('images', reload));
   gulp.watch(['content/**/*', 'gulpfile.js'], gulp.series('hugo:dev', reload));
-  gulp.watch(['src/**/*', '!src/scss/**/*.scss'], gulp.series('hugo:dev', reload));
+  gulp.watch(['src/**/*', '!src/scss/**/*.scss', '!src/images/**/*'], gulp.series('hugo:dev', reload));
   done();
 }
 

@@ -1,8 +1,8 @@
 ---
 title: Olá, Mundo!
 callout: Toda grande jornada começa com um primeiro passo...
-image: jurere-por-do-sol.jpg
-thumb: jurere-por-do-sol-thumb.jpg
+image: jurere-por-do-sol-1200.jpg
+thumb: jurere-por-do-sol-600x400.jpg
 date: 2017-08-04T01:27:00-03:00
 author: fabiano
 local: Canela, Brasil

@@ -1,7 +1,7 @@
 ---
 title: Descida de Gramado e Canela em time-lapse
 callout: Vídeo em time-lapse da descida da serra gaúcha de carro.
-thumb: gramado-canela-time-lapse-thumb.jpg
+thumb: gramado-canela-time-lapse-600x400.jpg
 date: 2017-09-05T23:00:00-03:00
 author: fabiano
 local: Canela, Brasil

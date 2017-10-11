@@ -26,7 +26,7 @@ Decidimos chamar este projeto de **6 overlanders**. O termo "overlander" tem sid
 
 Além da sua cidade, do seu estado, seu país. Além-terra. Além de suas limitações, seus medos, do estabelecido e do ajustamento. Além, bem lá no fundo, até de sua própria essência.
 
-Neste site, que está só começando, pretendemos documentar toda nossa preparação e, é claro, toda viagem, em detalhes. Também vamos atualizar frequentemente as redes sociais do projeto, no [Facebook](https://www.facebook.com/6overlanders/), [Instagram](https://www.instagram.com/6overlanders/) e [Youtube](https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA). Estamos planejando várias coisas legais para estes espaços, que vamos te contando ao longo da viagem! 
+Neste site, que está só começando, pretendemos documentar toda nossa preparação e, é claro, toda viagem, em detalhes. Também vamos atualizar frequentemente as redes sociais do projeto, no [Facebook](https://www.facebook.com/6overlanders/), [Instagram](https://www.instagram.com/6overlanders/) e [Youtube](https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA?sub_confirmation=1). Estamos planejando várias coisas legais para estes espaços, que vamos te contando ao longo da viagem! 
 
 E aí, apesar de não podermos te levar junto no trailer, quem sabe não conseguimos, pelo menos um pouquinho, **te inspirar a também buscar sua essência overlander**!
 

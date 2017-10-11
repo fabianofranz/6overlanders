@@ -20,7 +20,7 @@ Mas calma lá. No fundo, bem lá no fundo, alguma coisa parecia não se ajustar.
 Acontece que o que estava no fundo, bem lá no fundo, era na verdade a essência.
 {{< /callout >}}
 
-Então, é isso mesmo: a partir do início de 2018, vamos viver **a aventura de levar nossos quatro filhos pequenos pra conhecer o mundo vivendo a bordo de um carro + trailer**. A primeira etapa da nossa viagem será a América do Sul, saindo de Canela/RS e percorrendo todo o continente de sul a norte (Ushuaia a Cartagena), e terá duração aproximada de cerca de um ano.
+Então, é isso mesmo: a partir do início de 2018, vamos viver **a aventura de levar nossos quatro filhos pequenos pra conhecer o mundo vivendo a bordo de um carro + trailer**. A primeira etapa da nossa viagem será a América do Sul, saindo de Canela/RS e percorrendo todo o continente de sul a norte (Ushuaia a Cartagena), e terá duração aproximada de um ano.
 
 Decidimos chamar este projeto de **6 overlanders**. O termo "overlander" tem sido usado pra designar aqueles que viajam por terra, passando por vários países. Particularmente, gosto de pensar no overlander como **aquele que viaja além**.  
 

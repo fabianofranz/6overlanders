@@ -18,6 +18,6 @@
     </author>{{end}}
     <published>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</published>
     <updated>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
-    {{ `<content type="html"><![CDATA[` | safeHTML }}{{ .Content }}]]></content>
+    {{ `<content type="html"><![CDATA[` | safeHTML }}{{ if .Param "callout" | safeHTML }}<p>{{ .Param "callout" }}</p>{{ end }}{{ .Content }}]]></content>
   </entry>{{ end }}
 </feed>

@@ -249,6 +249,7 @@ main {
           .figures {
             display: flex;
             flex-direction: row;
+            order: 1;
 
             .polaroid {
               &:first-of-type {
@@ -266,6 +267,30 @@ main {
 
       @include breakpoint(medium) {
         margin-top: 1.5rem;
+      }
+      
+      .bio {
+        .figures {
+          @include breakpoint(medium) {
+            display: flex;
+            flex-direction: row;
+            order: 0;
+          }
+
+          @include breakpoint(small only) {
+            .polaroid {
+              &:last-of-type {
+                display: none;
+              }
+            }
+          }
+
+          .polaroid {
+            &:first-of-type {
+              margin-left: 0;
+            }
+          }
+        }
       }
     }
 

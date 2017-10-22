@@ -9,7 +9,7 @@ local: Canela, Brasil
 draft: false
 ---
 
-***Ser criança nesse mundo cão***
+**Ser criança nesse mundo cão.**
 
 A nossa viagem não é *só* sobre desvendar as **maravilhas do mundo** ou apresentar **outras culturas** para as crianças. Não é *apenas* sobre **respeito**.
 
@@ -34,8 +34,5 @@ A nossa viagem não é *só* sobre desvendar as **maravilhas do mundo** ou apres
 
 É **dar as mãos** e criar o *caminho*, **juntos**.
 
-
-
-
-PS.: Na foto miniovelander Elise contemplando o mar em *Itapema*, Santa Catarina. Outubro de 2017.
+*Na foto a miniovelander Elise contemplando o mar em Itapema, Santa Catarina. Outubro de 2017.*
 

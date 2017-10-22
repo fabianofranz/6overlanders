@@ -59,24 +59,5 @@
         </div>
       </div>
     </aside>
-    <div class="grid-container">
-      <div class="grid-x">
-        <div class="cell auto">
-          <div id="disqus_thread"></div>
-<script>
-var disqus_config = function () {
-  this.page.url = '{{ .Permalink }}';
-  this.page.identifier = '{{ .RelPermalink }}';
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://6overlanders.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-        </div>
-      </div>
-    </div>
   </main>
 {{ end }}

@@ -1,6 +1,6 @@
 ---
 title: Criança neste mundo cão
-callout: Criança difícil não existe. Difícil é ser criança nesse mundo de gente ocupada, cansada, sem paciência e com pressa. --- Carla Ferro 
+callout: "Criança difícil não existe. Difícil é ser criança nesse mundo de gente ocupada, cansada, sem paciência e com pressa." Carla Ferro 
 thumb: hodor-600x400.jpg
 date: 2017-07-07T15:00:00-03:00
 author: pricila

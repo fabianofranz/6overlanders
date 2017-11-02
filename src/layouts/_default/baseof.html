@@ -7,21 +7,19 @@
 {{ block "head" . }}{{ end }}
 </head>
 <body>
-
 <header>
   <nav>
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="cell auto">
-          <img src="/images/logo-horizontal-transparent.png" style="width:17rem;">
-        </div>
-        <div class="cell shrink show-for-medium text-right">
           <ul class="menu">
             {{ range .Site.Menus.main }}
               <li><a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
-          <ul class="menu social align-right social-icons icon-flat list-unstyled list-inline" style="display:none;">
+        </div>
+        <div class="cell shrink show-for-medium text-right">
+          <ul class="menu social align-right social-icons icon-flat list-unstyled list-inline">
             <li><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://youtube.com/6overlanders" target="_blank"><i class="fa fa-youtube"></i></a></li>
@@ -30,21 +28,20 @@
       </div>
     </div>
   </nav>
-  <div class="inspiration" style="">
-  {{ block "title" . }}
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="cell summary">
-          {{ partial "readContent" (slice . "/content/homepage/callout.md") }}
+    {{ block "title" . }}
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell title">
+            <h1>6overlanders</h1>
+          </div>
+          <div class="cell summary">
+            {{ partial "readContent" (slice . "/content/homepage/callout.md") }}
+          </div>
         </div>
       </div>
-    </div>
-  {{ end }}
-  </div>
+    {{ end }}
 </header>
-
 {{ block "body" . }}{{ end }}
-
 <footer>
   <div class="grid-container">
     <div class="grid-x grid-padding-x second-callout">
@@ -69,8 +66,6 @@
     </div>
   </div>
 </footer>
-
 {{ partial "foot/scripts.html" . }}
-
 </body>
 </html>

@@ -1,71 +1,73 @@
 <!doctype html>
 <html class="no-js" lang="{{ .Lang }}" dir="ltr">
+
 <head>
-<meta charset="utf-8">
-{{ partial "head/metadata.html" . }}
-{{ partial "head/styles.html" . }}
-{{ block "head" . }}{{ end }}
+  <meta charset="utf-8"> {{ partial "head/metadata.html" . }} {{ partial "head/styles.html" . }} {{ block "head" . }}{{ end }}
 </head>
+
 <body>
-<header>
-  <nav>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="cell auto">
-          <ul class="menu">
-            {{ range .Site.Menus.main }}
-              <li><a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-        <div class="cell shrink show-for-medium text-right">
-          <ul class="menu social align-right social-icons icon-flat list-unstyled list-inline">
-            <li><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://youtube.com/6overlanders" target="_blank"><i class="fa fa-youtube"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-    {{ block "title" . }}
-      <div class="grid-container">
+  <header>
+    <nav>
         <div class="grid-x grid-padding-x">
-          <div class="cell title">
-            <h1>6overlanders</h1>
+          <div class="cell auto">
+            <div class="ticket">
+              <div class="logo">
+                <a href="/">
+                  <img src="/images/logo-vertical-negative-red.png">
+                </a>
+              </div>
+              <div class="serrated"></div>
+            </div>
           </div>
-          <div class="cell summary">
-            {{ partial "readContent" (slice . "/content/homepage/callout.md") }}
+          <div class="cell shrink text-right">
+            <ul class="menu">
+              {{ range .Site.Menus.main }}
+              <li><a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}">{{ .Name | safeHTML }}</a></li>
+              {{ end }}
+              <li style="display:none"><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li style="display:none"><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li style="display:none"><a href="https://youtube.com/6overlanders" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
           </div>
         </div>
-      </div>
+    </nav>
+
+    {{ block "title" . }}
+    <div class="summary">
+      {{ partial "readContent" (slice . "/content/homepage/callout.md") }}
+    </div>
     {{ end }}
-</header>
-{{ block "body" . }}{{ end }}
-<footer>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x second-callout">
-      <div class="cell medium-8">
-        <h1 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/avisamos.md") }}</h1>
-        <p>
-          {{ partial "readContent" (slice . "/content/homepage/avisamos.md") }}
-        </p>
-        <div class="social-media">
-          <a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a>
-          <a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a href="https://youtube.com/6overlanders" target="_blank"><i class="fa fa-youtube"></i></a>
-          <div class="social-media-id">/6overlanders</div>
+  </header>
+
+  {{ block "body" . }}{{ end }}
+
+  <footer>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x second-callout">
+        <div class="cell medium-8">
+          <h1 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/avisamos.md") }}</h1>
+          <p>
+            {{ partial "readContent" (slice . "/content/homepage/avisamos.md") }}
+          </p>
+          <div class="social-media">
+            <a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://youtube.com/6overlanders" target="_blank"><i class="fa fa-youtube"></i></a>
+            <div class="social-media-id">/6overlanders</div>
+          </div>
+        </div>
+        <div class="cell medium-4 text-right">
+          <div class="fb-page" data-href="https://www.facebook.com/6overlanders" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/6overlanders" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/6overlanders">6overlanders</a></blockquote>
+          </div>
         </div>
       </div>
-      <div class="cell medium-4 text-right">
-        <div class="fb-page" data-href="https://www.facebook.com/6overlanders" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/6overlanders" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/6overlanders">6overlanders</a></blockquote></div>
+      <div class="copyright">
+        &copy;2017 6overlanders. desenvolvido por <a href="http://fabianofranz.com" target="_blank">fabiano</a>. conteúdo e crianças por <a href="http://fabianofranz.com" target="_blank">fabiano</a> e <a href="http://pricilafranz.com" target="_blank">pricila</a>. made in canela but one in paris one in floripa. whatever with proud and <span class="heart">&hearts;</span>.
       </div>
     </div>
-    <div class="copyright">
-      &copy;2017 6overlanders. desenvolvido por <a href="http://fabianofranz.com" target="_blank">fabiano</a>. conteúdo e crianças por <a href="http://fabianofranz.com" target="_blank">fabiano</a> e <a href="http://pricilafranz.com" target="_blank">pricila</a>. made in canela but one in paris one in floripa. whatever with proud and <span class="heart">&hearts;</span>.
-    </div>
-  </div>
-</footer>
-{{ partial "foot/scripts.html" . }}
+  </footer>
+  {{ partial "foot/scripts.html" . }}
 </body>
+
 </html>

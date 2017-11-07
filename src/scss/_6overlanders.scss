@@ -1,13 +1,13 @@
+@import "variables";
 @import "components";
 
 body {
-  background: #d6d6d6;
-  background: linear-gradient(to left, #ece9e6, #d6d6d6);
+  background: $color-background;
 }
 
 body, h1, h2, h3, h4 {
-  color: #666;
-  font-family: 'Lato', sans-serif;
+  color: $color-text;
+  font-family: $font-family-regular;
   font-weight: 300;
 }
 
@@ -22,112 +22,100 @@ header {
   background-size: cover;
 
   @include breakpoint(large) {
+    @include border-bottom-serrated($size-serrated, $color-background);
     padding-bottom: 2rem;
     background-position: center center;
   }
 
 
-  .title {
-    margin-top: 9rem;
+  nav {
+    @include xy-grid-container;
 
-    @include breakpoint(large) {
-      margin-top: 16rem;
+    > div {
+      > div {
+        position: relative;
+      }
     }
 
+    .ticket {
+      @include breakpoint(large) {
+        position: absolute;
+        left: 2rem;
+      }
 
-    h1 {
-      font-size: 4.5rem;
-      margin: 0 0 -1.7rem 0;
-      font-family: 'Cookie', cursive;
+
+      .logo {
+        background-color: $color-highlight;
+        padding-top: .8rem;
+
+        img {
+          width: 12rem;
+        }
+      }
+
+      .serrated {
+        @include border-top-serrated($size-serrated, $color-highlight);
+      }
+    }
+
+    .menu {
+      font-size: $font-size-menu;
       font-weight: 400;
-      color: #fff;
-      text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 
       @include breakpoint(large) {
-        font-size: 13rem;
-        margin-bottom: -5.2rem;
-      }
-    }
-
-    &.internal {
-      text-align: center;
-
-      @include breakpoint(small only) {
-        padding-bottom: .5rem;
+        font-size: $font-size-menu * $responsive-multiplier;
       }
 
 
-      h1 {
-        text-transform: lowercase;
-        line-height: 0.8;
-        margin-bottom: .2rem;
-        font-size: 4rem;
-        text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
-
-        @include breakpoint(large) {
-          font-size: 7rem;
-          margin-bottom: .5rem;
-
-          &::first-line {
-            font-size: 11rem;
-          }
-        }
+      .menu-text, .active {
+        border-bottom: 0.3rem solid $color-highlight;
       }
 
-      &::after {
-        width: 5rem;
-        border-bottom: .2rem solid #cc4b37;
-
-        @include breakpoint(large) {
-          width: 8rem;
-          border-bottom: .3rem solid #cc4b37;
-        }
+      a {
+        color: #fff;
+        text-shadow: $text-shadow;
       }
     }
   }
 
   .summary {
-    font-size: 1.4rem;
+    @include xy-grid-container;
+
+    font-size: $font-size-summary;
     background-color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
     line-height: 1.4;
+    margin-top: 5rem;
 
     @include breakpoint(large) {
+      @include folded-corner;
       padding-top: 1.2rem;
       padding-bottom: 1.2rem;
-      font-size: 2.5rem;
+      font-size: $font-size-summary * $responsive-multiplier;
       line-height: 1.5;
+      margin-top: 20rem;
+      margin-bottom: 1rem;
     }
   }
 
-  nav {
-    background-color: rgba(68, 68, 68, 0.4);
-    padding-top: .3rem;
+  .title {
+    @include xy-grid-container;
 
-    .menu {
-      @include breakpoint(large) {
-        font-size: 1.5rem;
-      }
+    text-align: center;
+    font-family: $font-family-cursive;
+    color: #fff;
+    text-transform: lowercase;
+    line-height: 1;
+    font-size: $font-size-title;
+    text-shadow: $text-shadow;
 
+    @include breakpoint(large) {
+      margin-top: 15rem;
+      font-size: $font-size-title * $responsive-multiplier;
 
-      .menu-text, .active {
-        border-bottom: .3rem solid #cc4b37;
-      }
-
-      a {
-        color: #fff;
-      }
-
-      &.social {
-        a {
-          color: #fff;
-          padding-right: 0;
-
-          .fa {
-            text-align: center;
-          }
-        }
+      &::first-line {
+        font-size: $font-size-title * $responsive-multiplier * 1.3;
       }
     }
   }
@@ -268,7 +256,8 @@ main {
       @include breakpoint(medium) {
         margin-top: 1.5rem;
       }
-      
+
+
       .bio {
         .figures {
           @include breakpoint(medium) {
@@ -277,6 +266,7 @@ main {
             order: 0;
           }
 
+
           @include breakpoint(small only) {
             .polaroid {
               &:last-of-type {
@@ -284,6 +274,7 @@ main {
               }
             }
           }
+
 
           .polaroid {
             &:first-of-type {
@@ -323,16 +314,17 @@ main {
 
   article {
     @include xy-grid-container;
+    @include folded-corner;
 
     margin-top: 1rem;
     background-color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 1rem;
+    font-size: $font-size-article;
 
     @include breakpoint(large) {
       margin-top: 2rem;
-      font-size: 1.5rem;
+      font-size: $font-size-article * $responsive-multiplier;
     }
 
 
@@ -423,15 +415,6 @@ main {
     }
 
     &.post, &.page {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-
-      @include breakpoint(large) {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-      }
-
-
       figure {
         margin-top: .5rem;
         margin-bottom: 1rem;
@@ -509,14 +492,14 @@ main {
         }
 
         .card-title {
-          text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+          text-shadow: $text-shadow;
           background-color: rgba(68, 68, 68, 0.4);
           left: 0;
           bottom: 0;
           position: absolute;
           z-index: 10;
-          font-family: 'Cookie', cursive;
-          font-size: 2.5rem;
+          font-family: $font-family-cursive;
+          font-size: 3rem;
           color: white;
           padding: .5rem 1rem .5rem 1rem;
           line-height: 1;

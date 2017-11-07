@@ -1,0 +1,252 @@
+.separator-left, .separator-right, .separator-center {
+  &::after {
+    background: none repeat scroll 0 0 $color-highlight;
+    bottom: -10px;
+    content: "";
+    display: table;
+    height: .125rem;
+    position: relative;
+    width: 3rem;
+    margin-top: .3rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+.separator-left {
+  &::after {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+.separator-right {
+  &::after {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+.separator-center {
+  &::after {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.social-media {
+  .fa {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    margin-right: .5rem;
+
+    @include breakpoint(large) {
+      width: 3rem;
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 2rem;
+    }
+
+
+    &.fa-facebook {
+      background: #3b5998;
+    }
+
+    &.fa-linkedin {
+      background: #007bb6;
+    }
+
+    &.fa-twitter {
+      background: #00aced;
+    }
+
+    &.fa-instagram {
+      background-color: #A1755C;
+    }
+
+    &.fa-youtube {
+      background-color: #C52F30;
+    }
+  }
+
+  .social-media-id {
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+    @include breakpoint(large) {
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+.heart {
+  color: #e91e63;
+}
+
+.sub {
+  color: #8a8a8a;
+}
+
+mark {
+  background-color: $color-mark;
+  color: #666;
+  font-weight: 400;
+}
+
+figure {
+  &.polaroid {
+    width: 7.5rem;
+    text-align: center;
+    background-color: #fff;
+    padding: .5rem;
+    box-shadow: $box-shadow;
+    filter: grayscale(100%);
+
+    @include breakpoint(large) {
+      width: 10.5rem;
+      padding: .75rem;
+    }
+
+
+    &.left {
+      margin-right: .7rem;
+
+      @include breakpoint(large) {
+        margin-right: 1.5rem;
+      }
+    }
+
+    &.right {
+      margin-left: .7rem;
+
+      @include breakpoint(large) {
+        margin-left: 1.5rem;
+      }
+    }
+
+    &.semi-grayscale {
+      filter: grayscale(50%);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      font-family: $font-family-cursive;
+      font-size: 1.1rem;
+      text-align: center;
+      margin-top: .4rem;
+      transition: all 0.3s;
+
+      @include breakpoint(large) {
+        margin-top: .6rem;
+        font-size: 1.6rem;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.5, 1.5) rotate(4deg);
+      filter: none;
+      transition: all 0.3s;
+      z-index: 50;
+    }
+  }
+}
+
+@mixin border-top-serrated($size, $color-outer) {
+  & {
+    position: relative;
+    overflow: auto;
+    padding-top: $size;
+  }
+
+  &:before {
+    top: 0px;
+    background: linear-gradient(-135deg, $color-outer ($size / 2), transparent 0), linear-gradient(135deg, $color-outer ($size / 2), transparent 0);
+    background-position: left top;
+
+    @include border-serrated-common($size, $color-outer);
+  }
+}
+
+@mixin border-top-serrated-shady($size, $color-outer) {
+  filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 1px 2px);
+
+  @include border-top-serrated($size, $color-outer);
+}
+
+@mixin border-bottom-serrated($size, $color-outer) {
+  & {
+    position: relative;
+    overflow: auto;
+    padding-bottom: $size;
+  }
+
+  &:after {
+    bottom: 0px;
+    background: linear-gradient(-45deg, $color-outer ($size / 2), transparent 0), linear-gradient(45deg, $color-outer ($size / 2), transparent 0);
+    background-position: left bottom;
+
+    @include border-serrated-common($size, $color-outer);
+  }
+}
+
+@mixin border-bottom-serrated-shady($size, $color-outer) {
+  filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 1px 2px);
+
+  @include border-bottom-serrated($size, $color-outer);
+}
+
+@mixin border-serrated-common($size, $color-outer) {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: $size;
+  background-repeat: repeat-x;
+  background-size: $size $size;
+}
+
+@mixin folded-corner($page-padding-top: 1.2rem, $page-padding-right: 0.9375rem, $page-radius: 0, $page-background: #fff, $fold-size: 2rem, $fold-color: rgba(0, 0, 0, 0.05)) {
+  & {
+    min-width: 2 * $fold-size;
+    min-height: 2 * $fold-size;
+    padding-top: $page-padding-top;
+    padding-right: $page-padding-right;
+    border-radius: $page-radius;
+    border-top-right-radius: 1.2 * $fold-size;
+    @include transparent-corner($page-background, $fold-size);
+  }
+
+  &:before {
+    content: "";
+    float: right;
+    width: $fold-size;
+    height: $fold-size;
+    border-bottom-left-radius: $page-radius;
+    position: relative;
+    top: -$page-padding-top;
+    right: -$page-padding-right;
+    box-shadow: -1px 1px 1px rgba(40, 40, 56, 0.3);
+    @include transparent-corner($fold-color, $fold-size);
+  }
+}
+
+@mixin transparent-corner($background, $size) {
+  $diagonal: $size / 1.414;
+  background: $background;
+  background: linear-gradient(225deg, transparent $diagonal, $background $diagonal) right top;
+}

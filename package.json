@@ -10,6 +10,7 @@
   "dependencies": {
     "foundation-sites": "~6.4.3",
     "jquery": ">=3.2.1",
+    "js-beautify": "^1.7.4",
     "motion-ui": "~1.2.3",
     "what-input": "^4.1.3"
   },

@@ -10,7 +10,7 @@ draft: false
 
 Vídeo em time-lapse da descida da serra gaúcha de carro via RS-115, saindo de **Canela** e passando pelas cidades de **Gramado**, **Três Coroas**, **Igrejinha** e **Taquara** ([aqui](https://goo.gl/W4RF18) um mapa aproximado do trecho).
 
-Aproveite a oportunidade e [inscreva-se em nosso canal do Youtube](https://www.youtube.com/channel/UCdRSH7SUMH1irFrbmo9SbnA?sub_confirmation=1)! Assim você recebe avisos sobre novos vídeos e ajuda a divulgar nosso trabalho.
+Aproveite a oportunidade e [inscreva-se em nosso canal do Youtube](https://www.youtube.com/6overlanders?sub_confirmation=1)! Assim você recebe avisos sobre novos vídeos e ajuda a divulgar nosso trabalho.
 
 {{< youtube m5K5QdMyoX8 >}}
 

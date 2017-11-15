@@ -47,6 +47,11 @@ header {
       .logo {
         background-color: $color-highlight;
         padding-top: .8rem;
+        
+        @include breakpoint(large) {
+          width: 12.53rem;
+          text-align: center;
+        }
 
         img {
           width: 12rem;
@@ -324,7 +329,7 @@ main {
 
     @include breakpoint(large) {
       margin-top: 2rem;
-      font-size: $font-size-article * $responsive-multiplier;
+      font-size: $font-size-article * 1.5;
     }
 
 

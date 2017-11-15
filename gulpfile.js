@@ -19,8 +19,8 @@ gulp.task('images', images);
 gulp.task('hugo:dev', hugoDev);
 gulp.task('hugo:prod', hugoProd);
 
-gulp.task('start', gulp.series(gulp.parallel('scss', 'media', 'images', 'hugo:dev'), watch, server));
-gulp.task('build', gulp.parallel('scss', 'media', 'images', 'hugo:prod'));
+gulp.task('start', gulp.series(gulp.parallel('scss', 'media', 'images'), hugoDev, watch, server));
+gulp.task('build', gulp.series(gulp.parallel('scss', 'media', 'images'), hugoProd));
 gulp.task('default', gulp.series('start'));
 
 function scss() {
@@ -87,8 +87,13 @@ function watch(done) {
 function hugo(done) {
   var cwd = process.cwd();
   var cmd = 'hugo --source=' + cwd + ' --buildDrafts=' + dev;
-  var result = exec(cmd, {encoding: 'utf-8'});
-  console.log(result);
+  try {
+    var result = exec(cmd, {encoding: 'utf-8'});
+    console.log(result);
+  } catch(e) {
+    console.log(e.stdout);
+    throw e;
+  }
   done();
 }
 

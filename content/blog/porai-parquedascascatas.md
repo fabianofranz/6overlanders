@@ -1,13 +1,13 @@
 ---
 title: Parque das Cascatas - São 
-callout: Callout hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... 
+callout: Escolhemos a dedo o lugar para passarmos a primeira noite acampados com o trailer...
 date: 2017-07-07T15:00:00-03:00
 author: pricila
 local: Canela, Brasil
 draft: true
 ---
 
-Aos poucos nossa grande viagem pela América do Sul vai se aproximando... Por isso resolvemos aproveitar esse tempo que ainda resta para passear e testar noss trailer em lugares próximos de onde moramos. Um desses lugares é o Parque das Cascatas, onde passamos a primeira noite acampados com o trailer. Todo mundo adorou!
+Aos poucos nossa grande viagem pela América do Sul vai se aproximando... Por isso resolvemos aproveitar esse tempo que ainda resta para passear e testar nosso trailer em lugares próximos de onde moramos. Um desses lugares é o Parque das Cascatas, onde passamos a primeira noite acampados com o trailer. Todo mundo adorou!
 
 O Parque das Cascatas fica localizado em Lajeado Grande, no município de São Francisco de Paula. O acesso mais fácil é pela Rota do Sol e fica a aproximadamente 1h30min de Gramado.
 

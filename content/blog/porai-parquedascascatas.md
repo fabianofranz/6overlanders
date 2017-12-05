@@ -1,11 +1,27 @@
 ---
-title: Modelo de Post
+title: Parque das Cascatas - São 
 callout: Callout hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... 
 date: 2017-07-07T15:00:00-03:00
 author: pricila
 local: Canela, Brasil
 draft: true
 ---
+
+Aos poucos nossa grande viagem pela América do Sul vai se aproximando... Por isso resolvemos aproveitar esse tempo que ainda resta para passear e testar noss trailer em lugares próximos de onde moramos. Um desses lugares é o Parque das Cascatas, onde passamos a primeira noite acampados com o trailer. Todo mundo adorou!
+
+O Parque das Cascatas fica localizado em Lajeado Grande, no município de São Francisco de Paula. O acesso mais fácil é pela Rota do Sol. São 54 hectares de muito verde e excelente infraestrutura. As cascatas são magníficas e você pode, além de tomar banho de rio, usar as piscinas naturais. Já a piscina térmica é para uso exclusivo dos hóspedes. Você pode se hospedar em apartamentos, cabanas, chalés ou acampar com trailers e barracas. Se quiser pode só passar o dia! Tem churrasqueiras, bar, restaurante, campo de futebol e de vôlei de areia, trilhas, academia ao ar livre e cancha de bocha. É possível também fazer passeios a cavalo e usar a hidro aquecida e sauna a vapor e seca (pagos a parte). As crianças gostaram tanto do playground e do rio que nem quiseram saber se outra coisa.
+
+
+PS: sentimos falta de lixeiras na área de camping.
+PS: a diária começa e termina ao meio-dia. Se você quiser ficar mais tempo, precisa pagar meia diária.
+
+Endereço: Rua Guilherme Perazzolo, 500, Lageado Grande  -  São Francisco de Paula  95400-000 https://goo.gl/maps/ErmfYrKVQho
+
+Telefone: OI 54 3504.2641  -  Vivo 54 99973.5530  -  Claro 54 99189-2335
+
+Email: parque@parquedascascatas.com.br
+
+Site: http://parquedascascatas.com.br
 
 Hodor, *itálico hodor*, hodor. **Negrito Hodor** hodor... Hodor hodor! ***Negrito e itálico*** HODOR hodor, hodor hodor?! ~~Sobrescrito Hodor~~ HODOR! Hodor hodor...
 

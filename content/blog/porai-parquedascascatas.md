@@ -5,7 +5,7 @@ image: aroma-1200.jpg
 thumb: aroma-600x400.jpg
 date: 2017-07-07T15:00:00-03:00
 author: pricila
-local: Canela, Brasil
+local: São Francisco de Paula, Brasil
 draft: true
 ---
 

@@ -1,6 +1,8 @@
 ---
-title: Parque das Cascatas - São 
+title: Parque das Cascatas
 callout: Escolhemos a dedo o lugar para passarmos a primeira noite acampados com o trailer...
+image: aroma-1200.jpg
+thumb: aroma-600x400.jpg
 date: 2017-07-07T15:00:00-03:00
 author: pricila
 local: Canela, Brasil

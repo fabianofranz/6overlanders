@@ -10,17 +10,20 @@ const imagemin      = require('gulp-imagemin');
 var dev = false;
 
 var sassPaths = [
-  'node_modules/foundation-sites/scss'
+  'node_modules/normalize.scss/sass',
+  'node_modules/foundation-sites/scss',
+  'node_modules/motion-ui/src'
 ];
 
 gulp.task('scss', scss);
+gulp.task('js', js);
 gulp.task('media', media);
 gulp.task('images', images);
 gulp.task('hugo:dev', hugoDev);
 gulp.task('hugo:prod', hugoProd);
 
-gulp.task('start', gulp.series(gulp.parallel('scss', 'media', 'images'), hugoDev, watch, server));
-gulp.task('build', gulp.series(gulp.parallel('scss', 'media', 'images'), hugoProd));
+gulp.task('start', gulp.series(gulp.parallel('scss', 'js', 'media', 'images'), hugoDev, watch, server));
+gulp.task('build', gulp.series(gulp.parallel('scss', 'js', 'media', 'images'), hugoProd));
 gulp.task('default', gulp.series('start'));
 
 function scss() {
@@ -36,6 +39,14 @@ function scss() {
     .pipe(gulp.dest('public/css'));
 }
 
+function js() {
+  return gulp.src(['src/js/**/*.js'])
+    .pipe($.uglify()
+      .on('error', e => { console.log(e); })
+    )
+    .pipe(gulp.dest('public/js'));
+}
+  
 var images = [
   { width: 600, height: 400, crop: true, upscale: true, quality: 0.9, noProfile: true },
   { width: 1200, quality: 0.9, noProfile: true }
@@ -77,10 +88,11 @@ function images() {
 
 function watch(done) {
   gulp.watch(['src/scss/**/*.scss'], gulp.series('scss', reload));
+  gulp.watch(['src/js/**/*.js'], gulp.series('js', reload));
   gulp.watch(['media/**/*'], gulp.series('media', reload));
   gulp.watch(['images/**/*'], gulp.series('images', reload));
   gulp.watch(['content/**/*', 'gulpfile.js'], gulp.series('hugo:dev', reload));
-  gulp.watch(['src/**/*', '!src/scss/**/*.scss', '!src/images/**/*'], gulp.series('hugo:dev', reload));
+  gulp.watch(['src/**/*', '!src/scss/**/*.scss', '!src/images/**/*', '!src/js/**/*.js'], gulp.series('hugo:dev', reload));
   done();
 }
 

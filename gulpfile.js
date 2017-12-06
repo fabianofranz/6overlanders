@@ -17,13 +17,12 @@ var sassPaths = [
 
 gulp.task('scss', scss);
 gulp.task('js', js);
-gulp.task('media', media);
+gulp.task('media', gulp.series(mediaMove, mediaMedium, mediaLarge));
 gulp.task('images', images);
 gulp.task('hugo:dev', hugoDev);
 gulp.task('hugo:prod', hugoProd);
-
-gulp.task('start', gulp.series(gulp.parallel('scss', 'js', 'media', 'images'), hugoDev, watch, server));
-gulp.task('build', gulp.series(gulp.parallel('scss', 'js', 'media', 'images'), hugoProd));
+gulp.task('start', gulp.series(gulp.parallel('scss', 'js'), 'media', 'images', 'hugo:dev', watch, server));
+gulp.task('build', gulp.series(gulp.parallel('scss', 'js'), 'media', 'images', 'hugo:prod'));
 gulp.task('default', gulp.series('start'));
 
 function scss() {
@@ -46,33 +45,39 @@ function js() {
     )
     .pipe(gulp.dest('public/js'));
 }
+
+function mediaMove() {
+  return gulp.src(['media/**/*']).pipe(gulp.dest('public/media'));
+}
   
-var images = [
-  { width: 600, height: 400, crop: true, upscale: true, quality: 0.9, noProfile: true },
-  { width: 1200, quality: 0.9, noProfile: true }
-];
+function mediaMedium() {
+  var medium = { width: 600, height: 400, crop: true, upscale: true, quality: 0.9, noProfile: true };
+  var filename = "-" + medium.width + (medium.hasOwnProperty("height") ? "x" + medium.height : "");
 
-function media(done) {
-  gulp.src(['media/**/*']).pipe(gulp.dest('public/media'));
+  return gulp.src('media/**/*')
+      .pipe(imageResize(medium))
+      .pipe(imagemin([
+        imagemin.gifsicle({interlaced: true}),
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng({optimizationLevel: 5})
+      ], { verbose: true }))
+      .pipe(rename(function (path){ path.basename += filename; }))
+      .pipe(gulp.dest('public/media'));
+}
 
-  images.forEach(function(image){
-    var filenameAppend = "-" + 
-      image.width + 
-      (image.hasOwnProperty("height") ? "x" + image.height : "");
+function mediaLarge() {
+  var large = { width: 1200, quality: 0.9, noProfile: true };
+  var filename = "-" + large.width + (large.hasOwnProperty("height") ? "x" + large.height : "");
 
-    gulp.src('media/**/*.{jpg,jpeg,png,gif}')
-    .pipe(changed('public/media'))
-    .pipe(imageResize(image))
-    .pipe(imagemin([
-      imagemin.gifsicle({interlaced: true}),
-      imagemin.jpegtran({progressive: true}),
-      imagemin.optipng({optimizationLevel: 5})
-    ]))
-    .pipe(rename(function (path){ path.basename += filenameAppend; }))
-    .pipe(gulp.dest('public/media'));
-  });
-
-  done();
+  return gulp.src('media/**/*')
+      .pipe(imageResize(large))
+      .pipe(imagemin([
+        imagemin.gifsicle({interlaced: true}),
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng({optimizationLevel: 5})
+      ], { verbose: true }))
+      .pipe(rename(function (path){ path.basename += filename; }))
+      .pipe(gulp.dest('public/media'));
 }
 
 function images() {
@@ -82,7 +87,7 @@ function images() {
     imagemin.gifsicle({interlaced: true}),
     imagemin.jpegtran({progressive: true}),
     imagemin.optipng({optimizationLevel: 5})
-  ]))
+  ], { verbose: true }))
   .pipe(gulp.dest('public/images'));
 }
 
@@ -90,7 +95,7 @@ function watch(done) {
   gulp.watch(['src/scss/**/*.scss'], gulp.series('scss', reload));
   gulp.watch(['src/js/**/*.js'], gulp.series('js', reload));
   gulp.watch(['media/**/*'], gulp.series('media', reload));
-  gulp.watch(['images/**/*'], gulp.series('images', reload));
+  gulp.watch(['src/images/**/*'], gulp.series('images', reload));
   gulp.watch(['content/**/*', 'gulpfile.js'], gulp.series('hugo:dev', reload));
   gulp.watch(['src/**/*', '!src/scss/**/*.scss', '!src/images/**/*', '!src/js/**/*.js'], gulp.series('hugo:dev', reload));
   done();

@@ -24,9 +24,6 @@
               {{ range .Site.Menus.main }}
               <li><a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{end}}">{{ .Name | safeHTML }}</a></li>
               {{ end }}
-              <li style="display:none"><a href="https://facebook.com/6overlanders" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li style="display:none"><a href="https://instagram.com/6overlanders" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li style="display:none"><a href="https://youtube.com/6overlanders" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </ul>
           </div>
         </div>

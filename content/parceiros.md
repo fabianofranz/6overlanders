@@ -1,5 +1,5 @@
 ---
-title: "Apoiadores"
+title: "Parceiros"
 menu: "main"
 weight: 3
 draft: false

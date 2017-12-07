@@ -17,7 +17,7 @@ var sassPaths = [
 
 gulp.task('scss', scss);
 gulp.task('js', js);
-gulp.task('media', gulp.series(mediaMove, mediaMedium, mediaLarge));
+gulp.task('media', gulp.series(mediaMove, mediaMedium, mediaLarge, mediaCropped));
 gulp.task('images', images);
 gulp.task('hugo:dev', hugoDev);
 gulp.task('hugo:prod', hugoProd);
@@ -50,12 +50,10 @@ function mediaMove() {
   return gulp.src(['media/**/*']).pipe(gulp.dest('public/media'));
 }
   
-function mediaMedium() {
-  var medium = { width: 600, height: 400, crop: true, upscale: true, quality: 0.9, noProfile: true };
-  var filename = "-" + medium.width + (medium.hasOwnProperty("height") ? "x" + medium.height : "");
-
+function _media(attrs) {
+  var filename = "-" + attrs.width + (attrs.hasOwnProperty("height") ? "x" + attrs.height : "");
   return gulp.src('media/**/*')
-      .pipe(imageResize(medium))
+      .pipe(imageResize(attrs))
       .pipe(imagemin([
         imagemin.gifsicle({interlaced: true}),
         imagemin.jpegtran({progressive: true}),
@@ -65,19 +63,16 @@ function mediaMedium() {
       .pipe(gulp.dest('public/media'));
 }
 
-function mediaLarge() {
-  var large = { width: 1200, quality: 0.9, noProfile: true };
-  var filename = "-" + large.width + (large.hasOwnProperty("height") ? "x" + large.height : "");
+function mediaCropped() {
+  return _media({ width: 600, height: 400, crop: true, upscale: true, quality: 0.9, noProfile: true });
+}
 
-  return gulp.src('media/**/*')
-      .pipe(imageResize(large))
-      .pipe(imagemin([
-        imagemin.gifsicle({interlaced: true}),
-        imagemin.jpegtran({progressive: true}),
-        imagemin.optipng({optimizationLevel: 5})
-      ], { verbose: true }))
-      .pipe(rename(function (path){ path.basename += filename; }))
-      .pipe(gulp.dest('public/media'));
+function mediaMedium() {
+  return _media({ width: 600, quality: 0.9, noProfile: true });
+}
+
+function mediaLarge() {
+  return _media({ width: 1200, quality: 0.9, noProfile: true });
 }
 
 function images() {

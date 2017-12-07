@@ -14,7 +14,7 @@ Aos poucos nossa grande viagem pela **América do Sul** vai se aproximando... Po
 
 O Parque das Cascatas fica localizado em Lajeado Grande, no município de **São Francisco de Paula**. O acesso mais fácil é pela Rota do Sol e fica a aproximadamente 1h30min de **Gramado**.
 {{< figure "parquecascatas02-600x400.jpg" "A vontade é de passar o dia sentado na margem apreciando essa paisagem" "float-center" >}}
-{{< figure "parquecascatas03-600x400.jpg" "Parece um quadro de tão lindo" "float-center" >}}
+{{< figure "parquecascatas03-400x600.jpg" "Parece um quadro de tão lindo" "float-center" >}}
 
 São 54 hectares de muito *verde* e excelente infraestrutura. As cascatas são magníficas e você pode, além de tomar banho de rio, usar as piscinas naturais, ou ainda aproveitar as cinco piscinas de água mineral externas, sendo três para crianças e duas para adultos. Já a piscina térmica é para uso exclusivo dos hóspedes. 
 {{< figure "parquecascatas04-600x400.jpg" "Um charme essa piscina natural para os adultos" "float-center" >}}

@@ -1,8 +1,8 @@
 ---
 title: Parque das Cascatas
 callout: Escolhemos a dedo o lugar para passarmos a primeira noite acampados com o trailer...
-image: parquecascatas02-1200.jpg
-thumb: parquecascatas02-600x400.jpg
+image: parquecascatas2-1200.jpg
+thumb: parquecascatas2-600x400.jpg
 date: 2017-12-05T23:00:00-03:00
 author: pricila
 local: São Francisco de Paula, Brasil

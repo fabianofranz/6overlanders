@@ -163,6 +163,13 @@ figure {
       z-index: 50;
     }
   }
+
+  &.shortcoded {
+    @include breakpoint(large) {
+      width: 35rem;
+    }
+  }
+
 }
 
 @mixin border-top-serrated($size, $color-outer) {

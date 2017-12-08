@@ -6,7 +6,7 @@ thumb: parquecascatas02-600x400.jpg
 date: 2017-12-05T23:00:00-03:00
 author: pricila
 local: São Francisco de Paula, Brasil
-draft: true
+draft: false
 ---
 
 Aos poucos nossa grande viagem pela América do Sul vai se aproximando... Por isso resolvemos aproveitar esse tempo que ainda resta para passear e testar nosso trailer em lugares próximos de onde moramos. Um desses locais é o **Parque das Cascatas**, onde passamos a primeira noite acampados com o trailer e a família inteira. Todo mundo adorou!

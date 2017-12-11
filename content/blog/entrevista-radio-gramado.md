@@ -3,7 +3,7 @@ title: Entrevista na Rádio Gramado Mix FM
 callout: E tem gente querendo ouvir sobre o nosso sonho...
 image: jurere-por-do-sol-1200.jpg
 thumb: jurere-por-do-sol-600x400.jpg
-date: 2017-08-04T01:27:00-03:00
+date: 2017-12-11T04:27:00-03:00
 author: fabiano
 local: Canela, Brasil
 draft: true

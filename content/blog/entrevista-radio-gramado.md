@@ -6,7 +6,7 @@ thumb: jurere-por-do-sol-600x400.jpg
 date: 2017-08-04T01:27:00-03:00
 author: fabiano
 local: Canela, Brasil
-draft: false
+draft: true
 ---
 
 Acho que desde sempre soubemos que a jornada de nossas vidas não seria nada convencional. De forma mais proeminente em alguns períodos do que outros, sempre fomos assim meio que uns pontinhos fora da curva. Te explico.

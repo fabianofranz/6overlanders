@@ -98,7 +98,7 @@ function watch(done) {
 
 function hugo(done) {
   var cwd = process.cwd();
-  var cmd = 'hugo --source=' + cwd + ' --buildDrafts=' + dev;
+  var cmd = 'hugo --gc --source=' + cwd + ' --buildDrafts=' + dev;
   try {
     var result = exec(cmd, {encoding: 'utf-8'});
     console.log(result);

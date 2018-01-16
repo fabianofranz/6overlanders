@@ -1,0 +1,22 @@
+{{ $original := .Page.Resources.GetByPrefix (.Get 0) }}
+{{ $caption := .Get 1 }}
+{{ $command := .Get 2 }}
+{{ $options := .Get 3 }}
+{{ $classes := .Get 4 }}
+
+{{ if eq $command "fit"}}
+{{ .Scratch.Set "image" ($original.Fit $options) }}
+{{ else if eq $command "resize"}}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ else if eq $command "fill"}}
+{{ .Scratch.Set "image" ($original.Fill $options) }}
+{{ else }}
+{{ errorf "Invalid image processing command: Must be one of fit, fill or resize."}}
+{{ end }}
+
+{{ $image := .Scratch.Get "image" }}
+<figure class="shortcoded {{ $classes }}">
+  <img src="{{ $image.RelPermalink }}">
+  <figcaption>{{ $caption }}</figcaption>
+</figure>
+  

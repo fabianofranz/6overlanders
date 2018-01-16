@@ -3,12 +3,18 @@
 {{ end }}
 
 {{ define "body" }}
-  {{ if .Param "image" }}
-    <style>
-      header {
-        background-image: url(/media/{{ .Param "image" }});
-      }
-    </style>
+  {{ with .Param "images" }}
+    {{ if .background }}
+      {{ $original := $.Page.Resources.GetByPrefix .background }}
+      {{ if $original }}
+        {{ $background := $original.Resize "1200x" }}
+        <style>
+          header {
+            background-image: url({{ $background.RelPermalink }});
+          }
+        </style>
+      {{ end }}
+    {{ end }}
   {{ end }}
   <main>
     <article class="post clearfix">

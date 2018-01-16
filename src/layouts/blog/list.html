@@ -15,8 +15,10 @@
           <div class="card">
             <div class="card-image">
               <a href="{{ .RelPermalink }}" title="abrir post">
-                {{ if .Param "thumb" }}
-                  <img src="/media/{{ .Param "thumb" }}">
+                {{ if .Param "images.thumb"}}
+                  {{ $original := .Resources.GetByPrefix (.Param "images.thumb") }}
+                  {{ $thumb := $original.Fill "600x400" }}
+                  <img src="{{ $thumb.RelPermalink }}">
                 {{ else }}
                   <img src="https://placehold.it/600x400">
                 {{ end }}

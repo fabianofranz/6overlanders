@@ -37,6 +37,9 @@ blackfriday:
   extensions:
     - hardLineBreak
 
+imaging:
+  quality: 90
+
 archetypeDir: src/archetypes
 layoutDir: src/layouts
 staticDir: src/static

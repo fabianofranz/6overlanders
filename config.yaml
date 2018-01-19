@@ -5,8 +5,6 @@ defaultContentLanguage: "pt-br"
 Languages:
   pt-br:
     title: "6overlanders.com"
-  en:
-    title: "6overlanders.com"
 
 disableKinds:
   - taxonomy

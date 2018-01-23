@@ -31,8 +31,8 @@ São 54 hectares de muito *verde* e excelente infraestrutura. As cascatas são m
 </div>
 
 <div class="clearfix">
-{{< figure "parquecascatas07.jpg" "Pose de quem dominou a natureza selvagem" "float-left" >}}
-{{< figure "parquecascatas03.jpg" "Parece um quadro de tão lindo" "float-right" >}}
+{{< figure "parquecascatas07.jpg" "Pose de quem dominou a natureza selvagem" "float-left" "600x" >}}
+{{< figure "parquecascatas03.jpg" "Parece um quadro de tão lindo" "float-right" "600x" >}}
 </div>
 
 As crianças gostaram tanto do playground e do rio que nem quiseram saber de outra coisa. 

@@ -6,6 +6,11 @@
 {{ .Scratch.Set "options" (.Get 3) }}
 {{ end }}
 {{ $image := ($original.Fill (.Scratch.Get "options")) }}
+{{ .Scratch.Set "image" $image }}
+{{ if not $image.Width }}
+  {{ .Scratch.Set "image" ($original.Resize (.Scratch.Get "options")) }}
+{{ end }}
+{{ $image := (.Scratch.Get "image") }}
 <figure class="shortcoded {{ $classes }}">
   <img src="{{ $image.RelPermalink }}">
   <figcaption>{{ $caption }}</figcaption>

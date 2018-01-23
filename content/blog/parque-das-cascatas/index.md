@@ -12,7 +12,7 @@ draft: false
 
 Aos poucos nossa grande viagem pela América do Sul vai se aproximando... Por isso resolvemos aproveitar esse tempo que ainda resta para passear e testar nosso trailer em lugares próximos de onde moramos. Um desses locais é o **Parque das Cascatas**, onde passamos a primeira noite acampados com o trailer e a família inteira. Todo mundo adorou!
 
-{{< figure "parquecascatas01.jpg" "Nosso trailer instalado na área de camping" "float-left" "600x" >}}
+{{< figure "parquecascatas01.jpg" "Nosso trailer instalado na área de camping" "float-left" >}}
 
 O Parque das Cascatas fica localizado no distrito de Lajeado Grande, no município de **São Francisco de Paula, RS**. O acesso mais fácil se dá pela Rota do Sol (Rodovia RS-453), distante aproximadamente 1h30min de **Gramado**.
 

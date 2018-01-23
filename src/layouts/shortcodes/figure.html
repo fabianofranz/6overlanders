@@ -1,11 +1,11 @@
 {{ $original := .Page.Resources.GetByPrefix (.Get 0) }}
 {{ $caption := .Get 1 }}
 {{ $classes := .Get 2 }}
-{{ $options := "600x400" }}
+{{ .Scratch.Set "options" "600x400" }}
 {{ if (len .Params | eq 4) }}
-{{ $options := (.Get 3) }}
+{{ .Scratch.Set "options" (.Get 3) }}
 {{ end }}
-{{ $image := ($original.Fill $options) }}
+{{ $image := ($original.Fill (.Scratch.Get "options")) }}
 <figure class="shortcoded {{ $classes }}">
   <img src="{{ $image.RelPermalink }}">
   <figcaption>{{ $caption }}</figcaption>

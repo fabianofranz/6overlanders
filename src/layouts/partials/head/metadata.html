@@ -10,19 +10,25 @@
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ if .Summary }}{{ .Summary }}{{ else }}Uma família de 6 pessoas viajando pelo mundo em um carro + trailer! Procuramos viver uma vida intencional, praticamos worldschooling e fazemos muito uso de tecnologia e life hacks. Até onde vamos?{{ end }}{{ end }}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
-{{ if .Param "image" }}
-<meta property="og:image" content="{{ "/media/" | absURL }}{{ .Param "image" }}">
-{{ with (imageConfig (printf "%s/media/%s" (.Param "publishDir" | default "public") (.Param "image"))) }}
-<meta property="og:image:width" content="{{ .Width }}">
-<meta property="og:image:height" content="{{ .Height }}">
+{{ $.Scratch.Set "image" (printf "%s/images/conjunto.jpg" (.Param "publishDir" | default "public")) }} 
+{{ with (imageConfig ($.Scratch.Get "image")) }}
+{{ $.Scratch.Set "width" .Width }}
+{{ $.Scratch.Set "height" .Height }}
 {{ end }}
-{{ else }}
-<meta property="og:image" content="{{ "/images/conjunto.jpg" | absURL }}">
-{{ with (imageConfig (printf "%s/images/conjunto.jpg" (.Param "publishDir" | default "public"))) }}
-<meta property="og:image:width" content="{{ .Width }}">
-<meta property="og:image:height" content="{{ .Height }}">
+{{ with .Param "images" }}
+  {{ if .background }}
+    {{ $original := $.Page.Resources.GetByPrefix .background }}
+    {{ if $original }}
+      {{ $background := $original.Resize "1200x" }}
+      {{ $.Scratch.Set "image" $background.RelPermalink }}
+      {{ $.Scratch.Set "width" $background.Width }}
+      {{ $.Scratch.Set "height" $background.Height }}
+    {{ end }}
+  {{ end }}
 {{ end }}
-{{ end }}
+<meta property="og:image" content="{{ ($.Scratch.Get "image") | absURL }}">
+<meta property="og:image:width" content="{{ $.Scratch.Get "width" }}">
+<meta property="og:image:height" content="{{ $.Scratch.Get "height" }}">
 <meta property="fb:app_id" content="1947224048846595">
 
 <link href="{{ "/feed/atom.xml" | absURL }}" rel="feed alternate" type="application/atom+xml" title="{{ .Site.Title }}">

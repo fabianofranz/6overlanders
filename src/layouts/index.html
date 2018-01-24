@@ -1,91 +1,49 @@
 {{ define "body" }}
   <main>
-    <aside class="bios">
-      <div class="us">
-        <div class="bio">
-          <figure class="polaroid left">
+    <aside>
+      <div class="grid-x" style="margin-top:1.5rem;">
+          <div class="cell small-2">
+              <figure class="polaroid">
+                <img src="/images/pricila.jpg" alt="">
+                <figcaption>Pricila</figcaption>
+              </figure>
+            </div>
+            
+            <div class="cell small-2">
+          <figure class="polaroid">
             <img src="/images/fabiano.jpg" alt="">
             <figcaption>Fabiano</figcaption>
           </figure>
-          
-          <div class="description">
-            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/programador.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/programador.md") }}
-            </p>
-          </div>
         </div>
-
-        <div class="bio text-right">
-          <figure class="polaroid right">
-            <img src="/images/pricila.jpg" alt="">
-            <figcaption>Pricila</figcaption>
-          </figure>
-
-          <div class="description">
-            <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/tradutora.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/tradutora.md") }}
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="kids">
-        <div class="bio text-right">
-          <div class="description">
-            <h3 class="separator-right"><strong>{{ partial "readTitle" (slice . "/content/homepage/criancas.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/criancas.md") }}
-            </p>
-          </div>
-
-          <div class="figures">
-            <figure class="polaroid right">
-              <img src="/images/lander6.jpg" alt="">
-              <figcaption>Elise</figcaption>
-            </figure>
-
-            <figure class="polaroid right">
-              <img src="/images/lander5.jpg" alt="">
-              <figcaption>Clara</figcaption>
-            </figure>
-
-            <figure class="polaroid right">
-              <img src="/images/lander4.jpg" alt="">
-              <figcaption>Michel</figcaption>
-            </figure>
-
-            <figure class="polaroid right">
+        
+        <div class="cell small-2">
+            <figure class="polaroid">
               <img src="/images/lander3.jpg" alt="">
               <figcaption>Isabela</figcaption>
             </figure>
           </div>
+        
+          <div class="cell small-2">
+              <figure class="polaroid">
+                <img src="/images/lander4.jpg" alt="">
+                <figcaption>Michel</figcaption>
+              </figure>
+            </div>
+              
+            <div class="cell small-2">
+          <figure class="polaroid">
+            <img src="/images/lander5.jpg" alt="">
+            <figcaption>Clara</figcaption>
+          </figure>
         </div>
-      </div>
-      
-      <div class="trailer">
-        <div class="bio">
-          <div class="figures">
-            <figure class="polaroid left">
-              <img src="/images/casa1.jpg" alt="">
-              <figcaption>Micro Minnie</figcaption>
-            </figure>
-
-            <figure class="polaroid left">
-              <img src="/images/casa2.jpg" alt="">
-              <figcaption>Trailblazer</figcaption>
+        
+        <div class="cell small-2">
+            <figure class="polaroid">
+              <img src="/images/lander6.jpg" alt="">
+              <figcaption>Elise</figcaption>
             </figure>
           </div>
-
-          <div class="description">
-            <h3 class="separator-left"><strong>{{ partial "readTitle" (slice . "/content/homepage/casa.md") }}</strong></h3>
-            <p>
-              {{ partial "readContent" (slice . "/content/homepage/casa.md") }}
-            </p>
-          </div>
         </div>
-      </div>
     </aside>
 
     <article class="why">

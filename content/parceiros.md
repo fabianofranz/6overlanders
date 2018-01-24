@@ -1,7 +1,7 @@
 ---
 title: "Parceiros"
 menu: "main"
-weight: 4
+weight: 3
 draft: false
 ---
 

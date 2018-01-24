@@ -10,7 +10,7 @@ images:
 draft: true
 ---
 
-*"Mas e a educação das crianças?"*
+***"Mas e a educação das crianças?"***
 
 Essa é a segunda frase que ouvimos das pessoas quando contamos do nosso projeto de volta ao mundo no trailer, porque a primeira é: “Que loucura, que coragem!”, rs. A nossa sociedade atual não consegue conceber um forma de vida diferente da estabelecida pelo sistema. Desde que nasceu a Isabela, nossa filha mais velha, praticamos homeschooling, ultimamente seguindo mais a linha do unschooling, com um pé na [Pedagogia Científica de Montessori](https://larmontessori.com/maria-montessori/), sempre que possível. Com a viagem praticaremos **wordschooling** ou **roadschooling**. Nunca ouviu falar nesses termos? Explico.
 

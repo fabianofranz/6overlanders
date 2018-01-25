@@ -23,8 +23,6 @@ Dentro do Homeschooling encontra-se também o **Unschooling**, também chamado d
 
 Por exemplo, aqui em casa sempre investimos muito em materiais concretos que auxiliem na compreensão de conceitos matemáticos (como o material dourado, a escala cuisinaire, jogos sobre as 4 operações, blocos lógicos), científicos, históricos e geográficos (jogos para fazer experiências, esqueletos e torsos humanos de plástico, mapas, globo terrestre, bandeiras, livros, muitos livros!) e materiais para a alfabetização (alfabetos móveis, quadros de escrever, jogos didáticos) e artes (muita exposição de obras, idas a museus, peças de teatro, tintas e papel. Papel. E mais papel). Também utilizamos aplicativos e sites educativos, como [IXL](http://ixl.com) e [Khan Academy](http://khanacademy.org), além de receber hóspedes estrangeiros para trocas culturais via [Couchsurfing](http://www.couchsurfing.com).
 <div class="clearfix">
-{{< figure "astronomia.jpg" "" "float-left" "600x" >}}
-{{< figure "programacao.jpg" "" "float-right" "600x">}}
 {{< figure "ingles.jpg" "" "float-left" "600x">}}
 {{< figure "numeros.jpg" "" "float-right" "600x">}}
 </div>
@@ -48,6 +46,10 @@ Dessa forma o leque vai se ampliar. Quer coisa melhor do que aprender sobre vulc
 Nenhuma sala de aula pode suplantar todo esse conhecimento e, principalmente, todo o respeito que queremos ensinar às crianças pelo que é diferente, todo o sentimento de gratidão que desejamos passar a elas por esse mundão lindo que Deus nos deu.
 
 Além disso, sempre há a possibilidade de fazer intercâmbio e as crianças podem visitar escolas em algumas cidades. Se der certo, será uma experiência única, conhecer escolas com metodologias alternativas...
+<div class="clearfix">
+{{< figure "astronomia.jpg" "" "float-left" "600x" >}}
+{{< figure "programacao.jpg" "" "float-right" "600x">}}
+</div>
 
 *Mas e a questão jurídica, como fica?*
 

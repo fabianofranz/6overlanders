@@ -33,12 +33,9 @@ Por exemplo, aqui em casa sempre investimos muito em materiais concretos que aux
 {{< figure "alfabetizacao.jpg" "" "float-left" "600x">}}
 {{< figure "astronomia2.jpg" "" "float-right" "600x" >}}
 {{< figure "leitura.jpg" "" "float-left" "600x">}}
-{{< figure "matematica.jpg" "" "float-right" "600x">}}
 {{< figure "numeros.jpg" "" "float-left" "600x">}}
 {{< figure "programacao.jpg" "" "float-right" "600x">}}
 {{< figure "ingles.jpg" "" "float-left" "600x">}}
-{{< figure "empreendedorismo.jpg" "" "float-right" "600x">}}
-
 </div>
 
 

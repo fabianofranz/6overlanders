@@ -14,7 +14,7 @@ draft: true
 
 Essa é a segunda frase que ouvimos das pessoas quando contamos do nosso projeto de volta ao mundo no trailer, porque a primeira é: “Que loucura, que coragem!”, rs. A nossa sociedade atual não consegue conceber um forma de vida diferente da estabelecida pelo sistema. Desde que nasceu a Isabela, nossa filha mais velha, praticamos homeschooling, ultimamente seguindo mais a linha do unschooling, com um pé na [Pedagogia Científica de Montessori](https://larmontessori.com/maria-montessori/), sempre que possível. Com a viagem praticaremos **wordschooling** ou **roadschooling**. Nunca ouviu falar nesses termos? Explico.
 {{< figure "vida-pratica2.jpg" "Os primeiros passos na Metodologia Montessori são atividades de vida prática" "float-center" >}}
-{{< figure "fracoes.jpg" "Aprender frações de modo concreto é muito mais fácil!" "float-center" >}}
+
 
 **Homeschooling** é o termo geral para **educação domiciliar**. A criança não vai à escola regular, mas pode ser (ou não) matriculada numa escola à distância, pode ter aulas (ou não) regulares, com lições, provas, trabalhos, avaliações. 
 
@@ -23,9 +23,7 @@ Dentro do Homeschooling encontra-se também o **Unschooling**, também chamado d
 
 Por exemplo, aqui em casa sempre investimos muito em materiais concretos que auxiliem na compreensão de conceitos matemáticos (como o material dourado, a escala cuisinaire, jogos sobre as 4 operações, blocos lógicos), científicos, históricos e geográficos (jogos para fazer experiências, esqueletos e torsos humanos de plástico, mapas, globo terrestre, bandeiras, livros, muitos livros!) e materiais para a alfabetização (alfabetos móveis, quadros de escrever, jogos didáticos) e artes (muita exposição de obras, idas a museus, peças de teatro, tintas e papel. Papel. E mais papel). Também utilizamos aplicativos e sites educativos, como [IXL](http://ixl.com) e [Khan Academy](http://khanacademy.org), além de receber hóspedes estrangeiros para trocas culturais via [Couchsurfing](http://www.couchsurfing.com).
 <div class="clearfix">
-{{< figure "alfabetizacao.jpg" "" "float-left" "600x">}}
-{{< figure "astronomia.jpg" "" "float-right" "600x" >}}
-{{< figure "leitura.jpg" "" "float-left" "600x">}}
+{{< figure "astronomia.jpg" "" "float-left" "600x" >}}
 {{< figure "programacao.jpg" "" "float-right" "600x">}}
 {{< figure "ingles.jpg" "" "float-left" "600x">}}
 {{< figure "numeros.jpg" "" "float-right" "600x">}}
@@ -33,10 +31,16 @@ Por exemplo, aqui em casa sempre investimos muito em materiais concretos que aux
 
 
 Como fiz magistério, sou formada em Letras e tenho mestrado em Literatura, fica um pouco mais fácil de saber como auxiliar o aprendizado dos pequenos sem parecer uma sala de aula, mas isso não é pré-requisito, pois muitos pais sem essa formação também fazem homeschooling/unschooling no Brasil.
-{{< figure "alfabetizacao2.jpg" "Por que não aprender o alfabeto brincando?" "float-center" >}}
+<div class="clearfix">
+{{< figure "alfabetizacao2.jpg" "Por que não aprender o alfabeto brincando?" "float-left" "600x">}}
+{{< figure "alfabetizacao.jpg" "Ou então descobrir como escrever as letras com giz e água, no chão?" "float-right" "600x">}}
+</div>
 
 Com a viagem faremos **wordschooling/roadschooling**, ou seja, a educação acontecerá na **estrada** mesmo. Por que não educar ao caminhar? ***"Se fosse para ficarmos em um só lugar, teríamos raízes ao invés de pés."*** (Rachel Wochin).
-
+<div class="clearfix">
+{{< figure "fracoes.jpg" "Aprender frações de modo concreto é muito mais fácil!" "float-left" "600x">}}
+{{< figure "leitura.jpg" "Que delícia que é todo mundo se juntar embaixo de uma árvore para ouvir uma história..." "float-right" "600x">}}
+</div>
 
 Dessa forma o leque vai se ampliar. Quer coisa melhor do que aprender sobre vulcões, fauna e flora, culturas diversas do que presenciar isso fisicamente? Ver pinguins, baleias, guanacos, lhamas, neve, pessoas com trajes diferentes, múmias indígenas, Machu Picchu(!), Maoris? Aprender sobre a história da independência dos países sul-americanos, comidas, dança, artes típicas, tudo isso ***in loco***? 
 {{< figure "gregos.jpg" "Visita a uma exposição sobre a cultura grega - conhecendo Pégasus" "float-center" >}}

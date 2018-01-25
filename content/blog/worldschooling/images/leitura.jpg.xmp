@@ -10,7 +10,7 @@
    darktable:xmp_version="2"
    darktable:raw_params="0"
    darktable:auto_presets_applied="1"
-   darktable:history_end="1">
+   darktable:history_end="4">
    <darktable:mask_id>
     <rdf:Seq/>
    </darktable:mask_id>
@@ -35,10 +35,37 @@
    <darktable:history>
     <rdf:Seq>
      <rdf:li
-      darktable:operation="flip"
+      darktable:operation="colisa"
       darktable:enabled="1"
-      darktable:modversion="2"
-      darktable:params="ffffffff"
+      darktable:modversion="1"
+      darktable:params="b04761be10d723bdb81e053e"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="7"
+      darktable:blendop_params="gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM="/>
+     <rdf:li
+      darktable:operation="shadhi"
+      darktable:enabled="1"
+      darktable:modversion="5"
+      darktable:params="00000000000048430000c84285ebd1c0ec51a6c200000000713d8a420000c842295c0c427f000000bd37863500000000"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="7"
+      darktable:blendop_params="gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM="/>
+     <rdf:li
+      darktable:operation="colorcorrection"
+      darktable:enabled="1"
+      darktable:modversion="1"
+      darktable:params="2ce796418d91024100000000000000000000803f"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="7"
+      darktable:blendop_params="gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM="/>
+     <rdf:li
+      darktable:operation="sharpen"
+      darktable:enabled="1"
+      darktable:modversion="1"
+      darktable:params="000000000000000000000000"
       darktable:multi_name=""
       darktable:multi_priority="0"
       darktable:blendop_version="7"

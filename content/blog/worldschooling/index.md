@@ -27,7 +27,6 @@ Por exemplo, aqui em casa sempre investimos muito em materiais concretos que aux
 {{< figure "numeros.jpg" "Jogos auxiliam muito na apreensão de conceitos" "float-right" "600x" >}}
 </div>
 
-
 Como fiz magistério, sou formada em Letras e tenho mestrado em Literatura, fica um pouco mais fácil de saber como auxiliar o aprendizado dos pequenos sem parecer uma sala de aula, mas isso não é pré-requisito, pois muitos pais sem essa formação também fazem homeschooling/unschooling no Brasil.
 <div class="clearfix">
 {{< figure "alfabetizacao2.jpg" "Por que não aprender o alfabeto brincando?" "float-left" "600x" >}}

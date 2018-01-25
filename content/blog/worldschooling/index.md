@@ -21,7 +21,7 @@ Dentro do Homeschooling encontra-se também o **Unschooling**, também chamado d
 Por exemplo, aqui em casa sempre investimos muito em materiais concretos que auxiliem na compreensão de conceitos matemáticos (como o material dourado, a escala cuisinaire, jogos sobre as 4 operações, blocos lógicos), científicos, históricos e geográficos (jogos para fazer experiências, esqueletos e torsos humanos de plástico, mapas, globo terrestre, bandeiras, livros, muitos livros!) e materiais para a alfabetização (alfabetos móveis, quadros de escrever, jogos didáticos) e artes (muita exposição de obras, idas a museus, peças de teatro, tintas e papel. Papel. E mais papel). Também utilizamos aplicativos e sites educativos, como [IXL](http://ixl.com) e [Khan Academy](http://khanacademy.org), além de receber hóspedes estrangeiros para trocas culturais via [Couchsurfing](http://www.couchsurfing.com).
 <div class="clearfix">
 {{< figure "gregos.jpg" "" "float-right">}}
-{{< figure "alfabetizacao3.jpg" "" "float-left">}}
+{{< figure "alfabetizacao2.jpg" "" "float-left">}}
 {{< figure "artes.jpg" "" "float-right">}}
 {{< figure "artesanato.jpg" "" "float-left">}}
 {{< figure "fracoes.jpg" "" "float-right">}}
@@ -31,7 +31,7 @@ Por exemplo, aqui em casa sempre investimos muito em materiais concretos que aux
 
 <div class="clearfix">
 {{< figure "alfabetizacao.jpg" "" "float-left" "600x">}}
-{{< figure "astronomia2.jpg" "" "float-right" "600x" >}}
+{{< figure "astronomia2jpg" "" "float-right" "600x" >}}
 {{< figure "leitura.jpg" "" "float-left" "600x">}}
 {{< figure "numeros.jpg" "" "float-left" "600x">}}
 {{< figure "programacao.jpg" "" "float-right" "600x">}}

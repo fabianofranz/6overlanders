@@ -34,6 +34,7 @@ Por exemplo, aqui em casa sempre investimos muito em materiais concretos que aux
 
 Como fiz magistério, sou formada em Letras e tenho mestrado em Literatura, fica um pouco mais fácil de saber como auxiliar o aprendizado dos pequenos sem parecer uma sala de aula, mas isso não é pré-requisito, pois muitos pais sem essa formação também fazem homeschooling/unschooling no Brasil.
 {{< figure "alfabetizacao2.jpg" "Por que não aprender o alfabeto brincando?">}}
+
 Com a viagem faremos **wordschooling/roadschooling**, ou seja, a educação acontecerá na **estrada** mesmo. Por que não educar ao caminhar? ***"Se fosse para ficarmos em um só lugar, teríamos raízes ao invés de pés."*** (Rachel Wochin).
 
 

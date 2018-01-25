@@ -31,7 +31,7 @@ Por exemplo, aqui em casa sempre investimos muito em materiais concretos que aux
 
 <div class="clearfix">
 {{< figure "alfabetizacao.jpg" "" "float-left" "600x">}}
-{{< figure "astronomia2jpg" "" "float-right" "600x" >}}
+{{< figure "astronomia.jpg" "" "float-right" "600x" >}}
 {{< figure "leitura.jpg" "" "float-left" "600x">}}
 {{< figure "numeros.jpg" "" "float-left" "600x">}}
 {{< figure "programacao.jpg" "" "float-right" "600x">}}

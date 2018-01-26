@@ -1,7 +1,7 @@
 ---
 title: Worldschooling
 callout: Esclarecemos aqui todas suas dúvidas sobre homeschooling e como vamos tratar a educação das crianças na estrada.
-date: 2018-01-26T15:14:00-03:00
+date: 2018-01-26T14:00:00-02:00
 author: pricila
 local: Canela, Brasil
 images:

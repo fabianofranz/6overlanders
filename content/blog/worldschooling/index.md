@@ -42,7 +42,7 @@ Como fiz **magistério**, sou formada em **Letras** e tenho mestrado em **Litera
 
 ## Worldschooling
 
-Em 1520 o navegador espanhol **Fernão de Magalhães** comandou a primeira expedição de circum-navegação da Terra. Na ocasião, atravessou um estreito canal de água com aproximadamente 600km de extensão, que une os oceanos Pacífico e Atlântico no sul da América do Sul. Esse  estreito passou posteriormente a ser chamado de **Estreito de Magalhães**, e mais tarde foi rota de importantes pesquisadores como **Francis Drake** e **Charles Darwin**.
+Em 1520 o navegador espanhol **Fernão de Magalhães** comandou a primeira expedição de circum-navegação da Terra. Na ocasião, atravessou um estreito canal de água com aproximadamente 600 km de extensão, que une os oceanos Pacífico e Atlântico no sul da América do Sul. Esse  estreito passou posteriormente a ser chamado de **Estreito de Magalhães**, e mais tarde foi rota de importantes pesquisadores como **Francis Drake** e **Charles Darwin**.
 
 Essa é uma das muitas histórias sobre a América do Sul que você provavelmente aprendeu na escola. Eu lembro, ainda que vagamente. Acontece que, em certo ponto da nossa viagem, faremos a travessia do Estreito de Magalhães usando um *ferry*, que vai levar a gente com carro, trailer e tudo mais. Será uma aula de história e tanto, daquelas pra levar pra vida toda!
 
@@ -62,7 +62,7 @@ Dessa forma o leque vai se ampliar muito. Quer coisa melhor do que aprender sobr
 
 Nenhuma sala de aula pode entre quatro paredes suplantar todo esse conhecimento e, principalmente, todo o respeito que queremos ensinar às crianças pelo que é diferente, todo o sentimento de gratidão que desejamos passar a elas por esse mundão lindo que Deus nos deu.
 
-Além disso, sempre há a possibilidade de fazer intercâmbio e as crianças podem visitar escolas em algumas cidades. Se isso der certo será uma experiência única, conhecer escolas com metodologias alternativas.
+Além disso, sempre há a possibilidade de fazer intercâmbio e as crianças podem visitar escolas em algumas cidades. Se isso der certo será uma experiência única conhecer escolas com metodologias alternativas.
 
 <div class="clearfix">
 {{< figure "astronomia.jpg" "Quem não é apaixonado por astronomia?" "float-left" "600x" >}}
@@ -91,4 +91,4 @@ Caso as crianças um dia desejarem ingressar na universidade bastará fazer a pr
 
 **E se um dia quiserem ir para a escola?**
 
-Por que não? Não somos contra as escolas e não advogamos a favor do homeshooling como regra geral. Apenas defendemos o direito dos pais em poderem decidir o melhor modelo educacional para seus filhos, e acreditamos que o modelo que seguimos agora é o que melhor combina com nossa maneira de pensar e levar a vida. Mas isso sempre pode mudar, a qualquer momento. É isso que significa viver uma **vida intencional**!
+Por que não? Não somos contra as escolas e não advogamos a favor do homeshooling como regra geral. Apenas defendemos o direito dos pais em poderem decidir o melhor modelo educacional para seus filhos, e acreditamos que a forma que seguimos agora é o que melhor combina com nossa maneira de pensar e levar a vida. Mas isso sempre pode mudar, a qualquer momento. É isso que significa viver uma **vida intencional**!

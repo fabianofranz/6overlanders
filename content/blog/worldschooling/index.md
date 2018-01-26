@@ -7,7 +7,7 @@ local: Canela, Brasil
 images:
   background: worldschooling-capa.jpg
   thumb: worldschooling-capa.jpg
-draft: fa;se
+draft: false
 ---
 
 **Mas e a educação das crianças?**

@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ if .Summary }}{{ .Summary }}{{ else }}Uma família de 6 pessoas viajando pelo mundo em um carro + trailer!{{ end }}{{ end }}">
+<meta name="description" content="{{ if .Param "callout" }}{{ .Param "callout" }}{{ else }}{{ if .Description }}{{ .Description }}{{ else }}{{ if .Summary }}{{ .Summary }}{{ else }}Uma família de 6 pessoas viajando pelo mundo em um carro + trailer!{{ end }}{{ end }}{{ end }}">
 
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">

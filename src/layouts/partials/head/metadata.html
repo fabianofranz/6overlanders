@@ -10,11 +10,11 @@
 <meta property="og:description" content="{{ if .Param "callout" }}{{ .Param "callout" }}{{ else }}{{ if .Description }}{{ .Description }}{{ else }}{{ if .Summary }}{{ .Summary }}{{ else }}Uma família de 6 pessoas viajando pelo mundo em um carro + trailer! Procuramos viver uma vida intencional, praticamos worldschooling e fazemos muito uso de tecnologia e life hacks. Até onde vamos?{{ end }}{{ end }}{{ end }}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
-{{ $.Scratch.Set "image" (printf "%s/images/conjunto.jpg" (.Param "publishDir" | default "public")) }} 
-{{ with (imageConfig ($.Scratch.Get "image")) }}
+{{ with (imageConfig (printf "%s/images/conjunto.jpg" (.Param "publishDir" | default "public"))) }}
 {{ $.Scratch.Set "width" .Width }}
 {{ $.Scratch.Set "height" .Height }}
 {{ end }}
+{{ $.Scratch.Set "image" "/images/conjunto.jpg" }}
 {{ with .Param "images" }}
   {{ if .background }}
     {{ $original := $.Page.Resources.GetByPrefix .background }}

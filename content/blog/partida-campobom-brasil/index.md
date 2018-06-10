@@ -7,7 +7,7 @@ images:
   thumb: encontro.jpg
 author: pricila
 local: Canela, Brasil
-draft: true
+draft: false
 ---
 
 Enfim, chegou o tão esperado dia!! Depois de muito planejamento, muita organização e uma boa porção de expectativa, pegamos o restante das coisas que não conseguimos destralhar, arrumar -- nem colocar dentro do trailer -- e jogamos no sótão mesmo. Partimos de Canela no final da tarde de sexta-feira, dia 9 de fevereiro, na véspera de Carnaval, pois queríamos deixar a casa disponível para um possível aluguel durante o feriado. Vizinhos e amigos que conseguiram sair do trabalho vieram se despedir. Dava para sentir a ansiedade de todos no ar!

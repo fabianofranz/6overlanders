@@ -88,125 +88,26 @@
       </div>
     </aside>
 
-    <article class="why">
-      <h1 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/pq.md") }}</h1>
-      <p>
-        {{ partial "readContent" (slice . "/content/homepage/pq.md") }}
-      </p>
-    </article>
-
     <article class="where">
-      <h1 class="separator-left">{{ partial "readTitle" (slice . "/content/homepage/onde.md") }}</h1>
-      <div class="grid-x">
-        <div class="cell medium-4 show-for-medium">
-          <div id="map"></div>
-        </div>
-        <div class="cell small-12 medium-8">
-          <p>
-            {{ partial "readContent" (slice . "/content/homepage/onde.md") }}
-          </p>
-        </div>
-      </div>
+      <h1 class="separator-left">Onde estamos?</h1>
+      <div id="map"></div>
     </article>
   </main>
   <script>
     function initMap() {
-      var markers = [
-        ['Canela', -29.35649, -50.81242],
-        ['Ushuaia', -54.80191, -68.30295],
-        ['Cartagena', 10.39104, -75.47942]
-      ];
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 3,
+        zoom: 6,
         center: {
-          lat: -24.006,
-          lng: -59.022
+          lat: -33.208,
+          lng: -59.102
         },
-        disableDefaultUI: true,
-        gestureHandling: "cooperative",
-        scrollwheel: false,
-        styles: [{
-            "featureType": "administrative",
-            "elementType": "all",
-            "stylers": [{
-              "visibility": "on"
-            }, {
-              "lightness": 33
-            }]
-          },
-          {
-            "featureType": "landscape",
-            "elementType": "all",
-            "stylers": [{
-              "color": "#f2e5d4"
-            }]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "geometry",
-            "stylers": [{
-              "color": "#c5dac6"
-            }]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "labels",
-            "stylers": [{
-              "visibility": "on"
-            }, {
-              "lightness": 20
-            }]
-          },
-          {
-            "featureType": "road",
-            "elementType": "all",
-            "stylers": [{
-              "lightness": 20
-            }]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "geometry",
-            "stylers": [{
-              "color": "#c5c6c6"
-            }]
-          },
-          {
-            "featureType": "road.arterial",
-            "elementType": "geometry",
-            "stylers": [{
-              "color": "#e4d7c6"
-            }]
-          },
-          {
-            "featureType": "road.local",
-            "elementType": "geometry",
-            "stylers": [{
-              "color": "#fbfaf7"
-            }]
-          },
-          {
-            "featureType": "water",
-            "elementType": "all",
-            "stylers": [{
-              "visibility": "on"
-            }, {
-              "color": "#acbcc9"
-            }]
-          }
-        ]
+        mapTypeId: 'hybrid'
       });
-      for (var i = 0; i < markers.length; i++) {
-        var marker = markers[i];
-        new google.maps.Marker({
-          map: map,
-          position: {
-            lat: marker[1],
-            lng: marker[2]
-          },
-          label: marker[0]
-        });
-      }
+      var ctaLayer = new google.maps.KmlLayer({
+        url: "https://6overlanders.com/spot-data.kml",
+        preserveViewport: true,
+        map: map
+      });
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxKss9LGv22KDJWJKd7aiXy4JuyDkvwNs&callback=initMap"></script>

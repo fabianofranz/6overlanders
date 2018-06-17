@@ -52,5 +52,4 @@ Pedágio Santo Antônio da Patrulha 10,50
 Restaurante Da Colônia 32,60
 Camping 85,00
 
-Talvez esteja no Bar do tio Zé.
 1612 km saída de Bacupari 18:00

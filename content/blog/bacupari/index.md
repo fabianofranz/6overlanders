@@ -5,81 +5,52 @@ date: 2018-06-08T15:00:00-03:00
 author: pricila
 local: Canela, Brasil
 images:
-  background: 
-  thumb: 
+  background: bacupariclara.jpg
+  thumb: bacupariclara.jpg
 draft: true
 ---
 
-15:00 saída Campo Bom
-188 Km
+No dia 15 de março, às 15:00, finalmente saímos de Campo Bom. Andamos 188 km pelas RS 239, 474 (pedágio!), 290 e BR 101 até chegar à Lagoa de Bacupari (também conhecida como Bacopari), que fica entre Palmares do Sul e Mostardas, com uma pequena parada no restaurante Da Colônia.
+
+<div class="clearfix">
+{{<figure "bianomotorista.jpg" "Living easy, livin' free / Season ticket, on a one way ride / Asking nothing, leave me be / Taking everything in my stride" "float-left">}}
+{{<figure "estradaarvore.jpg" "Trecho bom e bonito da estrada" "float-right">}}
+</div>
+
+É um trecho muito bonito, de planície, com muita plantação de soja, milho, arroz (lembrou as estradas do Uruguai). Dava para ver até a Lagoa dos Patos e pegamos bastante ventania (já aproveitando para testar o trailer para os ventos patagônicos até Ushuaia). Por conta disso é uma região com parques eólicos (passamos por dois). Uma pena que a estrada para chegar até a Lagoa é péssima, com muitos buracos!
+
+{{<figure "lagoaestrada.jpg" "A vontade é de ficar parando ao longo do caminho só para tirar foto" "float-center" >}}
+
+As crianças (principalmente a Elise) ficaram um pouco cansadas de estar no carro, mas quando chegaram na lagoa, enlouqueceram! As águas são quentinhas, calmas e transparentes. Dá para ver peixinhos e até sentar com as cadeiras dentro da água!
+
+<div class="clearfix">
+{{<figure "bacuparibanho.jpg" "Águas quentinhas, calmas e transparentes - tudo de bão!" "float-left">}}
+{{<figure "bacupariclara.jpg" "Será que ela gostou?" "float-right">}}
+{{<figure "bacuparijunco.jpg" "Pequena vendo uma lagoa pela primeira vez" "float-left">}}
+{{<figure "bacuparipulo.jpg" "Quem tem crianças assim, no plural, sabe como é difícil sincronizar o sorriso pra foto. Imagina então quatro, e dando pulinho!" "float-right">}}
+</div>
+
+Bacupari fica a 125 km de distância de Porto Alegre, com uma população de 100 habitantes. Ótima maneira de começar essa viagem! Tinha um pouco de vento no final da tarde, mas que lugar lindo! Os pequenos adoraram brincar no camping também. Pagamos 85,00 no total com chuveiro quente, luz e água (sem internet). Foi uma experiência muito diferente ficar até tarde da noite na rua brincando com os vovôs! Já no primeiro dia cheguei à conclusão que tinha muita coisa no trailer, principalmente roupa, hehehe!
+
+<div class="clearfix">
+{{<figure "bacuparisol.jpg" "Lugar sensacional" "float-left">}}
+{{<figure "bacuparinoite.jpg" "Delícia ficar do lado de fora da casa até tarde da noite" "float-right">}}
+{{<figure "bacuparicavalo.jpg" "Não deixe a vida passar a galope por você! Viva intencionalmente cada segundo!" "float-center">}}
+</div>
+
+Na manhã do dia 16 acordamos com o caminhão do verdureiro entrando no camping para vender frutas e verduras. Adorei! Depois fizemos uma caminhada pela beira da lagoa e tomamos um banho delícia. À tarde resolvemos passear para explorar a paisagem exuberante.
+
+<div class="clearfix">
+{{<figure "bacupariarvore.jpg" "A árvore dobrando-se à força do vento" "float-left">}}
+{{<figure "bacuparimanha.jpg" "Caminhada básica pela manhã" "float-right">}}
+</div>
+
+E foi aí o começo dos perrengues... Perdemos a placa dianteira do carro andando nas dunas Bacupari. Fiquei muito preocupada, pois já era final da tarde de sexta, e nunca tínhamos passado por uma situação assim. Não sabia o que fazer! Enquanto o Fabiano e meu pai saíram de carro refazendo nosso trajeto para tentar achar a placa, eu e minha mãe ficamos com as crianças recolhendo as coisas, pois nossa ideia era ir pra cidade de Mostardas depois. Como não encontramos a placa, saímos às 18:00 para ver se encontravámos o Detran em Mostardas e ficamos com o telefone do Bar do Tio Zé, que é onde as pessoas deixam as placas encontradas nas dunas (ou seja, não éramos os primeiros e nem seríamos os últimos a perder!).
+
+Gastos do dia 15:
 Pedágio Santo Antônio da Patrulha 10,50
-Da Colônia 32,60
-Capivari do Sul - Bacupari: planície, se enxerga longe, parece Uruguai, dá pra ver até a Lagoa dos Patos, muita plantação de soja, milho, arroz. Muita ventania (já testando o trailer pra Ushuaia). Elise reclamou um pouco na segunda etapa da viagem. Vimos dois parques eólicos.
+Restaurante Da Colônia 32,60
+Camping 85,00
 
-As crianças enlouqueceram com a lagoa. Água quentinha mas um pouco de vento. E adoraram brincar no camping. Valor: 25,00 por pessoa, criança até anos não paga e até paga meia (85,00 no total) com chuveiro quente, luz e água (sem internet).
-
-Chegando à conclusão que tem muita coisa no trailer, principalmente roupa. Esqueci a leiteira antiaderente.
-
-16/02/2018
-Perdemos a placa do carro andando nas dunas de Bacupari. Talvez esteja no Bar do tio Zé.
+Talvez esteja no Bar do tio Zé.
 1612 km saída de Bacupari 18:00
-
-{{< figure "bianomotorista.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacupariarvore.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacuparibanho.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacupariclara.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacuparijunco.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacuparimanha.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacuparinoite.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacuparipulo.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacuparisol.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "bacupraicavalo.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "estradaarvore.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "lagoaestrada.jpg" "Hodor hodor" "float-left" >}}
-
-
-
-
-
-
-Hodor, *itálico hodor*, hodor. **Negrito Hodor** hodor... Hodor hodor! ***Negrito e itálico*** HODOR hodor, hodor hodor?! ~~Sobrescrito Hodor~~ HODOR! Hodor hodor...
-
-Hodor - hodor -- hodor --- hodor 1/2 hodor 5/4 hodor hodor hodor hodor rodapé[^1] hodor; hodor hodor? Hodor, HODOR hodor, hodor hodor; hodor hodor hodor! Hodor! Hodor hodor, HODOR hodor, hodor hodor hodor hodor.
-
-Hodor [link externo](http://hodoripsum.com/) hodor link sem texto http://hodoripsum.com/ hodor [link interno](../eletrica) hodor! Hodor hodor. Hodor hodor... HODOR hodor, hodor hodor hodor.
-
-- Hodor
-- Hodor hodor
-  - Hodor hodor, hodor
-  - Hodor hodor, hodor hodor
-- Hodor hodor hodor
-
-1. Hodor
-2. Hodor hodor
-  1. Hodor hodor, hodor
-  2. Hodor hodor, hodor hodor
-3. Hodor hodor hodor
-
-- [ ] Hodor
-- [x] Hodor hodor
-- [x] Hodor hodor hodor 
-- [ ] Hodor hodor hodor hodor
-
-> Blockquote HODOR hodor hodor, hodor!
-> <cite>Hodor</cite>
-
-| Hodor         | hodor               | hodor |
-| ------------- |---------------------| ------|
-| Hodor 1       | hodor               | hodor |
-| Hodor 2       | hodor hodor         | hodor |
-| Hodor 3       | hodor hodor hodor   | hodor |
-
-# Título hodor ipsum
-
-## Subtítulo hodor hodor
-
-### Subsubtítulo hodor hodor
-
-Hodor hodor HODOR! Hodor HODOR hodor, hodor hodor?! Hodor, hodor - hodor; hodor hodor?! Hodor hodor HODOR! Hodor hodor hodor - hodor... Hodor hodor hodor hodor hodor. Hodor. Hodor hodor; hodor hodor... Hodor hodor hodor. Hodor. Hodor! Hodor hodor, HODOR hodor, hodor hodor hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor hodor?! Hodor, hodor; hodor hodor; hodor hodor hodor hodor?
-
-[^1]: Hodor hodor hodor

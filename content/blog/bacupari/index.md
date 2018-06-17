@@ -51,5 +51,3 @@ Gastos do dia 15:
 Pedágio Santo Antônio da Patrulha 10,50
 Restaurante Da Colônia 32,60
 Camping 85,00
-
-1612 km saída de Bacupari 18:00

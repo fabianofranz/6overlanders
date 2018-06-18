@@ -601,8 +601,10 @@ footer {
   height: 33rem;
   width: 100%;
   margin-right: .7rem;
+  margin-top: .5rem;
 
   @include breakpoint(large) {
+    margin-top: 1rem;
     margin-right: 1.5rem;
   }
 }

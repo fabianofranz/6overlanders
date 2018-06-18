@@ -1,7 +1,7 @@
 ---
 title: Lagoa do Peixe
 callout: Santuário das Aves
-date: 2018-06-25T15:00:00-03:00
+date: 2018-06-17T15:00:00-03:00
 author: pricila
 local: Mostardas, Brasil
 images:
@@ -10,7 +10,7 @@ images:
 draft: true
 ---
 
-Chegamos em **Mostardas** depois de uma hora de viagem. Tentamos encontrar o Detran ou a Delegacia abertos ainda, mas não adiantou. Ficamos na angústia de passar o fim de semana sem a placa do carro. Por via das dúvidas registramos um BO online e salvamos no celular mesmo, para poder andar pela cidade, se precisássemos. Passamos pelo mercado e à noitinha procuramos um camping para ficar, pois meus pais estavam com barraca e infelizmente não é possível acampar no **Parque Nacional da Lagoa dos Patos**. Embora estivéssemos usando o aplicativo **iOverlander**, ainda não há muitos pontos de camping marcados no Brasil, então a gente precisou encontrar algum por conta própria. Resolvemos conferir como era o **Camping Poente**. Lugar lindo! As crianças adoraram porque tinha pracinha. E a diária era 20 reais por pessoa com luz, água e banho quente -- criança não pagava. Perfeito! 
+Chegamos em **Mostardas** depois de uma hora de viagem. Tentamos encontrar o Detran ou a Delegacia abertos ainda, mas não adiantou. Ficamos na angústia de passar o fim de semana sem a placa do carro (se quiser saber o que aconteceu, [clique aqui](/blog/bacupari). Por via das dúvidas registramos um BO online e salvamos no celular mesmo, para poder andar pela cidade, se precisássemos. Passamos pelo mercado e à noitinha procuramos um camping para ficar, pois meus pais estavam com barraca e infelizmente não é possível acampar no **Parque Nacional da Lagoa dos Patos**. Embora estivéssemos usando o aplicativo **iOverlander**, ainda não há muitos pontos de camping marcados no Brasil, então a gente precisou encontrar algum por conta própria. Resolvemos conferir como era o **Camping Poente**. Lugar lindo! As crianças adoraram porque tinha pracinha. E a diária era 20 reais por pessoa com luz, água e banho quente -- criança não pagava. Perfeito! 
 
 <div class="clearfix">
 {{<figure "mostardas1.jpg" "O primeiro pôr do sol de muitos outros lindos que ainda veríamos" "float-center">}}

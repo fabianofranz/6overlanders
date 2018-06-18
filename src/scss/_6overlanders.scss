@@ -132,10 +132,18 @@ main {
   }
 
   .instagram {
-    margin-top: 1rem;
+    margin-top: .5rem;
 
     @include breakpoint(medium) {
-      margin-top: 2rem;
+      margin-top: 1rem;
+    }
+
+    .polaroid {
+      margin-top: .5rem;
+
+      @include breakpoint(medium) {
+        margin-top: 1rem;
+      }
     }
   }
 

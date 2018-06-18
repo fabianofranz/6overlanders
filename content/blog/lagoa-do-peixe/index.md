@@ -3,7 +3,7 @@ title: Lagoa do Peixe
 callout: um lugar perfeito para crianças -- e o início dos perrengues
 date: 2018-06-16T15:00:00-03:00
 author: pricila
-local: Lagoa do Peixe, Mostardas, Brasil
+local: Mostardas, Brasil
 images:
   background: lagoadopeixe6.jpg
   thumb: lagoadopeixe6.jpg

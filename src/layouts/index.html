@@ -92,23 +92,35 @@
       <h1 class="separator-left">Onde estamos?</h1>
       <div id="map"></div>
     </article>
+
+  <div class="grid-container">
+    <div class="post-summaries grid-x small-up-1 medium-up-2 large-up-3">
+      {{ range first 2 (where .Data.Pages "Section" "blog") }}
+        {{ partial "blog/thumb.html" . }}
+      {{ end }}
+      {{ with .Site.GetPage "page" $.Site.Params.featured }}
+        {{ partial "blog/thumb.html" . }}
+      {{ end }}
+    </div>
+  </div>
   </main>
   <script>
     function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 6,
+        zoom: 5,
         center: {
-          lat: -33.208,
+          lat: -36.208,
           lng: -59.102
         },
         mapTypeId: 'hybrid'
       });
       var ctaLayer = new google.maps.KmlLayer({
-        url: "https://6overlanders.com/spot-data.kml",
+        url: "{{ "spot-data.kml" | absURL }}",
         preserveViewport: true,
         map: map
       });
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxKss9LGv22KDJWJKd7aiXy4JuyDkvwNs&callback=initMap"></script>
+
 {{ end }}

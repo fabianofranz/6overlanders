@@ -42,3 +42,7 @@ archetypeDir: src/archetypes
 layoutDir: src/layouts
 staticDir: src/static
 themesDir: src/themes
+
+params:
+  featured: blog/worldschooling/index.md
+

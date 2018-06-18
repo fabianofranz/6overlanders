@@ -1,6 +1,6 @@
 ---
 title: Bacupari - paraíso gaúcho desconhecido
-callout: um lugar perfeito para crianças -- e o início dos perrengues
+callout: um lugar perfeito para crianças - e o início dos perrengues
 date: 2018-06-15T15:00:00-03:00
 author: pricila
 local: Bacupari, Brasil

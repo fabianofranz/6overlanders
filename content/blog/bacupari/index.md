@@ -1,7 +1,7 @@
 ---
 title: Bacupari
-callout: paraíso gaúcho desconhecido e perfeito para crianças - e o início dos perrengues
-date: 2018-06-15T15:00:00-03:00
+callout: Paraíso gaúcho desconhecido e perfeito para crianças - e o início dos perrengues!
+date: 2018-06-17T15:00:00-03:00
 author: pricila
 local: Bacupari, Brasil
 images:
@@ -51,11 +51,6 @@ Na manhã do dia 16 acordamos com o caminhão do verdureiro entrando no camping 
 </div>
 
 *E foi aí o começo dos perrengues*... Perdemos a placa dianteira do carro andando nas dunas Bacupari. Fiquei muito preocupada, pois já era final da tarde de sexta, e nunca tínhamos passado por uma situação assim. Não sabia o que fazer! Enquanto o Fabiano e meu pai saíram de carro refazendo nosso trajeto para tentar achar a placa, eu e minha mãe ficamos com as crianças recolhendo as coisas, pois nossa ideia era ir pra cidade de Mostardas depois. Como não encontramos a placa, saímos às 18 h para ver se encontravámos o Detran em Mostardas e ficamos com o telefone do *Bar do Tio Zé*, que é onde as pessoas deixam as placas encontradas nas dunas -- ou seja, não éramos os primeiros e nem seríamos os últimos a perder uma placa fazendo trilha 4x4!
-
-**Gastos do dia 15:**
-Pedágio Santo Antônio da Patrulha **R$ 10,50**
-Restaurante Da Colônia **R$ 32,60**
-Camping do Chico **R$ 85,00**
 
 Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
 

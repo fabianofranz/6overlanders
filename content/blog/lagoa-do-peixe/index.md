@@ -1,7 +1,7 @@
 ---
 title: Lagoa do Peixe
 callout: Santuário das Aves
-date: 2018-06-16T15:00:00-03:00
+date: 2018-06-25T15:00:00-03:00
 author: pricila
 local: Mostardas, Brasil
 images:
@@ -55,12 +55,6 @@ Depois do passeio fomos até **Tavares**, para relaxar e tomar banho na **Lagoa 
 </div>
 
 Depois da brincadeira curtimos mais um pôr do sol de tirar o fôlego no camping e fomos acertar as contas para pegar a estrada no outro dia de manhã. **Outro susto!** Como estragamos um pedaço do telhado e usamos o ar condicionado do trailer -- detalhe sobre o qual não foi falado nada antes! -- os proprietários resolveram cobrar diária cheia de todos, inclusive das crianças. Acabamos pagando sem reclamar, mas aprendemos a lição de deixar tudo combinado sempre antes de se hospedar.
-
-**Gastos dos dias 16 a 18:**
-Mercado **R$ 178,31**
-Restaurante Estrela do Mar **R$ 90,00**
-Diesel  **R$ 182,09**
-Camping Poente **R$ 360,00**
 
 Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
 

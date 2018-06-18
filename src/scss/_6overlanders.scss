@@ -131,6 +131,14 @@ main {
     @include xy-grid-container;
   }
 
+  .instagram {
+    margin-top: 1rem;
+
+    @include breakpoint(medium) {
+      margin-top: 2rem;
+    }
+  }
+
   .bios {
     margin-top: 1rem;
 

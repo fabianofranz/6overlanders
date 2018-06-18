@@ -1,5 +1,5 @@
 ---
-title: Entrevista na Rádio Gramado Mix FM
+title: Entrevista
 callout: E tem gente querendo ouvir sobre o nosso sonho...
 date: 2017-12-12T09:00:00-02:00
 author: pricila

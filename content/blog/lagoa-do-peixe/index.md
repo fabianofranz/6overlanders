@@ -1,6 +1,6 @@
 ---
 title: Lagoa do Peixe
-callout: santuário das aves
+callout: Santuário das Aves
 date: 2018-06-16T15:00:00-03:00
 author: pricila
 local: Mostardas, Brasil
@@ -9,19 +9,30 @@ images:
   thumb: lagoadopeixe6.jpg
 draft: true
 ---
-1612 km saída de Bacupari 18:00
+
+Chegmos em Mostardas depois de uma hora de viagem. Tentamos encontrar o Detran ou a Delegacia abertos ainda, mas não adiantou. Ficamos na angústia de passar o fim de semana sem placa. Por via das dúvidas registramos um BO online e salvamos no celular mesmo, para poder andar pela cidade, se precisássemos. Passamos pelo mercado e à noitinha procuramos um camping para ficar, pois meus pais estavam com barraca. No iOverlander não há muitos pontos de camping marcados, então a gente precisou encontrar por conta própria. Resolvemos conferir como era o Camping Poente. Lugar lindo! As crianças adoraram porque tem pracinha. E a diária era 20 reais por pessoa com luz, água e banho quente -- criança não pagava. Perfeito! 
+
+Mas, na chegada, mais um perrengue: o trailer ficou muito perto da sala de refeições e acabou estragando parte do telhado. Fiquei bem apreensiva, pois se as coisas estavam dando erradas já agora, como seria no restante da viagem? Mas os proprietários foram super gentis e compreensivos, e disseram que depois a gente acertava -- dica: nunca deixem para acertar depois, pois a conta pode ficar um pouco mais cara do que o esperado, como foi no nosso caso... 
+
+O Fabiano aproveitou para fazer bifes na paella que ficaram uma delícia. O único problema é que, a comilança da noite somada à preocupação com os problemas do início da viagem fizeram com que eu acordasse com dor de estômago no outro dia. Mesmo assim, pensei que passaria logo e tomei café. Nos preparamos para passear na Lagoa do Peixe e fui olhando com os binóculos pela janela para ver se conseguia ver as aves mais de perto. Tudo o que consegui foi ficar ainda pior e acabei parando no hospital, pois não parava de vomitar! 
+
+Depois de uma injeção voltei para o camping para descansar, dando graças a Deus que tinha meus pais por perto para poder ficar com as crianças, que ficaram desenhando e jogando  no tablet, além de fazer amizade com um pessoal de Floripa que viajava numa kombi. O problema é que o mal-estar não passou e à noite acabei voltando para o hospital, dessa vez com soro na veia. Eu e o Fabiano saímos de lá a meia-noite. Juro que aí foi a primeira vez que pensei em desistir de tudo e voltar para casa.
+
+Mas é aquela história, *nada como um dia após o outro*. Na manhã de domingo eu estava novinha em folha e aí sim, fomos passear no parque. A Lagoa do Peixe, paraíso migratório das aves localizado dentro do parque nacional de mesmo nome, às vezes é *lagoa*, às vezes é *laguna*: este canal, que liga a lagoa ao mar, abre e fecha conforme a época do ano. Encontramos muitas aves durante o passeio; pena que não havia alguém com conhecimento especializado para explicar mais sobre as espécies... Dindo Isma, na próxima vez você precisa ir junto!
+
+Depois do passeio fomos até Tavares, para relaxar e tomar banho na Lagoa dos Patos! As crianças chegaram à conclusão de que não querem mais praia de mar, só de lagoa, pois as águas geralmente são quentes, bem rasinhas e transparentes. 
+
+Depois da brincadeira curtimos mais um por do sol de tirar o fôlego no camping e fomos acertar as contas para pegar a estrada no outro dia de manhã.
+
 66,96 mercado
-19:15 Mostardas trailer encostou no telhado da entrada do camping e quebrou um pouco a telha.
-As crianças adoraram porque tem pracinha. Biano fez bife na paella. Elise dormiu a noite toda.
 
 17/02/2018
-Acordei com dor de estômago mas mesmo assim fui tomar café da manhã. Praia, restaurante 90,00, hospital, desenhos, hospital. Tablet. As crianças fizeram amizade com pessoal de Floripa numa Kombi. Mercado.
-
-18/02/2018
-Bem melhor. Mercado 68,00 Diesel  182,09 Lagoa do Peixe. Lagoa dos Patos. Camping Poente 480,00.
-
-19/02/2018
-Mostardas 1899 km 10:50
+Restaurante 90,00,
+Mercado?
+Mercado 68,00
+Diesel  182,09
+Lagoa do Peixe. Lagoa dos Patos.
+Camping Poente 360,00.
 
 
 <div class="clearfix">

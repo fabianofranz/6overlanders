@@ -35,11 +35,6 @@ No dia 15 de março, às 15 h, finalmente saímos de **Campo Bom** da casa dos v
 O trecho percorrido é muito bonito, de planície, com muita plantação de soja, milho, arroz (parece as estradas do Uruguai). Dava para ver até a Lagoa dos Patos! Também pegamos bastante ventania, o que foi bom para testar o trailer para os ventos patagônicos até Ushuaia. Por conta disso essa região tem vários parques eólicos -- só nesse caminho passamos por dois. Uma pena que a estradinha para chegar até a lagoa é péssima, com muitos buracos!
 
 
-As crianças -- principalmente a Elise -- ficaram um pouco cansadas de estar no carro, mas quando chegaram na lagoa, *enlouqueceram*! As águas são quentinhas, calmas e transparentes. Dá para ver peixinhos e até sentar com as cadeiras dentro da água!
-
-
-Foi uma ótima maneira de começar essa viagem! Embora tivesse um pouco de vento no final da tarde, o lugar é lindo! 
-
 **Gastos dos dias 16 e 17:**
 Pedágio Santo Antônio da Patrulha **R$ 10,50**
 Restaurante Da Colônia **R$ 32,60**

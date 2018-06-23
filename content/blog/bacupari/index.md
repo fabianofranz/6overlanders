@@ -10,7 +10,7 @@ images:
 draft: false
 ---
 
-No dia 15 de março, às 15 h, finalmente saímos de **Campo Bom** da casa dos vovôs rumo ao sul do continente. Andamos durante umas duas horas, perfazendo 188 km pelas estradas RS 239, RS 474 -- pedágio! E pequena parada no restaurante *Da Colônia* --, RS 290 e BR 101, até chegar à **Lagoa de Bacupari** (também conhecida como Bacopari), que fica entre **Palmares do Sul** e **Mostardas**. **Bacupari** fica a 125 km de distância de **Porto Alegre**, com uma população de 100 habitantes.
+No dia 15 de fevereiro, às 15 h, finalmente saímos de **Campo Bom** da casa dos vovôs rumo ao sul do continente. Andamos durante umas duas horas, perfazendo 188 km pelas estradas RS 239, RS 474 -- pedágio! E pequena parada no restaurante *Da Colônia* --, RS 290 e BR 101, até chegar à **Lagoa de Bacupari** (também conhecida como Bacopari), que fica entre **Palmares do Sul** e **Mostardas**. **Bacupari** fica a 125 km de distância de **Porto Alegre**, com uma população de 100 habitantes.
 
 <div class="clearfix">
 {{<figure "bianomotorista.jpg" "Living easy, livin' free / Season ticket, on a one way ride / Asking nothing, leave me be / Taking everything in my stride" "float-left">}}

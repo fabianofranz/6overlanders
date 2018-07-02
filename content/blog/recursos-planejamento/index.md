@@ -1,5 +1,5 @@
 ---
-title: Ferramentas para o planejamento da viagem
+title: Planejamento - gadgets
 callout: Recursos e aplicativos que nos ajudam a planejar desde já nossa viagem 
 date: 2017-07-07T15:00:00-03:00
 author: pricila

@@ -1,5 +1,5 @@
 ---
-title: Quanta Gasolina Gastamos Rebocando Um Trailer?
+title: gasolina x trailer
 callout: Confira aqui como fica o consumo de combustível de um veículo 4x4 a gasolina, ao rebocar um trailer.
 date: 2017-11-13T22:43:00-03:00
 author: fabiano

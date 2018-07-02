@@ -9,70 +9,53 @@ images:
   thumb: taim15.jpg
 draft: true
 ---
-Mostardas 1899 km 10:50
-Balsa 67,00
-Rio Grande 15:00
-Diesel 65,04 placa 80,00
-2043km
-41,00 lanche
-Diesel 102,80 (3,29) 
-Isabela fez um mapa de Rio Grande até o Taim
-Taim 19:30 2137km
-Elise ficou muito irritada
-As crianças viram vários gafanhotos (estavam com medo)
-Muito quente no ESEC
+Após termos passados 3 dias em Mostardas, dia 19 de fevereiro às 10:50 partimos em direção ao sul. Foi uma partida bem triste, com muito choro, pois os vovôs Alceu e Helena não nos acompanharíamos mais. Todas as despedidas são muito difíceis e muitas vezes nos fazem fraquejar, pois a saudade de quem fica é imensa!
 
-20/02/2018
-Noite quente no trailer. Visita ao museu do ESEC. Mormaço. A Clara fez amizade com os biólogos. Elise irritada por causa do sono e foi mordida por formigas. Se acalmou um pouco na praia da Capilla mas depois chorou de novo é só se acalmou quando mamou. As crianças passaram a tarde rolando na areia. 48,00 +6,90 mercado
-
-21/02/2018
-Chuva 4:30 tive que recolher roupa, cadeiras, tapete. 
-Saída Taim 10:20. Quase perdemos o drone pro vento, não deu pra filmar. Muita chuva em Hermenegildo.
-Chuí 2367km.
-
-
+Apesar da tristeza conseguimos curtir a paisagem da estrada, feita de muitas lagoas e árvores de reflorestamento, que margeavam o caminho. Uma pena a BR 101 ter tanto buraco, pareciam uns panelões! Inclusive foi nos dito que quem tem 4x4 acaba indo até São José do Norte pela faixa de areia na beira da praia em vez de ir pela estrada, pois é melhor do que o asfalto... Chegamos no porto para pegar a balsa na hora do almoço. Como o barco havia partido há 5 minutos, resolvemos ficar bem na frente na fila estacionados e compramos alguns lanches. Com o calor escaldante também aproveitamos para comer picolés caseiros na beira da calçada. Depois de uma hora de espera, subimos na balsa (perdendo um dos pés do trailer - o problema é que ele tem pouco ângulo de inclinação). Para as crianças foi emocionante andar de balsa pela primeira vez! Desceram do carro, fizeram muitas perguntas...
 
 <div class="clearfix">
 {{<figure "taim2.jpg" "Casinha apertadinha na balsa" "float-left">}}
 {{<figure "taim3.jpg" "Felicidade de estar andando de barco pela primeira vez" "float-right">}}
 </div>
 
-
-
-<div class="clearfix">
-{{<figure "taim4.jpg" "Duvido que você já tenha brincado de corrida de limões!" "float-left" >}}
-{{<figure "taim5.jpg" "Pescaria - a imaginação corre solta quando se tem poucos brinquedos disponíveis" "float-center">}}
-{{<figure "taim7.jpg" "Bem interativo - área para deixar as pegadas dos animais na areia" "float-right">}}
-</div>
-
+Já em Rio Grande paramos para refazer a placa dianteira do carro no Detran, (haja burocracia!), o que levou quase a tarde inteira! Enquanto isso as crianças ficaram no carro, desenhando mapas do trajeto que estávamos fazendo e ouvindo música. Depois de tudo pronto ficamos na dúvida se fazíamos um desvio para a praia de Cassino ou se tocávamos direto para o Taim. Acabamos fazendo uma pequena parada no posto para descanso e lanche e decidimos seguir em frente, mesmo com o convite do pessoal da Kombi Odete Roitman em passar pela praia... Agradecemos muito o convite, mas fica para a próxima! A questão é tínhamos convite para pernoitar na Estação Ecológica do Taim (ESEC) e não queríamos chegar tarde da noite. Após alguns congestionamentos na região de Rio Grande, seguimos pela RS 473 até a estação ecológica, onde chegamos às 19:30. As crianças estavam bem cansadas por conta do calor e do ritmo um pouco mais puxado, principalmente a Elise, mas logo se entusiasmaram quando chegamos. Ficaram impressionadas com a quantidade de gafanhotos atraídos pela luz durante a noite. Foi uma noite bem difícil para dormir, pois estava bem quente e acabamos não ligando o trailer na energia, assim não dava para usar o ar condicionado.
 
 <div class="clearfix">
-{{<figure "taim9.jpg" "As crianças se divertiram muito" "float-left">}}
+{{< figure "taim4.jpg" "Duvido que você já tenha brincado de corrida de limões!" "float-left" "600x" >}}
+{{< figure "taim5.jpg" "Pescaria - a imaginação corre solta sem brinquedos" "float-right" "600x" >}}
 </div>
 
-
+No dia 20 depois de brincar muito de corrida de limões, pescaria, conhecer o museu da estação e sermos atacados por formigas ardidas, almoçamos e fomos curtir a praia da Capilha, mesmo com chuvinha, pois o calor estava insuportável. Aliás, a chvua voltou durante a madrugada, e às 4:30 tive que levantar para recolher roupas e tralhas, hehehe.
 
 <div class="clearfix">
 {{<figure "taim6.jpg" "Museu da reserva do Taim" "float-left">}}
 {{<figure "taim8.jpg" "Olha que amor os jogos de tabuleiro disponíveis!" "float-right">}}
+{{<figure "taim9.jpg" "As crianças se divertiram muito" "float-center">}}
 </div>
-
 
 <div class="clearfix">
-
-{{<figure "taim11.jpg" "Bebê à milanesa" "float-right">}}
-{{<figure "taim12.jpg" "A partir de agora só queremos praia de lagoa" "float-left">}}
+{{<figure "taim7.jpg" "Bem interativo - área para deixar as pegadas dos animais na areia" "float-center" "600x" >}}
 </div>
 
+A localidade de Capilha, junto à Lagoa Mirim e vizinha da Estação Ecológica, é um dos interessantes exemplos de como era povoado o sul da América do Sul antes do Tratado dos Campos Neutrais, estabelecido em 1777 entre Portugal e Espanha. Enquanto, por exemplo, a Colônia do Sacramento no Uruguai era de ocupação portuguesa, a Capilha era uma vila de ocupação espanhola. Essa capela (capilla) da foto é remanescente dessa época.
 
 <div class="clearfix">
-
-{{<figure "taim13.jpg" "Mais uma criança à milanesa" "float-right">}}
-{{<figure "taim14.jpg" "Quem chegar por último é mulher do padre" "float-left">}}
-{{<figure "taim10.jpg" "Chuvinha não atrapalha na hora da praia" "float-left">}}{{<figure "taim15.jpg" "Capela da Praia da Capilha" "float-right">}}
+{{<figure "taim15.jpg" "Capela da Praia da Capilha" "float-center">}}
 </div>
 
+Depois da praia e do passeio pelo vilarejo, passamos nos mercadinhos para comprar algumas frutas e voltamos para a estação, onde o vigia nos chamou para ver uma tartaruga que estava visitando o local. A Clara aproveitou para fazer amizade com a equipe que trabalha por lá, e um dos estudantes pediu carona para a gente, pois estava indo de bicicleta (de bambu!) até Valizas, no Uruguai. 
 
+<div class="clearfix">
+{{<figure "taim11.jpg" "Bebê à milanesa" "float-left">}}
+{{<figure "taim12.jpg" "A partir de agora só queremos praia de lagoa" "float-right">}}
+{{<figure "taim13.jpg" "Mais uma criança à milanesa" "float-left">}}
+{{<figure "taim14.jpg" "Quem chegar por último é mulher do padre" "float-right">}}
+{{<figure "taim10.jpg" "Chuvinha não atrapalha na hora da praia" "float-center">}}
+</div>
+
+No dia seguinte desmontamos parte da bicicleta para caber dentro do trailer e pegamos a estrada às 10:20 rumo à Hermenegildo, agora como 7 overlanders! Antes tentamos decolar o drone para fazer algumas imagens da reserva, mas levamos um susto, pois como havia muito vento, o bichinho quase foi atropelado! Descobrimos que ele é um pouco mais frágil do que pensávamos e acabamos desistindo de gravar. Depois de algumas horas de muitos banhados, pássaros, capivaras, natureza e parques eólicos, chegamos em Hermenegildo, onde o tempo fechou e precisamos nos despedir do novo amigo no centro da cidade, pois as estradas eram muito estreitas e não conseguiríamos chegar na casa do pessoal que iria hospedá-lo. Aliás, Hermenegildo é um exemplo de como o nível do mar está se elevando: a areia à beira-mar já não existe mais e as primeiras ruas e casas são diretamente banhadas pelo mar.
+
+Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o Chuí. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincar nas dunas - acabamos achando mais seguros pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar no primeira fronteira dessa viagem.
 
 Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
 

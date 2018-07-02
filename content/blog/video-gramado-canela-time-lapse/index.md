@@ -1,5 +1,5 @@
 ---
-title: Descida de Gramado e Canela em time-lapse
+title: Descida de Gramado
 callout: Vídeo em time-lapse da descida da serra gaúcha de carro.
 date: 2017-09-05T23:00:00-03:00
 author: fabiano

@@ -3,9 +3,11 @@ package main
 import (
 	"bufio"
 	"encoding/csv"
+	"encoding/json"
 	"fmt"
 	"image/color"
 	"io"
+	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
@@ -18,8 +20,9 @@ import (
 )
 
 const (
-	dateTimeInputFormat  = "02-Jan-2006 15:04:05"
-	dateTimeOutputFormat = "02/01/06"
+	csvDateTimeInputFormat  = "02-Jan-2006 15:04:05"
+	jsonDateTimeInputFormat = "2006-01-02T15:04:05+0000"
+	dateTimeOutputFormat    = "02/01/06"
 
 	kindTrack   = "UNLIMITED-TRACK"
 	kindCheckin = "CHECK-IN"
@@ -91,7 +94,7 @@ func main() {
 				if err != nil {
 					log.Fatal(err)
 				}
-				dateTime, err := time.Parse(dateTimeInputFormat, line[2])
+				dateTime, err := time.Parse(csvDateTimeInputFormat, line[2])
 				if err != nil {
 					log.Fatal(err)
 				}
@@ -104,6 +107,64 @@ func main() {
 					kind:     kind,
 				})
 			}
+		}
+	}
+
+	files, err = filepath.Glob("./data/*.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if files != nil {
+		for _, filename := range files {
+			content, err := ioutil.ReadFile(filename)
+			if err != nil {
+				log.Fatal(err)
+			}
+
+			var raw interface{}
+			var item map[string]interface{}
+			var list []interface{}
+			var ok bool
+
+			err = json.Unmarshal(content, &raw)
+			if err != nil {
+				log.Fatal(err)
+			}
+
+			if item, ok = raw.(map[string]interface{}); ok {
+				raw = item["response"]
+				if item, ok = raw.(map[string]interface{}); ok {
+					raw = item["feedMessageResponse"]
+					if item, ok = raw.(map[string]interface{}); ok {
+						raw = item["messages"]
+						if item, ok = raw.(map[string]interface{}); ok {
+							raw = item["message"]
+							if list, ok = raw.([]interface{}); ok {
+								for _, raw = range list {
+									if item, ok = raw.(map[string]interface{}); ok {
+										latFloat := item["latitude"].(float64)
+										lonFloat := item["longitude"].(float64)
+										dateTime, err := time.Parse(jsonDateTimeInputFormat, item["dateTime"].(string))
+										if err != nil {
+											log.Fatal(err)
+										}
+										kind := item["messageType"].(string)
+
+										entries = append(entries, entry{
+											lat:      latFloat,
+											lon:      lonFloat,
+											dateTime: dateTime,
+											kind:     kind,
+										})
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
 		}
 	}
 

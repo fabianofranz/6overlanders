@@ -48,6 +48,15 @@ No dia seguinte desmontamos parte da bicicleta para caber dentro do trailer e pe
 
 Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincar nas dunas - acabamos achando mais seguros pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar no primeira fronteira dessa viagem.
 
+
+<div class="clearfix">
+{{<figure "chui2.jpg" "Bebê à milanesa" "float-left">}}
+{{<figure "chui3.jpg" "A partir de agora só queremos praia de lagoa" "float-right">}}
+{{<figure "chui4.jpg" "Mais uma criança à milanesa" "float-left">}}
+{{<figure "chui8.jpg" "Quem chegar por último é mulher do padre" "float-right">}}
+</div>
+
+
 Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
 
 {{< youtube JhgLwC-27dE >}} 

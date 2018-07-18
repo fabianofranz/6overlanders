@@ -1,6 +1,6 @@
 ---
 title: Taim
-callout: Reserva do Taim e a Praia da Capilha
+callout: Reserva do Taim, Praia da Capilha e Chuí
 date: 2018-07-18T10:00:00-03:00
 author: pricila
 local: Taim, Brasil

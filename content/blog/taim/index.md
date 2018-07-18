@@ -46,16 +46,17 @@ Depois da praia e do passeio pelo vilarejo, passamos nos mercadinhos para compra
 
 No dia seguinte desmontamos parte da bicicleta para caber dentro do trailer e pegamos a estrada às 10:20 rumo a **Hermenegildo**, agora como **7 overlanders**! Antes tentamos decolar o drone para fazer algumas imagens da reserva, mas levamos um susto, pois como havia muito vento, o bichinho quase foi atropelado! Descobrimos que ele é um pouco mais frágil do que pensávamos e acabamos desistindo de gravar. Depois de algumas horas de muitos banhados, pássaros, capivaras, natureza e parques eólicos, chegamos em **Hermenegildo**, onde o tempo fechou e precisamos nos despedir do novo amigo no centro da cidade, pois as estradas eram muito estreitas e não conseguiríamos chegar na casa do pessoal que iria hospedá-lo. Aliás, **Hermenegildo** é um exemplo de como o nível do mar está se elevando: a areia à beira-mar já não existe mais e as primeiras ruas e casas são diretamente banhadas pelo mar.
 
-Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincar nas dunas - acabamos achando mais seguros pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar no primeira fronteira dessa viagem.
-
-
 <div class="clearfix">
 {{<figure "chui2.jpg" "Parques eólicos ao longo do caminho" "float-left">}}
 {{<figure "chui3.jpg" "Tempo fechando em Hermenegildo" "float-right">}}
+</div>
+
+Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincar nas dunas - acabamos achando mais seguros pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar no primeira fronteira dessa viagem.
+
+<div class="clearfix">
 {{<figure "chui4.jpg" "é impressionante como criança nunca se cansa de praia" "float-left">}}
 {{<figure "chui8.jpg" "Diversão entre as irmãs" "float-right">}}
 </div>
-
 
 Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
 

@@ -50,10 +50,10 @@ Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada
 
 
 <div class="clearfix">
-{{<figure "chui2.jpg" "Bebê à milanesa" "float-left">}}
-{{<figure "chui3.jpg" "A partir de agora só queremos praia de lagoa" "float-right">}}
-{{<figure "chui4.jpg" "Mais uma criança à milanesa" "float-left">}}
-{{<figure "chui8.jpg" "Quem chegar por último é mulher do padre" "float-right">}}
+{{<figure "chui2.jpg" "Parques eólicos ao longo do caminho" "float-left">}}
+{{<figure "chui3.jpg" "Tempo fechando em Hermenegildo" "float-right">}}
+{{<figure "chui4.jpg" "é impressionante como criança nunca se cansa de praia" "float-left">}}
+{{<figure "chui8.jpg" "Diversão entre as irmãs" "float-right">}}
 </div>
 
 

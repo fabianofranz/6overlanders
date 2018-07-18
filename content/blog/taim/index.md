@@ -20,21 +20,12 @@ Apesar da tristeza conseguimos curtir a paisagem da estrada, feita de muitas lag
 
 Já em Rio Grande paramos para refazer a placa dianteira do carro no Detran, (haja burocracia!), o que levou quase a tarde inteira! Enquanto isso as crianças ficaram no carro, desenhando mapas do trajeto que estávamos fazendo e ouvindo música. Depois de tudo pronto ficamos na dúvida se fazíamos um desvio para a praia de Cassino ou se tocávamos direto para o Taim. Acabamos fazendo uma pequena parada no posto para descanso e lanche e decidimos seguir em frente, mesmo com o convite do pessoal da Kombi Odete Roitman em passar pela praia... Agradecemos muito o convite, mas fica para a próxima! A questão é tínhamos convite para pernoitar na Estação Ecológica do Taim (ESEC) e não queríamos chegar tarde da noite. Após alguns congestionamentos na região de Rio Grande, seguimos pela RS 473 até a estação ecológica, onde chegamos às 19:30. As crianças estavam bem cansadas por conta do calor e do ritmo um pouco mais puxado, principalmente a Elise, mas logo se entusiasmaram quando chegamos. Ficaram impressionadas com a quantidade de gafanhotos atraídos pela luz durante a noite. Foi uma noite bem difícil para dormir, pois estava bem quente e acabamos não ligando o trailer na energia, assim não dava para usar o ar condicionado.
 
-<div class="clearfix">
-{{< figure "taim4.jpg" "Duvido que você já tenha brincado de corrida de limões!" "float-left" "600x" >}}
-{{< figure "taim5.jpg" "Pescaria - a imaginação corre solta sem brinquedos" "float-right" "600x" >}}
-</div>
-
-No dia 20 depois de brincar muito de corrida de limões, pescaria, conhecer o museu da estação e sermos atacados por formigas ardidas, almoçamos e fomos curtir a praia da Capilha, mesmo com chuvinha, pois o calor estava insuportável. Aliás, a chvua voltou durante a madrugada, e às 4:30 tive que levantar para recolher roupas e tralhas, hehehe.
+No dia 20 depois de brincar muito de corrida de limões, pescaria, conhecer o museu da estação e sermos atacados por formigas ardidas, almoçamos e fomos curtir a praia da Capilha, mesmo com chuvinha, pois o calor estava insuportável. Aliás, a chuva voltou durante a madrugada, e às 4:30 tive que levantar para recolher roupas e tralhas, hehehe.
 
 <div class="clearfix">
 {{<figure "taim6.jpg" "Museu da reserva do Taim" "float-left">}}
 {{<figure "taim8.jpg" "Olha que amor os jogos de tabuleiro disponíveis!" "float-right">}}
 {{<figure "taim9.jpg" "As crianças se divertiram muito" "float-center">}}
-</div>
-
-<div class="clearfix">
-{{<figure "taim7.jpg" "Bem interativo - área para deixar as pegadas dos animais na areia" "float-center" "600x" >}}
 </div>
 
 A localidade de Capilha, junto à Lagoa Mirim e vizinha da Estação Ecológica, é um dos interessantes exemplos de como era povoado o sul da América do Sul antes do Tratado dos Campos Neutrais, estabelecido em 1777 entre Portugal e Espanha. Enquanto, por exemplo, a Colônia do Sacramento no Uruguai era de ocupação portuguesa, a Capilha era uma vila de ocupação espanhola. Essa capela (capilla) da foto é remanescente dessa época.

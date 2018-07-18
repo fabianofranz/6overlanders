@@ -7,7 +7,7 @@ local: Taim, Brasil
 images:
   background: taim15.jpg
   thumb: taim15.jpg
-draft: true
+draft: false
 ---
 Após termos passados 3 dias em **Mostardas**, dia 19 de fevereiro às 10:50 partimos em direção ao sul. Foi uma partida bem triste, com muito choro, pois os vovôs Alceu e Helena não nos acompanharíamos mais. Todas as despedidas são muito difíceis e muitas vezes nos fazem fraquejar, pois a saudade de quem fica é imensa!
 

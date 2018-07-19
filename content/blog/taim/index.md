@@ -51,7 +51,7 @@ No dia seguinte desmontamos parte da bicicleta para caber dentro do trailer e pe
 {{<figure "chui3.jpg" "Tempo fechando em Hermenegildo" "float-right">}}
 </div>
 
-Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincar nas dunas - acabamos achando mais seguros pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar no primeira fronteira dessa viagem.
+Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincarem nas dunas - acabamos achando mais seguro pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar a primeira fronteira dessa viagem.
 
 <div class="clearfix">
 {{<figure "chui4.jpg" "É impressionante como criança nunca se cansa de praia" "float-left">}}

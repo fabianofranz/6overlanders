@@ -11,7 +11,7 @@ draft: false
 ---
 Após termos passados 3 dias em **Mostardas**, dia 19 de fevereiro às 10:50 partimos em direção ao sul. Foi uma partida bem triste, com muito choro, pois os vovôs Alceu e Helena não nos acompanharíamos mais. Todas as despedidas são muito difíceis e muitas vezes nos fazem fraquejar, pois a saudade de quem fica é imensa!
 
-Apesar da tristeza conseguimos curtir a paisagem da estrada, feita de muitas lagoas e árvores de reflorestamento, que margeavam o caminho. Uma pena a **BR 101** ter tantos buracos, pareciam uns panelões! Inclusive foi nos dito que quem tem 4x4 acaba indo até **São José do Norte** pela faixa de areia na beira da praia em vez de ir pela estrada, pois é melhor do que o asfalto... Chegamos no porto para pegar a balsa na hora do almoço. Como o barco havia partido há 5 minutos, resolvemos ficar bem na frente na fila estacionados e compramos alguns lanches. Com o calor escaldante também aproveitamos para comer picolés caseiros na beira da calçada. Depois de uma hora de espera, subimos na balsa -- perdendo uma das sapatas do trailer, pois ele tem pouco ângulo de inclinação. Para as crianças foi emocionante andar de balsa pela primeira vez! Desceram do carro, fizeram muitas perguntas...
+Apesar da tristeza conseguimos curtir a paisagem da estrada, feita de muitas lagoas e árvores de reflorestamento, que margeavam o caminho. Uma pena a **BR 101** ter tantos buracos, pareciam uns panelões! Inclusive foi nos dito que quem tem 4x4 acaba indo até **São José do Norte** pela faixa de areia na beira da praia em vez de ir pela estrada, pois é melhor do que o asfalto... Chegamos no porto para pegar a balsa na hora do almoço. Como o barco havia partido há 5 minutos, resolvemos ficar bem na frente na fila estacionados e compramos alguns lanches. Com o calor escaldante também aproveitamos para comer picolés caseiros na beira da calçada. Depois de uma hora de espera, subimos na balsa -- perdendo uma das sapatas do trailer devido ao pouco ângulo de saída. Para as crianças foi emocionante andar de balsa pela primeira vez! Desceram do carro, fizeram muitas perguntas...
 
 <div class="clearfix">
 {{<figure "taim2.jpg" "Casinha apertadinha na balsa" "float-left">}}
@@ -51,7 +51,7 @@ No dia seguinte desmontamos parte da bicicleta para caber dentro do trailer e pe
 {{<figure "chui3.jpg" "Tempo fechando em Hermenegildo" "float-right">}}
 </div>
 
-Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincar nas dunas - acabamos achando mais seguros pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar no primeira fronteira dessa viagem.
+Aproveitamos para almoçar na beira da estrada enquanto esperávamos a chuvarada passar e seguimos até o **Chuí**. Depois de muito procurar algum lugar para acampar em algum camping ou beira da praia - inclusive paramos um pouco para as crianças brincarem nas dunas - acabamos achando mais seguro pernoitar num posto mesmo, pois no outro dia precisávamos resolver algumas pendências antes de atravessar a primeira fronteira dessa viagem.
 
 <div class="clearfix">
 {{<figure "chui4.jpg" "É impressionante como criança nunca se cansa de praia" "float-left">}}

@@ -565,6 +565,20 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>04/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-48.86557,-22.95718</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-50.99438,-23.00534</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>05/07/18</name>
       <styleUrl>#regularStyle</styleUrl>
       <Point>
@@ -579,10 +593,115 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>08/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-53.43576,-24.9655</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>09/07/18</name>
       <styleUrl>#regularStyle</styleUrl>
       <Point>
         <coordinates>-54.57599,-25.55948</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-54.57599,-25.55948</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-54.55209,-25.90639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-55.52045,-27.3326</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-56.68427,-27.60559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-58.23428,-27.34964</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-58.98044,-27.43755</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-59.84448,-27.00465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-61.68219,-27.61053</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-63.42996,-27.93884</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29/07/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-64.8811,-27.52861</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06/08/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-65.82544,-26.01823</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07/08/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-65.61246,-25.62518</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07/08/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-65.43549,-25.28477</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08/08/18</name>
+      <styleUrl>#regularStyle</styleUrl>
+      <Point>
+        <coordinates>-65.41925,-24.81274</coordinates>
       </Point>
     </Placemark>
     <Placemark>

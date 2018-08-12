@@ -26,6 +26,7 @@ const (
 
 	kindTrack   = "UNLIMITED-TRACK"
 	kindCheckin = "CHECK-IN"
+	kindOk      = "OK"
 )
 
 type entry struct {
@@ -58,8 +59,6 @@ func uniques(entries []entry) []entry {
 		if _, value := keys[e.String()]; !value {
 			keys[e.String()] = true
 			s = append(s, e)
-		} else {
-			fmt.Println("DUPE!")
 		}
 	}
 	return s
@@ -211,7 +210,9 @@ func main() {
 		lineCoordinates = append(lineCoordinates, coordinate)
 
 		switch entry.kind {
-		case kindCheckin:
+		case kindCheckin, kindOk:
+			fmt.Println(entry.kind)
+
 			placemark := kml.Placemark(
 				kml.Name(entry.dateTime.Format(dateTimeOutputFormat)),
 				kml.StyleURL("#regularStyle"),

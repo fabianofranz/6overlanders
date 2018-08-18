@@ -9,6 +9,7 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
 	"sort"
@@ -27,6 +28,9 @@ const (
 	kindTrack   = "UNLIMITED-TRACK"
 	kindCheckin = "CHECK-IN"
 	kindOk      = "OK"
+
+	spotApiUrl        = "https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/%s/message.json?feedPassword=12qwaszx&start=%s"
+	spotApiIncrements = 50
 )
 
 type entry struct {
@@ -262,4 +266,16 @@ func main() {
 	if err := k.WriteIndent(out, "", "  "); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func download() {
+	pager := 1
+	apiKey := ""
+	apiRequestUrl := fmt.Sprintf(spotApiUrl, apiKey, pager)
+
+	resp, err := http.Get(apiRequestUrl)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer resp.Body.Close()
 }

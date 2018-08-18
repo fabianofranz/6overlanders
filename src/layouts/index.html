@@ -123,7 +123,6 @@
       });
       var ctaLayer = new google.maps.KmlLayer({
         url: "{{ print ("spot-data.kml" | absURL) "?amp;updated=" now.Unix }}",
-        preserveViewport: true,
         map: map
       });
     }

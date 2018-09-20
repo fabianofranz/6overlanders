@@ -1,7 +1,7 @@
 ---
 title: Parque Santa Teresa
 callout: Nossa primeira fronteira e camping num lugar maravilhoso!
-date: 2018-09-20T15:00:00-03:00
+date: 2018-09-20T10:00:00-03:00
 author: pricila
 local: Parque Santa Teresa, Uruguai
 images:

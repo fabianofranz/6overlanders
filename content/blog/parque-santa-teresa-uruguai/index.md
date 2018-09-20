@@ -1,13 +1,13 @@
 ---
 title: Parque Santa Teresa
 callout: Nossa primeira fronteira e camping num lugar maravilhoso!
-date: 2018-06-23T15:00:00-03:00
+date: 2018-09-20T15:00:00-03:00
 author: pricila
 local: Parque Santa Teresa, Uruguai
 images:
   background: teresa33.jpg
   thumb: teresa33.jpg
-draft: true
+draft: false
 ---
 
 No dia 22 de fevereiro, partimos de tarde do Chuí rumo ao Uruguai, depois de resolvermos algymas questões, como abastecimento do carro e da geladeira, impressão da carta verde, etc. A primeira fronteira foi bem tranquila, pois os policiais estavam apenas curiosos com o trailer, perguntando se era fabricado no Brasil. Nem entraram para conferir nossos alimentos.

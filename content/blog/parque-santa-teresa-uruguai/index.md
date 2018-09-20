@@ -17,7 +17,7 @@ No dia 22 de fevereiro, partimos de tarde do Chuí rumo ao Uruguai, depois de re
 {{<figure "chui02.jpg" "Pista de pouso de emergência no meio da estrada uruguaia" "float-right">}}
 </div>
 
-Depois de passarmos pela pista de pouso emergência, chegamos ao nosso primeiro destino nas terras hermanas: o Parque Santa Teresa, que é mantido pelo exército. O camping custa 1080 pesos uruguaios para o período mínimo de três noites. O parque é imenso, tem mais de 3 mil hectares! Rodamos alguns minutos até acharmos o local perfeito para acamparmos. As crianças logo começaram a juntar lenha para fazer a primeira fogueira da viagem e ficaram deslumbradas.
+Depois de passarmos pela pista de pouso de emergência, chegamos ao nosso primeiro destino nas terras hermanas: o Parque Santa Teresa, que é mantido pelo exército. O camping custa 1080 pesos uruguaios para o período mínimo de três noites. O parque é imenso, tem mais de 3 mil hectares! Rodamos alguns minutos até acharmos o local perfeito para acamparmos. As crianças logo começaram a juntar lenha para fazer a primeira fogueira da viagem e ficaram deslumbradas.
 
 <div class="clearfix">
 {{<figure "teresa01.jpg" "Forte Santa Teresa na entrada do parque" "float-left">}}

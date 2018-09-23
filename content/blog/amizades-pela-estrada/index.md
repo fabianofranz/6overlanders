@@ -17,10 +17,9 @@ Oi pessoal! Eu sou a Isabela, tenho 10 anos e vou contar uma coisa: viajar as ve
       muito carinho, o Miquel e a Camila, de............., nos ofereceram um churasco bem gostoso, e me deixou levar os cachoros para pasear. O Davi, da tribo Ianomami, è dentista e o avô dele è alemão!
       Mistureba, não? Em Itu, nòs conhecemos o Olinto e a Rafaela, que nos deram DVDs sobr a viajem deles de bicicleta. Eles moram em um motorhome e nas fèrias eles vão de bicicleta. Para acabar este 
       post, eu vou encinar uma brincadeira que eu aprendi em Santa Rosa, que nòs conhecemos muuuuuuuuitos amigos, se chama pesca - pesca: tem 2 jogadores que são os pescadores, e os outros são os peixes.
-      Se um pescador encostar em um peixe, ele foi pescado, ou seja, ele tenque ficar parado. Mas outro peixe pode encostar no que foi pescado, e dar àgua para ele.
+      Se um pescador encostar em um peixe, ele foi pescado, ou seja, ele tenque ficar parado. Mas outro peixe pode encostar no que foi pescado, e dar àgua para ele. 
 
-
-      Queria agradecer por todo o carinho e amizade que ganhamos pela estrada, que fizeram a gente dar boas risadas, conhecer novas hitorias, saber mais sobre o mundo e è claro, sobre amizade.Hodor, *itálico hodor*, hodor. **Negrito Hodor** hodor... Hodor hodor! ***Negrito e itálico*** HODOR hodor, hodor hodor?! ~~Sobrescrito Hodor~~ HODOR! Hodor hodor...
+Queria agradecer por todo o carinho e amizade que ganhamos pela estrada, que fizeram a gente dar boas risadas, conhecer novas hitorias, saber mais sobre o mundo e è claro, sobre amizade.Hodor, *itálico hodor*, hodor. **Negrito Hodor** hodor... Hodor hodor! ***Negrito e itálico*** HODOR hodor, hodor hodor?! ~~Sobrescrito Hodor~~ HODOR! Hodor hodor...
 
 Hodor - hodor -- hodor --- hodor 1/2 hodor 5/4 hodor hodor hodor hodor rodapé[^1] hodor; hodor hodor? Hodor, HODOR hodor, hodor hodor; hodor hodor hodor! Hodor! Hodor hodor, HODOR hodor, hodor hodor hodor hodor.
 

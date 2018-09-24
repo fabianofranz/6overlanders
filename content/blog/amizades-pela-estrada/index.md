@@ -26,8 +26,7 @@ O **Davi**, da tribo **Ianomami**, è dentista e o avô dele è alemão! Misture
 
 Em **Itu**, nós conhecemos o **Olinto** e a **Rafaela**, que nos deram DVDs sobre a viajem deles de bicicleta. Eles moram em um motorhome e nas férias eles vão de bicicleta.
 
-Para acabar este post, eu vou encinar uma brincadeira que eu aprendi em **Santa Rosa**, que nòs conhecemos muuuuuuuuitos amigos, se chama **pesca** - **pesca**: tem 2 jogadores que são os pescadores, e os outros são os peixes. Se um pescador encostar em um peixe, ele foi pescado, ou seja, ele tenque ficar parado. Mas outro peixe pode encostar no que foi pescado, e dar àgua para ele.
-
+Para acabar este post, eu vou ensinar uma brincadeira que eu aprendi em **Santa Rosa**, que nòs conhecemos muuuuuuuuitos amigos, se chama **pesca** - **pesca**: tem 2 jogadores que são os pescadores, e os outros são os peixes. Se um pescador encostar em um peixe, ele foi pescado, ou seja, ele tenque ficar parado. Mas outro peixe pode encostar no que foi pescado, e dar àgua para ele.
 
 Queria agradecer por todo o carinho e amizade que ganhamos pela estrada, que fizeram a gente dar boas risadas, conhecer novas hitorias, saber mais sobre o mundo e è claro, sobre amizade.
 

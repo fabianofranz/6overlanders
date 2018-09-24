@@ -2,7 +2,7 @@
 title: Amizades pela estrada
 callout: Oi pessoal!
 date: 2017-09-23T15:00:00-03:00
-author: Isabela
+author: isabela
 local: Santa Rosa, Peru
 images:
   background: hodor.jpg

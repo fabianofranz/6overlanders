@@ -25,7 +25,7 @@
       {{ end }}
       <div class="meta">
         <div class="author">
-          {{ if eq (.Param "author") "fabiano" }}Fabiano Franz{{ end }}{{ if eq (.Param "author") "pricila" }}Pricila Franz{{ end }}, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ .Param "local" }}
+          {{ if eq (.Param "author") "fabiano" }}Fabiano Franz{{ end }}{{ if eq (.Param "author") "pricila" }}Pricila Franz{{ end }}{{ if eq (.Param "author") "isabela" }}Isabela Reis Franz{{ end }}, {{ .Date.Format "02/01/2006" }} às {{ .Date.Format "15h" }} em {{ .Param "local" }}
         </div>
         <div class="share">
           <div class="fb-like" data-href="{{ .Permalink }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>

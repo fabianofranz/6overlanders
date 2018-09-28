@@ -7,7 +7,7 @@ local: Parque de la Prensa, Uruguai
 images:
   background: laprensa16.jpg
   thumb: laprensa16.jpg
-draft: true
+draft: false
 ---
 
 Saímos dia 25 do [Parque Santa Teresa](../parque-santa-teresa) ao entardecer e quebramos uma das regras da nossa viagem, que é **não viajar durante à noite**. Pensamos em ir para **Punta Del Diablo**, mas a estrada era ruim e não enxergávamos direito, então desistimos e pensamos em ir até **La Rocha** e lá procurar algum posto para dormir. Contudo, além dos postos quererem cobrar pelo pernoite, todos eram dentro da cidade, com muito movimento e barulho. Estressados, lanchamos e depois de pesquisar no **iOverlander** decidimos nos arriscar e ir até um local marcado como camping gratuito, perto de uma região de pescadores. Chegar num lugar assim à noite é muito ruim, pois tudo parece mais assustador e perigoso do que realmente é. Fora que, depois que chegamos no local e decidimos ficar por ali mesmo, por falta de opção, ainda tínhamos que manobrar o trailer no escuro.
@@ -68,8 +68,11 @@ No outro dia pela manhã ainda fui surpreendida com o arroio espelhando as nuven
 {{< figure "laprensa18.jpg" "A última dessa overdose de lindura!" "float-right" >}}
 </div>
 
-Enfim, fica a dica desse camping praticamente desconhecido, pois a maioria do pessoal segue apenas a rota do litoral: 
-Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
+Enfim, fica a dica desse camping praticamente desconhecido, pois a maioria do pessoal segue apenas a rota do litoral:
+
+http://ioverlander.com/places/28478-parque-de-la-prensa-alternative-to-municipal-camping
+
+Confira também outras imagens desse trecho no nosso primeiro vídeo da viagem:
 
 {{< youtube JhgLwC-27dE >}} 
 

@@ -10,7 +10,7 @@ images:
 draft: true
 ---
 
-Saímos dia 25 do [Parque Santa Teresa](../parque-santa-teresa) ao entardecer e quebramos uma das regras da nossa viagem, que é **não viajar durante à noite**. Pensamos em ir para **Punta Del Diablo**, mas a estrada era ruim e não enxergávamos direito, então desistimos e pensamos em ir até **La Rocha** e lá procurar algum post para dormir. Contudo, além dos postos querer cobrar apenas pelo pernoite, todos eram dentro da cidade, com muito movimento e barulho. Estressados, lanchamos e depois de pesquisar no **iOverlander** decidimos nos arriscar e ir até um local marcado como camping gratuito, perto de uma região de pescadores. Chegar num lugar assim à noite é muito ruim, pois tudo parece mais assustador e perigoso do que realmente é. Fora que, depois que chegamos no local e decidimos ficar por ali mesmo, por falta de opção, ainda tinha que manobrar o trailer no escuro.
+Saímos dia 25 do [Parque Santa Teresa](../parque-santa-teresa) ao entardecer e quebramos uma das regras da nossa viagem, que é **não viajar durante à noite**. Pensamos em ir para **Punta Del Diablo**, mas a estrada era ruim e não enxergávamos direito, então desistimos e pensamos em ir até **La Rocha** e lá procurar algum posto para dormir. Contudo, além dos postos quererem cobrar pelo pernoite, todos eram dentro da cidade, com muito movimento e barulho. Estressados, lanchamos e depois de pesquisar no **iOverlander** decidimos nos arriscar e ir até um local marcado como camping gratuito, perto de uma região de pescadores. Chegar num lugar assim à noite é muito ruim, pois tudo parece mais assustador e perigoso do que realmente é. Fora que, depois que chegamos no local e decidimos ficar por ali mesmo, por falta de opção, ainda tínhamos que manobrar o trailer no escuro.
 
 Contudo, demos muita sorte!! *Que lugar mais encantador quando a luz da manhã surgiu!!!* A vontade era de nunca mais ir embora! Passamos o dia arrumando o trailer, lavando roupa, descansando, brincando e tentando pescar. A vizinhança era de pescadores e dois mercadinhos. Ainda aproveitei para dar uma caminhada pelas ruas ao redor, chamava a atenção que as casas uruguaias são pequenas e baixas para o nosso padrão brasileiro.
 
@@ -61,7 +61,7 @@ A Isabela também fez amizade com um garoto uruguaio e jogou futebol boa parte d
 {{< figure "laprensa16.jpg" "E o espelho no outro dia pela manhã, que magnífico!" "float-right" >}}
 </div>
 
-No outro dia pela manhã ainda fui surpreendida com o arroio espelhando as nuvens... Meu queixo caiu e vontade era de ficar nesse paraíso para sempre. Mas a estrada nos esperava, mais uma vez!
+No outro dia pela manhã ainda fui surpreendida com o arroio espelhando as nuvens... Meu queixo caiu e vontade era de ficar nesse paraíso para sempre. Mas já era o terceiro dia e a estrada nos esperava, mais uma vez!
 
 <div class="clearfix">
 {{< figure "laprensa17.jpg" "Boiada voando no céu" "float-left" >}}

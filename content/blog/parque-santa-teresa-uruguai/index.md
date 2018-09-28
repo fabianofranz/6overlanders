@@ -10,14 +10,14 @@ images:
 draft: false
 ---
 
-No dia 22 de fevereiro, partimos de tarde do Chuí rumo ao Uruguai, depois de resolvermos algymas questões, como abastecimento do carro e da geladeira, impressão da carta verde, etc. A primeira fronteira foi bem tranquila, pois os policiais estavam apenas curiosos com o trailer, perguntando se era fabricado no Brasil. Nem entraram para conferir nossos alimentos.
+No dia 22 de fevereiro, partimos de tarde do **Chuí** rumo ao **Uruguai**, depois de resolvermos algumas questões, como abastecimento do carro e da geladeira, impressão da carta verde, etc. A primeira fronteira foi bem tranquila, pois os policiais estavam apenas curiosos com o trailer, perguntando se era fabricado no Brasil. Nem entraram para conferir nossos alimentos.
 
 <div class="clearfix">
 {{<figure "chui01.jpg" "Tchau, Brasil! Hola, Uruguay!" "float-left">}}
 {{<figure "chui02.jpg" "Pista de pouso de emergência no meio da estrada uruguaia" "float-right">}}
 </div>
 
-Depois de passarmos pela pista de pouso de emergência, chegamos ao nosso primeiro destino nas terras hermanas: o Parque Santa Teresa, que é mantido pelo exército. O camping custa 1080 pesos uruguaios para o período mínimo de três noites. O parque é imenso, tem mais de 3 mil hectares! Rodamos alguns minutos até acharmos o local perfeito para acamparmos. As crianças logo começaram a juntar lenha para fazer a primeira fogueira da viagem e ficaram deslumbradas.
+Depois de passarmos pela pista de pouso de emergência, chegamos ao nosso primeiro destino nas terras hermanas: o **Parque Santa Teresa**, que é mantido pelo exército. O camping custa 1080 pesos uruguaios para o período mínimo de três noites. O parque é imenso, tem mais de 3 mil hectares! Rodamos alguns minutos até acharmos o local perfeito para acamparmos. As crianças logo começaram a juntar lenha para fazer a primeira fogueira da viagem e ficaram deslumbradas.
 
 <div class="clearfix">
 {{<figure "teresa01.jpg" "Forte Santa Teresa na entrada do parque" "float-left">}}
@@ -29,7 +29,7 @@ Depois de passarmos pela pista de pouso de emergência, chegamos ao nosso primei
 {{<figure "teresa04.jpg" "Nosso passeio no segundo dia no parque" "float-right">}}
 </div>
 
-No segundo dia fomos até a praia La Moza -- dentre várias existentes dentro do parque -- tomamos banho, brincamos de escalar as letras do nome do parque, almoçamos no restaurante -- não vale a pena, caro e de gosto duvidoso -- e fizemos fogueira novamente. Dessa vez a Isabela cuidou sozinha do fogo!
+No segundo dia fomos até a praia **La Moza* -- dentre várias existentes dentro do parque -- tomamos banho, brincamos de escalar as letras do nome do parque, almoçamos no restaurante -- não vale a pena, caro e de gosto duvidoso -- e fizemos fogueira novamente. Dessa vez a Isabela cuidou sozinha do fogo!
 
 <div class="clearfix">
 {{<figure "teresa05.jpg" "Centro administrativo" "float-left">}}

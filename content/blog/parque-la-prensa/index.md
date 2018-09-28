@@ -26,7 +26,7 @@ Contudo, demos muita sorte!! *Que lugar mais encantador quando a luz da manhã s
 
 <div class="clearfix">
 {{< figure "laprensa05.jpg" "Michel para variar contemplando o rio e esperando a vez de pescar" "float-left" >}}
-{{< figure "laprensa06.jpg" "Nossa primeira tentativa de pesca -- não deu muito certo..." "float-right" >}}
+{{< figure "laprensa06.jpg" "Nossa primeira tentativa de pesca - não deu muito certo..." "float-right" >}}
 </div>
 
 <div class="clearfix">

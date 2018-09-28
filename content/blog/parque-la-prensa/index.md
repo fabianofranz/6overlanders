@@ -12,7 +12,7 @@ draft: true
 
 Saímos dia 25 do [Parque Santa Teresa](../parque-santa-teresa) ao entardecer e quebramos uma das regras da nossa viagem, que é **não viajar durante à noite**. Pensamos em ir para **Punta Del Diablo**, mas a estrada era ruim e não enxergávamos direito, então desistimos e pensamos em ir até **La Rocha** e lá procurar algum posto para dormir. Contudo, além dos postos quererem cobrar pelo pernoite, todos eram dentro da cidade, com muito movimento e barulho. Estressados, lanchamos e depois de pesquisar no **iOverlander** decidimos nos arriscar e ir até um local marcado como camping gratuito, perto de uma região de pescadores. Chegar num lugar assim à noite é muito ruim, pois tudo parece mais assustador e perigoso do que realmente é. Fora que, depois que chegamos no local e decidimos ficar por ali mesmo, por falta de opção, ainda tínhamos que manobrar o trailer no escuro.
 
-Contudo, demos muita sorte!! *Que lugar mais encantador quando a luz da manhã surgiu!!!* A vontade era de nunca mais ir embora! Passamos o dia arrumando o trailer, lavando roupa, descansando, brincando e tentando pescar. A vizinhança era de pescadores e dois mercadinhos. Ainda aproveitei para dar uma caminhada pelas ruas ao redor, chamava a atenção que as casas uruguaias são pequenas e baixas para o nosso padrão brasileiro.
+Contudo, demos muita sorte!! *Que lugar mais encantador quando a luz da manhã surgiu!!!* A vontade era de nunca mais ir embora! Passamos o dia arrumando o trailer, lavando roupa, descansando, brincando e tentando pescar. A vizinhança era de pescadores e dois mercadinhos. Ainda aproveitei para dar uma caminhada pelas ruas ao redor. Chamavam a atenção as casas uruguaias, pequenas e baixas para o nosso padrão brasileiro.
 
 <div class="clearfix">
 {{< figure "laprensa01.jpg" "Acordar com uma vista dessas... não tem preço!" "float-left" >}}
@@ -24,10 +24,10 @@ Contudo, demos muita sorte!! *Que lugar mais encantador quando a luz da manhã s
 {{< figure "laprensa04.jpg" "O cenário era perfeito para muitas fotos" "float-right" >}}
 </div>
 
-O camping **Parque de La Prensa** leva esse nome porque há alguns anos o balneário **La Riviera**, que fica às margens do **Arroyo Rocha** e pertence à área protegida da **Laguna de Rocha**, andava bem abandonado e um programa de televisão fez uma matéria sobre o lugar. Isso acabou funcionando como propaganda. O camping tem mesas, churrasqueiras, banheiros e água disponível.
+O camping **Parque de La Prensa** leva esse nome porque há alguns anos o balneário **La Riviera** - que fica às margens do **Arroyo Rocha** e pertence à área protegida da **Laguna de Rocha** - andava bem abandonado e um programa de televisão decidiu fazer uma matéria sobre o lugar. Isso acabou funcionando como propaganda e levou a uma renovação do lugar. O camping hoje tem mesas, churrasqueiras, banheiros e água disponível.
 
 <div class="clearfix">
-{{< figure "laprensa05.jpg" "Michel para variar contemplando o rio e esperando a vez de pescar" "float-left" >}}
+{{< figure "laprensa05.jpg" "Michel pra variar contemplando o rio e esperando a vez de pescar" "float-left" >}}
 {{< figure "laprensa06.jpg" "Nossa primeira tentativa de pesca - não deu muito certo..." "float-right" >}}
 </div>
 
@@ -61,7 +61,7 @@ A Isabela também fez amizade com um garoto uruguaio e jogou futebol boa parte d
 {{< figure "laprensa16.jpg" "E o espelho no outro dia pela manhã, que magnífico!" "float-right" >}}
 </div>
 
-No outro dia pela manhã ainda fui surpreendida com o arroio espelhando as nuvens... Meu queixo caiu e vontade era de ficar nesse paraíso para sempre. Mas já era o terceiro dia e a estrada nos esperava, mais uma vez!
+No outro dia pela manhã ainda fui surpreendida com o arroio espelhando as nuvens... Meu queixo caiu e a vontade era de ficar nesse paraíso para sempre. Mas já era o terceiro dia e a estrada nos esperava, mais uma vez!
 
 <div class="clearfix">
 {{< figure "laprensa17.jpg" "Boiada voando no céu" "float-left" >}}

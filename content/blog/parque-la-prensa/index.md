@@ -15,51 +15,51 @@ Saímos dia 25 do [Parque Santa Teresa](../parque-santa-teresa) ao entardecer e 
 Contudo, demos muita sorte!! *Que lugar mais encantador quando a luz da manhã surgiu!!!* A vontade era de nunca mais ir embora! Passamos o dia arrumando o trailer, lavando roupa, descansando, brincando e tentando pescar. A vizinhança era de pescadores e dois mercadinhos. Ainda aproveitei para dar uma caminhada pelas ruas ao redor, chamava a atenção que as casas uruguaias são pequenas e baixas para o nosso padrão brasileiro.
 
 <div class="clearfix">
-{{< figure "laprensa01.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa02.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa01.jpg" "Acordar com uma vista dessas... não tem preço!" "float-left" >}}
+{{< figure "laprensa02.jpg" "Rede, sombra e água fresca" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa03.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa04.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa03.jpg" "Elise solta pelo camping" "float-left" >}}
+{{< figure "laprensa04.jpg" "O cenário era perfeito para muitas fotos" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa05.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa06.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa05.jpg" "Michel para variar contemplando o rio e esperando a vez de pescar" "float-left" >}}
+{{< figure "laprensa06.jpg" "Nossa primeira tentativa de pesca -- não deu muito certo..." "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa07.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa08.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa07.jpg" "O pôr do sol então foi mais uma sessão de fotos lindas" "float-left" >}}
+{{< figure "laprensa08.jpg" "Adoro esse efeito da GoPro" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa09.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa10.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa09.jpg" "Biano voando o drone no entardecer" "float-left" >}}
+{{< figure "laprensa10.jpg" "Clara e Isabela também contemplando o momento mágico" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa11.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa12.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa11.jpg" "Boizinhos no horizonte" "float-left" >}}
+{{< figure "laprensa12.jpg" "Uma lua linda para completar a paisagem" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa13.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa14.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa13.jpg" "Que tal esse céu?" "float-left" >}}
+{{< figure "laprensa14.jpg" "Inesquecível" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa15.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa16.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa15.jpg" "Isabela também tentando pescar - mas nenhum caiu no nosso anzol" "float-left" >}}
+{{< figure "laprensa16.jpg" "E o espelho no outro dia pela manhã, que magnífico!" "float-right" >}}
 </div>
 
 <div class="clearfix">
-{{< figure "laprensa17.jpg" "Hodor hodor" "float-left" >}}
-{{< figure "laprensa18.jpg" "Hodor hodor hodor" "float-right" >}}
+{{< figure "laprensa17.jpg" "Boiada voando no céu" "float-left" >}}
+{{< figure "laprensa18.jpg" "A última dessa overdose de lindura" "float-right" >}}
 </div>
 
-
+Enfim, fica a dica desse camping praticamente desconhecido, pois a maioria do pessoal segue apenas a rota do litoral: 
 Quem quiser pode conferir outras imagens desse trecho no nosso primeiro vídeo da viagem:
 
 {{< youtube JhgLwC-27dE >}} 

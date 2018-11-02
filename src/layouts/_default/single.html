@@ -1,12 +1,17 @@
 {{ define "title" }}
-  <div class="title">parceiros</div>
+  {{ if eq .Page.URL "/parceiros/" }}
+    <div class="title">parceiros</div>
+  {{ end }}
+  {{ if eq .Page.URL "/mapa/" }}
+    <div class="title">mapa</div>
+  {{ end }}
 {{ end }}
 
 {{ define "body" }}
   <main>
-    <article>
-      {{ .Content }}
-    </article>
+    {{ with .Content }}
+      <article>{{ . }}</article>
+    {{ end }}
     {{ if eq .Page.URL "/parceiros/" }}
       <aside class="bios">
 
@@ -124,8 +129,33 @@
             </div>
           </div>
         </div>
-      
       </aside>
+    {{ end }}
+    {{ if eq .Page.URL "/mapa/" }}
+<article class="where">
+  <h1 class="separator-left">Onde estamos?</h1>
+  <p>
+    No mapa abaixo você acompanha todo <strong>trajeto que já realizamos</strong>, com marcadores informando as datas, bem como nossa localização atual (quase) em tempo real. As coordenadas são atualizadas diretamente do painel de nosso carro com o rastreador <a href="https://br.findmespot.com/" target="_blank">Spot</a>. Também disponibilizamos o trajeto em um <a href="{{ "spot-data.kml" | absURL }}">arquivo KML</a>, que pode ser aberto, por exemplo, no <a href="https://www.google.com/earth/" target="_blank">Google Earth</a>. Experimente!
+  </p>
+  <div id="map"></div>
+</article>
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 5,
+      center: {
+        lat: -36.208,
+        lng: -59.102
+      },
+      mapTypeId: 'hybrid'
+    });
+    var ctaLayer = new google.maps.KmlLayer({
+      url: "{{ print ("spot-data.kml" | absURL) "?amp;updated=" now.Unix }}",
+      map: map
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxKss9LGv22KDJWJKd7aiXy4JuyDkvwNs&callback=initMap"></script>
     {{ end }}
   </main>
 {{ end }}

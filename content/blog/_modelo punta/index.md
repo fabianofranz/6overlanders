@@ -31,7 +31,7 @@ Depois disso fomos até a famosa escultura **“La Mano”**, de Mário Irarráz
 {{<figure "puntadeleste05.jpg" "Foi difícil conseguir tirar uma foto mais ou menos decente." "float-right">}}
 </div>
 
-Em seguida fomos ao **Museu Ralli**, que nos encantou em 2015 e repetiu o feito dessa vez! Um lugar gratuito para ver obras magníficas, de grandes nomes como Salvador Dalí, por exemplo. Para que as crianças ficassem ainda mais interessadas pegamos um panfleto na recepção que continha reproduções de algumas obras do museu e fizemos uma caça ao tesouro. As crianças adoraram!
+Em seguida fomos ao **Museu Ralli**, que nos encantou em 2015 e repetiu o feito dessa vez! Um lugar gratuito para ver obras magníficas, de grandes nomes como **Salvador Dalí**, por exemplo. Para que as crianças ficassem ainda mais interessadas pegamos um panfleto na recepção que continha reproduções de algumas obras do museu e fizemos uma caça ao tesouro. As crianças adoraram!
 
 <div class="clearfix">
 {{<figure "puntadeleste06.jpg" "" "float-left">}}
@@ -41,9 +41,7 @@ Em seguida fomos ao **Museu Ralli**, que nos encantou em 2015 e repetiu o feito 
 {{<figure "puntadeleste13.jpg" "" "float-center">}}
 </div>
 
-Depois disso abastecemos -- o diesel estava 55,60 pesos o litro -- quase SETE reais!! Rodamos mais pouco a cidade atrás de algum lugar que pudéssemos deixar o trailer, já que era bem difícil que ir com ele no mercado e os campings são caros nessa região. Acabamos ficando, eu e as crianças, na praia perto da ponte ondulada enquanto o Fabiano ia até o mercado abastecer nossa casa. Já passava das 18:00 quando ele voltou e acabamos decidindo seguir viagem, pois o local onde estávamos era muito exposto.
-
-Fiquei um pouco triste pois acabamos passando direto pela Casapueblo, de Carlos Vilaró, mas numa próxima oportunidade revisitaremos esse lugar incrível. Decidimos ir até Piriápolis, para pernoitar na beira da praia. Qual não foi a nossa surpresa quando chegamos lá já tarde da noite e vimos uma placa na entrada da cidade avisando que era proibido acampar! Ficamos atrasados, pois todos estavam cansados. Depois de muito procurar encontramos um camping num estádio de futebol, que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia. Depois dessa decidimos nunca mais viajar até tão tarde.
+Depois disso abastecemos -- o diesel estava 55,60 pesos o litro -- quase *SETE* reais!! Rodamos mais pouco a cidade atrás de algum lugar que pudéssemos deixar o trailer, já que era bem difícil que ir com ele no mercado e os campings são caros nessa região. Acabamos ficando, eu e as crianças, na praia perto da ponte ondulada enquanto o Fabiano ia até o mercado abastecer nossa casa. 
 
 <div class="clearfix">
 {{<figure "puntadeleste14.jpg" "" "float-left">}}
@@ -51,6 +49,9 @@ Fiquei um pouco triste pois acabamos passando direto pela Casapueblo, de Carlos 
 {{<figure "puntadeleste16.jpg" "" "float-center">}}
 </div>
 
+Já passava das 18:00 quando ele voltou e acabamos decidindo seguir viagem, pois o local onde estávamos era muito exposto, e já havíamos passado uma semana em 2015 nessa praia.
+
+Fiquei um pouco triste pois acabamos passando direto pela Casapueblo, de Carlos Vilaró, mas numa próxima oportunidade revisitaremos esse lugar incrível. Decidimos ir até Piriápolis, para pernoitar na beira da praia. Qual não foi a nossa surpresa quando chegamos lá já tarde da noite e vimos uma placa na entrada da cidade avisando que era **proibido acampar**! Ficamos atrasados, pois todos estavam cansados. Depois de muito procurar encontramos um camping num estádio de futebol, que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia. Depois dessa decidimos nunca mais viajar até tão tarde!!
 
 Confira também outras imagens desse trecho no nosso primeiro vídeo da viagem:
 

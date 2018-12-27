@@ -10,7 +10,7 @@ images:
 draft: true
 ---
 
-Apesar da imensa vontade de ficar mais um dia no Parque La Paz, era hora de pegar a estrada novamente. Saímos tarde, 11:45, depois de abastecer nossa casa com água. Pegamos um bom trecho de estrada de chão entre La Rocha e ponte circular na Laguna Garzon. Já ouviu falar? Seu criador é o arquiteto Rafael Viñoly, que a concebeu com o intuito de que os motoristas reduzissem a velocidade e apreciassem a paisagem. Deu muito certo e a ponte por si só virou atração turística.
+Apesar da imensa vontade de ficar mais um dia no [Parque La Prensa](../parque-la-prensa/), era hora de pegar a estrada novamente. Saímos tarde, 11:45, depois de abastecer nossa casa com água. Pegamos um bom trecho de estrada de chão entre La Rocha e ponte circular na Laguna Garzon. Já ouviu falar? Seu criador é o arquiteto Rafael Viñoly, que a concebeu com o intuito de que os motoristas reduzissem a velocidade e apreciassem a paisagem. Deu muito certo e a ponte por si só virou atração turística.
 
 <div class="clearfix">
 {{<figure "puntadeleste00.jpg" "Andar nela não tem nada demais, mas a vista aérea é fantástica!" "float-left">}}
@@ -50,3 +50,12 @@ Fiquei um pouco triste pois acabamos passando direto pela Casapueblo, de Carlos 
 {{<figure "puntadeleste15.jpg" "" "float-right">}}
 {{<figure "puntadeleste16.jpg" "" "float-center">}}
 </div>
+
+
+Confira também outras imagens desse trecho no nosso primeiro vídeo da viagem:
+
+{{< youtube JhgLwC-27dE >}} 
+
+Aproveite a oportunidade, [inscreva-se em nosso canal do Youtube](https://www.youtube.com/6overlanders?sub_confirmation=1) e ative as notificações! Assim você recebe avisos sobre novos vídeos e ajuda a divulgar nosso trabalho.
+
+

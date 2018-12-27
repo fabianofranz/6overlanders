@@ -5,8 +5,8 @@ date: 2018-12-27T15:00:00-03:00
 author: pricila
 local: Punta del Este, Uruguai
 images:
-  background: puntadeleste18.jpg
-  thumb: puntadeleste18.jpg
+  background: puntadeleste00.jpg
+  thumb: puntadeleste00.jpg
 draft: true
 ---
 

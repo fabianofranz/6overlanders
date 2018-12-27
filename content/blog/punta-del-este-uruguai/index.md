@@ -7,7 +7,7 @@ local: Punta del Este, Uruguai
 images:
   background: puntadeleste10.jpg
   thumb: puntadeleste10.jpg
-draft: true
+draft: false
 ---
 
 Apesar da imensa vontade de ficar mais um dia no [Parque La Prensa](../parque-la-prensa/), era hora de pegar a estrada novamente. Saímos tarde, 11:45, depois de abastecer nossa casa com água. Pegamos um bom trecho de estrada de chão entre **La Rocha** e a **ponte circular** na Laguna Garzon. Já ouviu falar? Seu criador é o arquiteto Rafael Viñoly, que a concebeu com o intuito de que os motoristas reduzissem a velocidade e apreciassem a paisagem. Deu muito certo e a ponte por si só virou atração turística.

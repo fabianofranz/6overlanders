@@ -21,7 +21,9 @@ Quando chegamos em **Punta Del Este** e passamos pela ponte ondulante já sabía
 
 <div class="clearfix">
 {{<figure "puntadeleste02.jpg" "É impressionante como sempre tem um cruzeiro chegando ou partindo" "float-left">}}
-{{<figure "puntadeleste03.jpg" "Fazendo amizade com os lobos marinhos" "float-right">}}
+{{<figure "puntadeleste02.jpg" "É impressionante como sempre tem um cruzeiro chegando ou partindo" "float-right">}}
+{{<figure "puntadeleste03.jpg" "Fazendo amizade com os lobos marinhos" "float-left" "600x" >}}
+{{<figure "puntadeleste03.jpg" "Fazendo amizade com os lobos marinhos" "float-right" "600x" >}}
 </div>
 
 Depois disso fomos até a famosa escultura **“La Mano”**, de Mário Irarrázabal, cartão postal da praia. Estava lotada de turistas -- adivinhem -- brasileiros! 

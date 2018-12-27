@@ -18,11 +18,30 @@ Apesar da imensa vontade de ficar mais um dia no Parque La Paz, era hora de pega
 {{<figure "puntadeleste01.jpg" "Almoço fastfood de frutos do mar" "float-right">}}
 </div>
 
-Quando chegamos em Punta Del Este já sabíamos onde queríamos almoçar. Foi uma delícia relembrar os sabores da comida "fastfood” de frutos do mar. Sério, queria muito que a rede tivesse um restaurante em Canela! O almoço deu 1900 pesos uruguaios e valeu cada centavo. Depois do sorvete de sobremesa fomos até a famosa escultura “La Mano”, de Mário Irarrázabal, cartão postal da praia. Estava lotada de turistas -- adivinhem -- brasileiros! 
+Quando chegamos em Punta Del Este já sabíamos onde queríamos almoçar. Foi uma delícia relembrar os sabores da comida "fastfood” de frutos do mar. Sério, queria muito que a rede tivesse um restaurante em Canela! O almoço deu 1900 pesos uruguaios e valeu cada centavo. Depois do sorvete de sobremesa demos uma caminhada pelo porto.
 
-Foi difícil conseguir tirar uma foto mais ou menos decente.
+<div class="clearfix">
+{{<figure "puntadeleste02.jpg" "É impressionante como sempre tem um navio cruzeiro chegando ou partindo" "float-left">}}
+{{<figure "puntadeleste03.jpg" "Fazendo amizade com os lobos marinhos" "float-right">}}
+</div>
+
+Depois disso fomos até a famosa escultura “La Mano”, de Mário Irarrázabal, cartão postal da praia. Estava lotada de turistas -- adivinhem -- brasileiros! 
+
+<div class="clearfix">
+{{<figure "puntadeleste04.jpg" "Muitos aves marinhas na costa" "float-left">}}
+{{<figure "puntadeleste05.jpg" "Foi difícil conseguir tirar uma foto mais ou menos decente." "float-right">}}
+</div>
+
 
 Em seguida fomos ao Museu Rali, que nos encantou em 2015 e repetiu o feito dessa vez! Um lugar gratuito para ver obras magníficas, de grandes nomes como Salvador Dalí, por exemplo. Para que as crianças ficassem ainda mais interessadas pegamos um panfleto na recepção que continha reproduções de algumas obras do museu e fizemos uma caça ao tesouro. As crianças adoraram!
+
+<div class="clearfix">
+{{<figure "puntadeleste06.jpg" "" "float-left">}}
+{{<figure "puntadeleste09.jpg" "" "float-right">}}
+{{<figure "puntadeleste11.jpg" "" "float-left">}}
+{{<figure "puntadeleste12.jpg" "" "float-right">}}
+{{<figure "puntadeleste13.jpg" "" "float-left">}}
+</div>
 
 Depois disso abastecemos -- o diesel estava 55,60 pesos o litro -- quase SETE reais!! Rodamos mais pouco a cidade atrás de algum lugar que pudéssemos deixar o trailer, já que era bem difícil que ir com ele no mercado e os campings são caros nessa região. Acabamos ficando, eu e as crianças, na praia perto da ponte ondulada enquanto o Fabiano ia até o mercado abastecer nossa casa. Já passava das 18:00 quando ele voltou e acabamos decidindo seguir viagem, pois o local onde estávamos era muito exposto.
 
@@ -32,28 +51,14 @@ Fiquei um pouco triste pois acabamos passando direto pela Casapueblo, de Carlos 
 
 O
 
-<div class="clearfix">
-{{<figure "puntadeleste02.jpg" "" "float-left">}}
-{{<figure "puntadeleste03.jpg" "" "float-right">}}
-</div>
 
 A
 
-<div class="clearfix">
-{{<figure "puntadeleste04.jpg" "" "float-left">}}
-{{<figure "puntadeleste05.jpg" "" "float-right">}}
-</div>
 
 F
 
 O
-
 <div class="clearfix">
-{{<figure "puntadeleste06.jpg" "" "float-left">}}
-{{<figure "puntadeleste09.jpg" "" "float-right">}}
-{{<figure "puntadeleste11.jpg" "" "float-left">}}
-{{<figure "puntadeleste12.jpg" "" "float-right">}}
-{{<figure "puntadeleste13.jpg" "" "float-left">}}
 {{<figure "puntadeleste14.jpg" "" "float-right">}}
 {{<figure "puntadeleste15.jpg" "" "float-left">}}
 {{<figure "puntadeleste16.jpg" "" "float-right">}}

@@ -12,7 +12,11 @@ draft: true
 
 Apesar da imensa vontade de ficar mais um dia no Parque La Paz, era hora de pegar a estrada novamente. Saímos tarde, 11:45, depois de abastecer nossa casa com água. Pegamos um bom trecho de estrada de chão entre La Rocha e ponte circular na Laguna Garzon. Já ouviu falar? Seu criador é o arquiteto Rafael Viñoly, que a concebeu com o intuito de que os motoristas reduzissem a velocidade e apreciassem a paisagem. Deu muito certo e a ponte por si só virou atração turística. 
 
-Andar nela não tem nada demais, mas a vista que tem do drone é fantástica!
+
+<div class="clearfix">
+{{<figure "puntadeleste00.jpg" "Andar nela não tem nada demais, mas a vista que tem do drone é fantástica!" "float-left">}}
+{{<figure "puntadeleste01.jpg" "Almoço fastfood de frutos do mar" "float-right">}}
+</div>
 
 Quando chegamos em Punta Del Este já sabíamos onde queríamos almoçar. Foi uma delícia relembrar os sabores da comida "fastfood” de frutos do mar. Sério, queria muito que a rede tivesse um restaurante em Canela! O almoço deu 1900 pesos uruguaios e valeu cada centavo. Depois do sorvete de sobremesa fomos até a famosa escultura “La Mano”, de Mário Irarrázabal, cartão postal da praia. Estava lotada de turistas -- adivinhem -- brasileiros! 
 
@@ -25,10 +29,6 @@ Depois disso abastecemos -- o diesel estava 55,60 pesos o litro -- quase SETE re
 Fiquei um pouco triste pois acabamos passando direto pela Casapueblo, de Carlos Vilaró, mas numa próxima oportunidade revisitaremos esse lugar incrível. Decidimos ir até Piriápolis, para pernoitar na beira da praia. Qual não foi a nossa surpresa quando chegamos lá já tarde da noite e vimos uma placa na entrada da cidade avisando que era proibido acampar! Ficamos atrasados, pois todos estavam cansados. Depois de muito procurar encontramos um camping num estádio de futebol, que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia. Depois dessa decidimos nunca mais viajar até tão tarde.
 
 
-<div class="clearfix">
-{{<figure "puntadeleste00.jpg" "" "float-left">}}
-{{<figure "puntadeleste01.jpg" "" "float-right">}}
-</div>
 
 O
 

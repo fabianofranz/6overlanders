@@ -50,7 +50,7 @@ que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia
 {{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-left">}}
 {{<figure "montevideu20.jpg" "E réplica do calendário maia" "float-right">}}
 {{<figure "montevideu21.jpg" "Foto obrigatória no letreiro" "float-left">}}
-{{<figure "montevideu22.jpg" "Visão geral da capital uruguaia" "float-center">}}
+{{<figure "montevideu22.jpg" "Visão geral da capital uruguaia" "float-right">}}
 </div>
 
 Confira também outras imagens desse trecho no nosso primeiro vídeo da viagem:

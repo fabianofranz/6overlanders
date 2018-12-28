@@ -37,7 +37,7 @@ Em seguida fomos ao [Museu Ralli](http://www.museoralli.com.uy/web/index.html), 
 {{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-right">}}
 {{<figure "montevideu20.jpg" "E réplica do calendário maia" "float-left">}}
 {{<figure "montevideu21.jpg" "Foto obrigatória no letreiro" "float-right">}}
-{{<figure "montevideu22.jpg" "Visão geral da capital uruguaia" "float-left">}}
+{{<figure "montevideu22.jpg" "Visão geral da capital uruguaia" "float-center">}}
 </div>
 
 Depois disso abastecemos -- o diesel estava 55,60 pesos o litro -- quase *SETE* reais!! Rodamos mais pouco a cidade atrás de algum lugar que pudéssemos deixar o trailer, já que era bem difícil que ir com ele no mercado e os campings são caros nessa região. Acabamos ficando, eu e as crianças, na praia perto da ponte ondulada enquanto o Fabiano ia até o mercado abastecer nossa casa.

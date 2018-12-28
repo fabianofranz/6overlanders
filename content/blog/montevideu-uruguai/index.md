@@ -31,8 +31,8 @@ Em seguida fomos ao [Museu Ralli](http://www.museoralli.com.uy/web/index.html), 
 {{<figure "montevideu12.jpg" "Reprodução da cultura cristã antiga" "float-right" >}}
 {{<figure "montevideu13.jpg" "Na sala da múmia" "float-left">}}
 {{<figure "montevideu14.jpg" "A grande estrela do museu!" "float-right">}}
-{{<figure "montevideu15.jpg" "Mais sobre a cultura egípcia" "float-left">}}
-{{<figure "montevideu16.jpg" "Lugar de criança é no museu sim!" "float-right">}}
+{{<figure "montevideu16.jpg" "Mais sobre a cultura egípcia" "float-left">}}
+{{<figure "montevideu17.jpg" "Lugar de criança é no museu sim!" "float-right">}}
 {{<figure "montevideu18.jpg" "Mesmo sendo reprodução, impressiona!" "float-left">}}
 {{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-right">}}
 {{<figure "montevideu20.jpg" "E réplica do calendário maia" "float-left">}}

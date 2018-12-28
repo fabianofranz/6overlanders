@@ -19,28 +19,25 @@ Depois disso fomos até a famosa escultura **“La Mano”**, de Mário Irarráz
 Em seguida fomos ao [Museu Ralli](http://www.museoralli.com.uy/web/index.html), que nos encantou em 2015 e repetiu o feito dessa vez! Um lugar **gratuito** para ver obras magníficas, de grandes nomes como **Salvador Dalí**, por exemplo. Para que as crianças ficassem ainda mais interessadas pegamos um panfleto na recepção que continha reproduções de algumas obras do museu e fizemos uma caça ao tesouro. As crianças adoraram!
 
 <div class="clearfix">
-{{<figure "montevideu01.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu02.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu03.jpg" "Entrada do museu restaurada" "float-left">}}
+{{<figure "montevideu01.jpg" "Tomates fresquinhos que ganhamos do dono da fazenda" "float-left">}}
+{{<figure "montevideu02.jpg" "Aprendendo que as frutas nascem das árvores" "float-right">}}
+{{<figure "montevideu03.jpg" "Um passeio pela fazenda e sua diversidade de plantas" "float-left">}}
 {{<figure "montevideu04.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu05.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu06.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu07.jpg" "Entrada do museu restaurada" "float-left">}}
+{{<figure "montevideu05.jpg" "Tomates aprovados!" "float-left">}}
+{{<figure "montevideu06.jpg" "Visita ao mausoléu do General Artigas" "float-right">}}
+{{<figure "montevideu07.jpg" "Ciudad Vieja, passeio obrigatório" "float-left">}}
 {{<figure "montevideu08.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu09.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu10.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu11.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu12.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu13.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu14.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu15.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu16.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu17.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu18.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu19.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu20.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
-{{<figure "montevideu21.jpg" "Entrada do museu restaurada" "float-left">}}
-{{<figure "montevideu22.jpg" "As esculturas no jardim são um dos pontos altos" "float-right">}}
+{{<figure "montevideu09.jpg" "Algumas reproduções de arte indígena" "float-left">}}
+{{<figure "montevideu10.jpg" "Exposição temporária sobre os 100 anos do comunismo" "float-center" "600px" >}}
+{{<figure "montevideu13.jpg" "Comemoração da chegada do homem à Lua" "float-left">}}
+{{<figure "montevideu14.jpg" "Reprodução da cultura cristã antiga" "float-right">}}
+{{<figure "montevideu15.jpg" "Na sala da múmia" "float-left">}}
+{{<figure "montevideu16.jpg" "A grande estrela do museu!" "float-right">}}
+{{<figure "montevideu18.jpg" "Mais sobre a cultura egípcia" "float-left">}}
+{{<figure "montevideu19.jpg" "Lugar de criança é no museu sim!" "float-right">}}
+{{<figure "montevideu20.jpg" "Mesmo sendo reprodução, impressiona!" "float-left">}}
+{{<figure "montevideu21.jpg" "Maquete das pirâmidas maias" "float-right">}}
+{{<figure "montevideu22.jpg" "E réplica do calendário maia" "float-left">}}
 </div>
 
 Depois disso abastecemos -- o diesel estava 55,60 pesos o litro -- quase *SETE* reais!! Rodamos mais pouco a cidade atrás de algum lugar que pudéssemos deixar o trailer, já que era bem difícil que ir com ele no mercado e os campings são caros nessa região. Acabamos ficando, eu e as crianças, na praia perto da ponte ondulada enquanto o Fabiano ia até o mercado abastecer nossa casa.

@@ -32,17 +32,24 @@ que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia
 
 <div class="clearfix">
 {{<figure "montevideu07.jpg" "Algumas reproduções de arte indígena" "float-left">}}
-{{<figure "montevideu08.jpg" "Exposição temporária sobre os 100 anos do comunismo" "float-right">}}
+{{<figure "montevideu17.jpg" "Lugar de criança é no museu sim!" "float-right">}}
+</div>
+
+<div class="clearfix">
+{{<figure "montevideu08.jpg" "Exposição temporária sobre os 100 anos do comunismo" "float-left" "600x" >}}
+{{<figure "montevideu09.jpg" "Impressiona o uso das cores como representação da ideologia" "float-right" "600x" >}}
+</div>
+
+<div class="clearfix">
 {{<figure "montevideu11.jpg" "Comemoração da chegada do homem à Lua" "float-left">}}
 {{<figure "montevideu12.jpg" "Reprodução da cultura cristã antiga" "float-right" >}}
 {{<figure "montevideu13.jpg" "Na sala da múmia" "float-left">}}
 {{<figure "montevideu14.jpg" "A grande estrela do museu!" "float-right">}}
 {{<figure "montevideu16.jpg" "Mais sobre a cultura egípcia" "float-left">}}
-{{<figure "montevideu17.jpg" "Lugar de criança é no museu sim!" "float-right">}}
-{{<figure "montevideu18.jpg" "Mesmo sendo reprodução, impressiona!" "float-left">}}
-{{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-right">}}
-{{<figure "montevideu20.jpg" "E réplica do calendário maia" "float-left">}}
-{{<figure "montevideu21.jpg" "Foto obrigatória no letreiro" "float-right">}}
+{{<figure "montevideu18.jpg" "Mesmo sendo reprodução, impressiona!" "float-right">}}
+{{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-left">}}
+{{<figure "montevideu20.jpg" "E réplica do calendário maia" "float-right">}}
+{{<figure "montevideu21.jpg" "Foto obrigatória no letreiro" "float-left">}}
 {{<figure "montevideu22.jpg" "Visão geral da capital uruguaia" "float-center">}}
 </div>
 

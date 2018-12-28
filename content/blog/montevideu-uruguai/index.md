@@ -24,8 +24,8 @@ Em seguida fomos ao [Museu Ralli](http://www.museoralli.com.uy/web/index.html), 
 
 
 <div class="clearfix">
-{{<figure "montevideu05.jpg" "Visita ao mausoléu do General Artigas" "float-left" "600px" >}}
-{{<figure "montevideu06.jpg" "Ciudad Vieja, passeio obrigatório" "float-right" "600px" >}}
+{{<figure "montevideu05.jpg" "Visita ao mausoléu do General Artigas" "float-left" "600x" >}}
+{{<figure "montevideu06.jpg" "Ciudad Vieja, passeio obrigatório" "float-right" "600x" >}}
 </div>
 
 que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia. *Depois dessa decidimos nunca, nunca mais viajar até tão tarde!!*

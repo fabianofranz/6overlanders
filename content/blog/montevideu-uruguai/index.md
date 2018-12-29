@@ -10,7 +10,23 @@ images:
 draft: true
 ---
 
-Apesar da imensa vontade de ficar mais um dia no [Parque La Prensa](../parque-la-prensa/), era hora de pegar a estrada novamente. Saímos tarde, 11:45, depois de  
+Michel caiu da cama e bateu o queixo
+
+Dia 28 de fevereiro saímos do camping Piriápolis ao meio-dia. Aproveitamos para tomar banho no 28
+100 pesos pedágio (não deu 10 pesos de troco)
+90 pesos pedágio
++-2840 Montevideo (granja la orientala)
+
+01/03
+Estacionamento 340 pesos
+Almoço 1732 pesos
+2880km
+Museu Isabela Ficou decepcionada com a múmia (úmina segundo a Clara)
+660 pesos sorvete Freddo
+2886 pesos mercado
+Ferragem 463 Pesos
+
+O [Granja La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala).
 
 <div class="clearfix">
 {{<figure "montevideu01.jpg" "Tomates fresquinhos que ganhamos do dono da fazenda" "float-left">}}
@@ -19,16 +35,12 @@ Apesar da imensa vontade de ficar mais um dia no [Parque La Prensa](../parque-la
 {{<figure "montevideu04.jpg" "Tomates aprovados!" "float-right">}}
 </div>
 
-Em seguida fomos ao [Museu Ralli](http://www.museoralli.com.uy/web/index.html), que nos encantou em 2015 e repetiu o feito dessa vez! Um lugar **gratuito** para ver obras magníficas, de grandes nomes como **Salvador Dalí**, por exemplo. Para que as crianças ficassem ainda mais interessadas pegamos um panfleto na recepção que continha reproduções de algumas obras do museu e fizemos uma caça ao tesouro. As crianças adoraram!
-
-
-
 <div class="clearfix">
 {{<figure "montevideu05.jpg" "Visita ao mausoléu do General Artigas" "float-left" "600x" >}}
 {{<figure "montevideu06.jpg" "Ciudad Vieja, passeio obrigatório" "float-right" "600x" >}}
 </div>
 
-que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia. *Depois dessa decidimos nunca, nunca mais viajar até tão tarde!!*
+q
 
 <div class="clearfix">
 {{<figure "montevideu07.jpg" "Algumas reproduções de arte indígena" "float-left">}}
@@ -53,7 +65,7 @@ que custou no total 710 pesos uruguaios. E o check-out teria que ser ao meio-dia
 {{<figure "montevideu22.jpg" "Visão geral da capital uruguaia" "float-right">}}
 </div>
 
-Confira também outras imagens desse trecho no nosso primeiro vídeo da viagem:
+C
 
 {{< youtube JhgLwC-27dE >}}
 

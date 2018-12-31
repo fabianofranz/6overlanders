@@ -40,7 +40,7 @@ O [Granja La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-
 {{<figure "montevideu06.jpg" "Ciudad Vieja, passeio obrigatório" "float-right" "600x" >}}
 </div>
 
-q
+q [Museo de Historia del Arte](http://muhar.montevideo.gub.uy/). Sua atração principal é a múmia egípcia da sacerdotisa Esoeris, mas o museu tem coleções originais e réplicas arqueológicas, históricas, etnográficas e de artes decorativas.
 
 <div class="clearfix">
 {{<figure "montevideu07.jpg" "Algumas reproduções de arte indígena" "float-left">}}
@@ -57,6 +57,12 @@ q
 {{<figure "montevideu12.jpg" "Reprodução da cultura cristã antiga" "float-right" >}}
 {{<figure "montevideu13.jpg" "Na sala da múmia" "float-left">}}
 {{<figure "montevideu14.jpg" "A grande estrela do museu!" "float-right">}}
+</div>
+
+Segundo a descrição do museu:
+*Momia de Esoeris o Eso Eris (Gran Isis – Aset Weret). Vivió hace unos 2400 años en Egipto, en la ciudad de Akhmím. Fue sacerdotisa del Templo del dios Min, donde tañía el sistro, instrumento con el que se acompañaban las procesiones religiosas. Fue bella; murió joven. Hoy nos ayuda a acercarnos y tratar de entender a ese pueblo que tanta importancia dió a la muerte como para dejarnos un impresionante legado artístico dedicado, en gran parte, a sus creencias en la vida eterna más allá de ella. La momia fue adquirida en El Cairo por el Ing. Uruguayo Luis A. Viglione en 1889. En 1890, Viglione dona la momia al Museo Nacional de Historia Natural de Montevideo. En el año 2000, el Ministerio de Educación y Cultura cede en préstamo la misma al Museo de Historia del Arte de la Intendencia de Montevideo para su conservación y exhibición junto a la mayor colección de arqueología egipcia del Uruguay.*
+
+<div class="clearfix">
 {{<figure "montevideu16.jpg" "Mais sobre a cultura egípcia" "float-left">}}
 {{<figure "montevideu18.jpg" "Mesmo sendo reprodução, impressiona!" "float-right">}}
 {{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-left">}}

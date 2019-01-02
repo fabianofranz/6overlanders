@@ -24,14 +24,14 @@ O [Granja La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-
 {{<figure "montevideu04.jpg" "Tomates aprovados!" "float-right">}}
 </div>
 
-No dia seguinte fomos ao centro da capital uruguaia. Fomos ao mausoléu do General Artigas, à Ciudad Vieja, almoçamos no centro (1732 pesos uruguaios) e visitamos o Muaahr. 
+No dia seguinte fomos ao centro da capital uruguaia. Fomos ao mausoléu do General Artigas, à Ciudad Vieja, almoçamos no centro (1732 pesos uruguaios) e visitamos o [Museo de Historia del Arte -- MuHAr](http://muhar.montevideo.gub.uy/).
 
 <div class="clearfix">
 {{<figure "montevideu05.jpg" "Visita ao mausoléu do General Artigas" "float-left" "600x" >}}
 {{<figure "montevideu06.jpg" "Ciudad Vieja, passeio obrigatório" "float-right" "600x" >}}
 </div>
 
-A atração principal do [Museo de Historia del Arte](http://muhar.montevideo.gub.uy/) é a múmia egípcia da sacerdotisa Esoeris, mas o há coleções originais e réplicas arqueológicas, históricas, etnográficas e de artes decorativas. A exposição temporária dessa vez era dos 100 anos da Revolução Russa.
+A atração principal do MuHAr é a múmia egípcia da sacerdotisa **Esoeris**, mas o há coleções originais e réplicas arqueológicas, históricas, etnográficas e de artes decorativas. A exposição temporária dessa vez era dos 100 anos da Revolução Russa.
 
 <div class="clearfix">
 {{<figure "montevideu07.jpg" "Algumas reproduções de arte indígena" "float-left">}}
@@ -48,7 +48,7 @@ A atração principal do [Museo de Historia del Arte](http://muhar.montevideo.gu
 {{<figure "montevideu12.jpg" "Reprodução da cultura cristã antiga" "float-right" >}}
 </div>
 
-É um passeio imperdível, pois quando é que temos a oportunidade de ver uma múmia -- úmina, como diria a Clara -- egípcia de graça e tão perto da gente? A Isabela ficou um pouco decepcionada, pois esperava ver a múmia com as ataduras…
+É um passeio imperdível, pois quando é que temos a oportunidade de ver uma múmia -- **úmina**, como diria a Clara -- egípcia de graça e tão perto da gente? A Isabela ficou um pouco decepcionada, pois esperava ver a múmia com as ataduras…
 
 <div class="clearfix">
 {{<figure "montevideu13.jpg" "Na sala da múmia" "float-left">}}
@@ -56,7 +56,8 @@ A atração principal do [Museo de Historia del Arte](http://muhar.montevideo.gu
 </div>
 
 Segundo a descrição do museu:
-*Momia de Esoeris o Eso Eris (Gran Isis – Aset Weret). Vivió hace unos 2400 años en Egipto, en la ciudad de Akhmím. Fue sacerdotisa del Templo del dios Min, donde tañía el sistro, instrumento con el que se acompañaban las procesiones religiosas. Fue bella; murió joven. Hoy nos ayuda a acercarnos y tratar de entender a ese pueblo que tanta importancia dió a la muerte como para dejarnos un impresionante legado artístico dedicado, en gran parte, a sus creencias en la vida eterna más allá de ella. La momia fue adquirida en El Cairo por el Ing. Uruguayo Luis A. Viglione en 1889. En 1890, Viglione dona la momia al Museo Nacional de Historia Natural de Montevideo. En el año 2000, el Ministerio de Educación y Cultura cede en préstamo la misma al Museo de Historia del Arte de la Intendencia de Montevideo para su conservación y exhibición junto a la mayor colección de arqueología egipcia del Uruguay.*
+> Blockquote Momia de Esoeris o Eso Eris (Gran Isis – Aset Weret). Vivió hace unos 2400 años en Egipto, en la ciudad de Akhmím. Fue sacerdotisa del Templo del dios Min, donde tañía el sistro, instrumento con el que se acompañaban las procesiones religiosas. Fue bella; murió joven. Hoy nos ayuda a acercarnos y tratar de entender a ese pueblo que tanta importancia dió a la muerte como para dejarnos un impresionante legado artístico dedicado, en gran parte, a sus creencias en la vida eterna más allá de ella. La momia fue adquirida en El Cairo por el Ing. Uruguayo Luis A. Viglione en 1889. En 1890, Viglione dona la momia al Museo Nacional de Historia Natural de Montevideo. En el año 2000, el Ministerio de Educación y Cultura cede en préstamo la misma al Museo de Historia del Arte de la Intendencia de Montevideo para su conservación y exhibición junto a la mayor colección de arqueología egipcia del Uruguay.
+> <cite>MuHAr</cite>
 
 <div class="clearfix">
 {{<figure "montevideu16.jpg" "Mais sobre a cultura egípcia" "float-left">}}

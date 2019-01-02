@@ -1,7 +1,7 @@
 ---
 title: Montevidéu
 callout: Uma fazenda orgânica e a primeira de muitas múmias
-date: 2018-12-26T15:00:00-03:00
+date: 2019-01-02T15:00:00-03:00
 author: pricila
 local: Montevidéu, Uruguai
 images:
@@ -11,7 +11,7 @@ draft: true
 ---
 No último dia de fevereiro aproveitamos o camping pago para tomar banho e saímos ao meio-dia em direção a **Montevidéu**. Passamos por um pedágio que se aproveitou que éramos estrangeiros e não deu o troco correto (o valor era 90 pesos e nós pagamos com uma nota de 100). Enfim, ossos do ofício.
 
-Já tínhamos nosso destino definido: [La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala), uma **granja de produtos orgânicos** cujos donos também são *Overlanders* e aceitam receber outros viajantes. Você pode inclusive comprar produtos fresquinhos, diretamente da horta. Uma delícia passear entre a plantação e ir mostrando cada tipo de árvore para as crianças. É possível usar banheiro e a cozinha. Nessa tarde ficamos descansando e calculando nosso trajeto até **Ushuaia**, pois chegamos a conclusão de que precisaríamos andar um pouco mais depressa se quiséssemos chegar lá antes do inverno.
+Já tínhamos nosso destino definido: [La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala), uma [granja de produtos orgânicos](https://pt-br.facebook.com/granjalaorientala/) cujos donos também são *Overlanders* e aceitam receber outros viajantes. Você pode inclusive comprar produtos fresquinhos, diretamente da horta. Uma delícia passear entre a plantação e ir mostrando cada tipo de árvore para as crianças. Nessa tarde ficamos descansando e calculando nosso trajeto até **Ushuaia**, pois chegamos a conclusão de que precisaríamos andar um pouco mais depressa se quiséssemos chegar lá antes do inverno.
 
 <div class="clearfix">
 {{<figure "montevideu01.jpg" "Tomates fresquinhos que ganhamos do dono da fazenda" "float-left">}}
@@ -57,7 +57,7 @@ Segundo a descrição do museu:
 <div class="clearfix">
 {{<figure "montevideu16.jpg" "Mais sobre a cultura egípcia" "float-left">}}
 {{<figure "montevideu18.jpg" "Mesmo sendo reprodução, impressiona!" "float-right">}}
-{{<figure "montevideu19.jpg" "Maquete das pirâmidas maias" "float-left">}}
+{{<figure "montevideu19.jpg" "Maquete das pirâmides no México" "float-left">}}
 {{<figure "montevideu20.jpg" "E réplica do calendário maia" "float-right">}}
 </div>
 

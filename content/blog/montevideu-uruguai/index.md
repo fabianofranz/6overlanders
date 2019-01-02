@@ -11,11 +11,11 @@ draft: true
 ---
 No último dia de fevereiro aproveitamos o camping pago para tomar banho e saímos ao meio-dia em direção a **Montevidéu**. Passamos por um pedágio que se aproveitou que éramos estrangeiros e não deu o troco correto (o valor era 90 pesos e nós pagamos com uma nota de 100). Enfim, ossos do ofício.
 
-Já tínhamos nosso destino definido: [La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala), uma **granja de produtos orgânicos** cujos donos também são *Overlanders* e aceitam receber outros viajantes. Você pode inclusive comprar produtos fresquinhos, diretamente da horta. Uma delícia passear entre a plantação e ir mostrando cada tipo de árvore para as crianças. É possível usar banheiro e até cozinha. Nessa tarde ficamos descansando e calculando nosso trajeto até **Ushuaia**, pois chegamos a conclusão de que precisaríamos andar um pouco mais depressa se quiséssemos chegar lá antes do inverno.
+Já tínhamos nosso destino definido: [La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala), uma **granja de produtos orgânicos** cujos donos também são *Overlanders* e aceitam receber outros viajantes. Você pode inclusive comprar produtos fresquinhos, diretamente da horta. Uma delícia passear entre a plantação e ir mostrando cada tipo de árvore para as crianças. É possível usar banheiro e a cozinha. Nessa tarde ficamos descansando e calculando nosso trajeto até **Ushuaia**, pois chegamos a conclusão de que precisaríamos andar um pouco mais depressa se quiséssemos chegar lá antes do inverno.
 
 <div class="clearfix">
 {{<figure "montevideu01.jpg" "Tomates fresquinhos que ganhamos do dono da fazenda" "float-left">}}
-{{<figure "montevideu02.jpg" "Aprendendo que as frutas nascem das árvores" "float-right">}}
+{{<figure "montevideu02.jpg" "Aprendendo a diferenciar as árvores frutíferas" "float-right">}}
 {{<figure "montevideu03.jpg" "Um passeio pela fazenda e sua diversidade de plantas" "float-left">}}
 {{<figure "montevideu04.jpg" "Tomates aprovados!" "float-right">}}
 </div>
@@ -27,7 +27,7 @@ No dia seguinte fomos ao centro da capital uruguaia. Fomos ao **mausoléu do Gen
 {{<figure "montevideu06.jpg" "Ciudad Vieja, passeio obrigatório" "float-right" "600x" >}}
 </div>
 
-A atração principal do **MuHAr** é a múmia egípcia da sacerdotisa **Esoeris**, mas o há coleções originais e réplicas arqueológicas, históricas, etnográficas e de artes decorativas. A exposição temporária dessa vez era dos **100 anos da Revolução Russa**.
+A atração principal do **MuHAr** é a múmia egípcia da sacerdotisa **Esoeris**, mas há também coleções originais e réplicas arqueológicas, históricas, etnográficas e de artes decorativas. A exposição temporária dessa vez era dos **100 anos da Revolução Russa**.
 
 <div class="clearfix">
 {{<figure "montevideu07.jpg" "Algumas reproduções de arte indígena" "float-left">}}
@@ -52,7 +52,7 @@ A atração principal do **MuHAr** é a múmia egípcia da sacerdotisa **Esoeris
 </div>
 
 Segundo a descrição do museu:
-<cite> Momia de Esoeris o Eso Eris (Gran Isis – Aset Weret). Vivió hace unos 2400 años en Egipto, en la ciudad de Akhmím. Fue sacerdotisa del Templo del dios Min, donde tañía el sistro, instrumento con el que se acompañaban las procesiones religiosas. Fue bella; murió joven. Hoy nos ayuda a acercarnos y tratar de entender a ese pueblo que tanta importancia dió a la muerte como para dejarnos un impresionante legado artístico dedicado, en gran parte, a sus creencias en la vida eterna más allá de ella. La momia fue adquirida en El Cairo por el Ing. Uruguayo Luis A. Viglione en 1889. En 1890, Viglione dona la momia al Museo Nacional de Historia Natural de Montevideo. En el año 2000, el Ministerio de Educación y Cultura cede en préstamo la misma al Museo de Historia del Arte de la Intendencia de Montevideo para su conservación y exhibición junto a la mayor colección de arqueología egipcia del Uruguay.</cite>
+*Momia de Esoeris o Eso Eris (Gran Isis – Aset Weret). Vivió hace unos 2400 años en Egipto, en la ciudad de Akhmím. Fue sacerdotisa del Templo del dios Min, donde tañía el sistro, instrumento con el que se acompañaban las procesiones religiosas. Fue bella; murió joven. Hoy nos ayuda a acercarnos y tratar de entender a ese pueblo que tanta importancia dió a la muerte como para dejarnos un impresionante legado artístico dedicado, en gran parte, a sus creencias en la vida eterna más allá de ella. La momia fue adquirida en El Cairo por el Ing. Uruguayo Luis A. Viglione en 1889. En 1890, Viglione dona la momia al Museo Nacional de Historia Natural de Montevideo. En el año 2000, el Ministerio de Educación y Cultura cede en préstamo la misma al Museo de Historia del Arte de la Intendencia de Montevideo para su conservación y exhibición junto a la mayor colección de arqueología egipcia del Uruguay.*
 
 <div class="clearfix">
 {{<figure "montevideu16.jpg" "Mais sobre a cultura egípcia" "float-left">}}

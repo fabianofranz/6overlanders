@@ -7,7 +7,7 @@ local: Montevidéu, Uruguai
 images:
   background: montevideu18.jpg
   thumb: montevideu18.jpg
-draft: true
+draft: false
 ---
 No último dia de fevereiro aproveitamos o camping pago para tomar banho e saímos ao meio-dia em direção a **Montevidéu**. Passamos por um pedágio que se aproveitou que éramos estrangeiros e não deu o troco correto (o valor era 90 pesos e nós pagamos com uma nota de 100). Enfim, ossos do ofício.
 

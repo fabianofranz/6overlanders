@@ -18,9 +18,6 @@ Já tínhamos nosso destino definido: La Orientala, uma granja de produtos orgâ
 No dia seguinte fomos ao centro da capital uruguaia. Fomos ao mausoléu do General Artigas, à Ciudad Vieja, almoçamos no centro (1732 pesos uruguaios) e visitamos o Muaahr. É uma atividade imperdível, pois quando é que temos a oportunidade de ver uma múmia (úmina, como diria a Clara) egípcia de graça e tão perto da gente? A Isabela ficou um pouco decepcionada, pois esperava ver a múmia com as ataduras… A exposição temporária dessa vez era dos 100 anos da Revolução Russa.
 
 Fechamos o tour pela cidade com uma vista panorâmica do centro e pose para foto nas letras do nome da capital. Ainda sobrou um tempinho para passar no mercado (2886 pesos)  e na loja de ferragens (463 pesos). Compensamos a correria com um sorvete Freddo (660 pesos). Apesar de estar bem quente foi um passeio bem proveitoso!
-100 pesos pedágio (não deu 10 pesos de troco)
-90 pesos pedágio
-+-2840 Montevideo (granja la orientala)
 
 O [Granja La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala).
 

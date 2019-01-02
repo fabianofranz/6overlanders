@@ -10,21 +10,17 @@ images:
 draft: true
 ---
 
-Michel caiu da cama e bateu o queixo
-
 Dia 28 de fevereiro saímos do camping Piriápolis ao meio-dia. Aproveitamos para tomar banho no 28
+No último dia de fevereiro aproveitamos o camping pago para tomar banho e saímos ao meio-dia em direção a Montevidéu. Passamos por um pedágio que se aproveitou que éramos estrangeiros e não deu o troco correto (o valor era 90 pesos e nós pagamos com uma nota de 100). Enfim, ossos do ofício. 
+
+Já tínhamos nosso destino definido: La Orientala, uma granja de produtos orgânicos cujos donos também são Overlander e aceitam receber outros viajantes. Você pode inclusive comprar produtos fresquinhos, diretamente da horta. Uma delícia passear entre a plantação e ir mostrando cada tipo de árvore para as crianças. É possível usar banheiro e até cozinha. Nessa tarde ficamos descansando e calculando nosso trajeto até Ushuaia, pois chegamos a conclusão de que precisaríamos andar um pouco mais depressa se quiséssemos chegar lá antes do inverno.
+
+No dia seguinte fomos ao centro da capital uruguaia. Fomos ao mausoléu do General Artigas, à Ciudad Vieja, almoçamos no centro (1732 pesos uruguaios) e visitamos o Muaahr. É uma atividade imperdível, pois quando é que temos a oportunidade de ver uma múmia (úmina, como diria a Clara) egípcia de graça e tão perto da gente? A Isabela ficou um pouco decepcionada, pois esperava ver a múmia com as ataduras… A exposição temporária dessa vez era dos 100 anos da Revolução Russa.
+
+Fechamos o tour pela cidade com uma vista panorâmica do centro e pose para foto nas letras do nome da capital. Ainda sobrou um tempinho para passar no mercado (2886 pesos)  e na loja de ferragens (463 pesos). Compensamos a correria com um sorvete Freddo (660 pesos). Apesar de estar bem quente foi um passeio bem proveitoso!
 100 pesos pedágio (não deu 10 pesos de troco)
 90 pesos pedágio
 +-2840 Montevideo (granja la orientala)
-
-01/03
-Estacionamento 340 pesos
-Almoço 1732 pesos
-2880km
-Museu Isabela Ficou decepcionada com a múmia (úmina segundo a Clara)
-660 pesos sorvete Freddo
-2886 pesos mercado
-Ferragem 463 Pesos
 
 O [Granja La Orientala](http://ioverlander.com/places/46591-organic-farm-granja-la-orientala).
 

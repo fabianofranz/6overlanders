@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "foundation-sites": "~6.5.3",
-    "jquery": ">=3.4.1",
+    "jquery": ">=3.5.0",
     "js-beautify": "^1.10.1",
     "motion-ui": "~1.2.3",
     "what-input": "^4.3.1"

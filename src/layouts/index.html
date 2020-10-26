@@ -98,19 +98,5 @@
         {{ end }}
       </div>
     </div>
-
-    <aside class="instagram">
-      <div id="instafeed" class="grid-x grid-margin-x"></div>
-    </aside>
   </main>
-  <script>
-  var feed = new Instafeed({
-    get: 'user',
-    userId: 5616150194,
-    accessToken: '5616150194.5952ea2.2bafb0026d4943e6a631945d143cd478',
-    template: '<figure class="polaroid semi-grayscale cell small-4 medium-2"><a href="\{\{link\}\}" target="blank"><img src="\{\{image\}\}"></a></figure>',
-    limit: 12
-  });
-  feed.run();
-  </script>
 {{ end }}

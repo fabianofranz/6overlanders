@@ -6,6 +6,9 @@ const imageResize   = require('gulp-image-resize');
 const changed       = require('gulp-changed');
 const rename        = require('gulp-rename');
 const imagemin      = require('gulp-imagemin');
+const imageminJpegtran = require('imagemin-jpegtran');
+const imageminOptipng = require('imagemin-optipng');
+const imageminGifsicle = require('imagemin-gifsicle');
 
 var dev = false;
 
@@ -32,9 +35,6 @@ function scss() {
       outputStyle: 'compressed'
     })
       .on('error', $.sass.logError))
-    .pipe($.autoprefixer({
-      browsers: ['last 2 versions', 'ie >= 9']
-    }))
     .pipe(gulp.dest('public/css'));
 }
 
@@ -55,9 +55,9 @@ function _media(attrs) {
   return gulp.src('media/**/*')
       .pipe(imageResize(attrs))
       .pipe(imagemin([
-        imagemin.gifsicle({interlaced: true}),
-        imagemin.jpegtran({progressive: true}),
-        imagemin.optipng({optimizationLevel: 5})
+        imageminGifsicle({interlaced: true}),
+        imageminJpegtran({progressive: true}),
+        imageminOptipng({optimizationLevel: 5})
       ], { verbose: true }))
       .pipe(rename(function (path){ path.basename += filename; }))
       .pipe(gulp.dest('public/media'));
@@ -79,9 +79,9 @@ function images() {
   return gulp.src('src/images/**/*')
   .pipe(changed('public/images'))
   .pipe(imagemin([
-    imagemin.gifsicle({interlaced: true}),
-    imagemin.jpegtran({progressive: true}),
-    imagemin.optipng({optimizationLevel: 5})
+    imageminGifsicle({interlaced: true}),
+    imageminJpegtran({progressive: true}),
+    imageminOptipng({optimizationLevel: 5})
   ], { verbose: true }))
   .pipe(gulp.dest('public/images'));
 }

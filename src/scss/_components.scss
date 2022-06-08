@@ -111,6 +111,7 @@ figure {
     padding: .5rem;
     box-shadow: $box-shadow;
     filter: grayscale(100%);
+    transition: all 0.3s;
 
     @include breakpoint(large) {
       width: 10.5rem;
@@ -157,9 +158,8 @@ figure {
     }
 
     &:hover {
-      transform: scale(1.5, 1.5) rotate(4deg);
+      transform: scale(1.2) rotate(4deg);
       filter: none;
-      transition: all 0.3s;
       z-index: 50;
     }
   }

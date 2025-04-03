@@ -3,9 +3,9 @@
   <Document>
     <Style id="regularStyle2">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.75</scale>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
         </Icon>
       </IconStyle>
     </Style>

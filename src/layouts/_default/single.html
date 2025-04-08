@@ -178,7 +178,11 @@
       },
       mapTypeId: 'hybrid'
     });
-    var ctaLayer = new google.maps.KmlLayer({
+    var ctaLayerArgentina2024 = new google.maps.KmlLayer({
+      url: "{{ print ("argentina-2024.kml" | absURL) "?amp;updated=" now.Unix }}",
+      map: map
+    });
+    var ctaLayerSpotData = new google.maps.KmlLayer({
       url: "{{ print ("spot-data.kml" | absURL) "?amp;updated=" now.Unix }}",
       map: map
     });

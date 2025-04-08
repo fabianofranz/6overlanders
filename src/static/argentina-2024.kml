@@ -4,11 +4,11 @@
         <name>6overlanders</name>
         <Style id="regularStyle2">
             <LineStyle>
-                <color>7fff0000</color>
+                <color>7f008cff</color>
                 <width>4</width>
             </LineStyle>
             <PolyStyle>
-                <color>7fff0000</color>
+                <color>7f008cff</color>
             </PolyStyle>
             <IconStyle>
                 <scale>0.75</scale>
